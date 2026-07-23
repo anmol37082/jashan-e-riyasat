@@ -1,0 +1,21 @@
+/* app/sections/Banner.module.css */
+
+.banner {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 12;
+  background: url('/banner1.png') center / cover no-repeat;
+  overflow: hidden;
+  margin-bottom: 80px;
+}
+
+
+
+/* Mobile - Portrait banner */
+@media (max-width: 768px) {
+  .banner {
+    aspect-ratio: 3 / 5;
+    background: url('/bannermob.png') center / cover no-repeat;
+    margin-bottom: 40px;
+  }
+}

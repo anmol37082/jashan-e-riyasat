@@ -1,0 +1,243 @@
+.portfolio {
+  background-color: var(--cream);
+  position: relative;
+}
+
+.portfolioHeader {
+  text-align: center;
+  padding: 100px 40px 80px;
+}
+
+.portfolioHeading {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(28px, 3.5vw, 42px);
+  font-weight: 300;
+  line-height: 1.2;
+  color: var(--dark-brown);
+}
+
+.portfolioHeading em {
+  font-style: italic;
+  font-weight: 400;
+}
+
+.portfolioCta {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--dark-brown);
+  font-weight: 500;
+  position: relative;
+  padding-bottom: 6px;
+  margin-top: 30px;
+  transition: all 0.3s ease;
+}
+
+.portfolioCta::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: var(--dark-brown);
+}
+
+.portfolioCta:hover {
+  gap: 16px;
+}
+
+/* ===== NO PIN - NATURAL SCROLL ===== */
+.horizontalScrollWrapper {
+  position: relative;
+  /* Height set dynamically by JS */
+}
+
+.horizontalScrollInner {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  height: 100dvh; /* fixes mobile address-bar resize jump */
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.horizontalTrack {
+  display: flex;
+  gap: 30px;
+  padding: 0 80px;
+  align-items: flex-end;
+  will-change: transform;
+}
+
+.imageWrapper {
+  flex-shrink: 0;
+  position: relative;
+  width: 280px;
+}
+
+/* Only 2 positions: odd up, even down */
+.imageWrapper:nth-child(odd) {
+  margin-bottom: 100px;
+}
+
+.imageWrapper:nth-child(even) {
+  margin-bottom: 0;
+}
+
+.portfolioImage {
+  width: 100%;
+  height: 380px;
+  object-fit: cover;
+  display: block;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .portfolioHeader {
+    padding: 80px 30px 60px;
+  }
+
+  .horizontalTrack {
+    padding: 0 50px;
+    gap: 25px;
+  }
+
+  .imageWrapper {
+    width: 240px;
+  }
+
+  .portfolioImage {
+    height: 320px;
+  }
+
+  .imageWrapper:nth-child(odd) {
+    margin-bottom: 80px;
+  }
+
+  .imageWrapper:nth-child(even) {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .portfolioHeader {
+    padding: 60px 25px 40px;
+  }
+
+  .portfolioHeading {
+    font-size: 24px;
+  }
+
+  /* Native swipeable strip instead of the scroll-jacked pin/sticky system.
+     No viewport-height takeover, so no leftover empty space — the section
+     is only as tall as the images need it to be. */
+  .horizontalScrollWrapper {
+    height: auto !important;
+  }
+
+  .horizontalScrollInner {
+    position: static;
+    height: auto;
+    overflow-x: auto;
+    overflow-y: visible;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x proximity;
+    padding: 20px 0 50px;
+    scrollbar-width: none; /* Firefox */
+  }
+
+  .horizontalScrollInner::-webkit-scrollbar {
+    display: none; /* Chrome/Safari */
+  }
+
+  .horizontalTrack {
+    padding: 0 30px;
+    gap: 20px;
+    align-items: center;
+    width: max-content;
+  }
+
+  .imageWrapper {
+    width: 200px;
+    scroll-snap-align: start;
+  }
+
+  .portfolioImage {
+    height: 260px;
+  }
+
+  .imageWrapper:nth-child(odd) {
+    margin-bottom: 30px;
+  }
+
+  .imageWrapper:nth-child(even) {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .portfolioHeader {
+    padding: 50px 20px 35px;
+  }
+
+  .portfolioHeading {
+    font-size: 20px;
+  }
+
+  .portfolioCta {
+    font-size: 10px;
+    letter-spacing: 2px;
+    margin-top: 22px;
+  }
+
+  .horizontalTrack {
+    padding: 0 24px;
+    gap: 16px;
+  }
+
+  .imageWrapper {
+    width: 160px;
+  }
+
+  .portfolioImage {
+    height: 210px;
+  }
+
+  .imageWrapper:nth-child(odd) {
+    margin-bottom: 22px;
+  }
+
+  .imageWrapper:nth-child(even) {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 360px) {
+  .portfolioHeading {
+    font-size: 18px;
+  }
+
+  .horizontalTrack {
+    padding: 0 18px;
+    gap: 12px;
+  }
+
+  .imageWrapper {
+    width: 130px;
+  }
+
+  .portfolioImage {
+    height: 175px;
+  }
+
+  .imageWrapper:nth-child(odd) {
+    margin-bottom: 18px;
+  }
+}

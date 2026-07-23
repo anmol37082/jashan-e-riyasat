@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Montserrat:wght@300;400;500;600&display=swap');
+
+.footer {
+ background-color: #f0e6d8;
+  padding: 80px 60px 40px;
+  position: relative;
+  overflow: hidden;
+}
+
+.footerTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1400px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.footerLeft {
+  flex: 1;
+  max-width: 380px;
+}
+
+.footerDesc {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #7a6b5a;
+  font-style: italic;
+}
+
+.footerInstagram {
+  margin-top: 30px;
+  display: inline-block;
+}
+
+.footerInstagram svg {
+  width: 22px;
+  height: 22px;
+  stroke: #8b7355;
+  fill: none;
+  stroke-width: 1.5;
+}
+
+.footerCenter {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+}
+
+.footerLogo {
+  width: 300px;
+  height: auto;
+}
+
+.footerRight {
+  flex: 1;
+  max-width: 380px;
+  text-align: right;
+}
+
+.footerInquire {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #7a6b5a;
+  font-style: italic;
+}
+
+.footerInquire a {
+  color: #7a6b5a;
+  text-decoration: none;
+  border-bottom: 1px solid #7a6b5a;
+  padding-bottom: 2px;
+}
+
+.footerEmail {
+  display: block;
+  margin-top: 8px;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 16px;
+  color: #7a6b5a;
+  font-style: italic;
+  text-decoration: none;
+}
+
+.footerInstagramRight {
+  margin-top: 30px;
+  display: inline-block;
+}
+
+.footerInstagramRight svg {
+  width: 22px;
+  height: 22px;
+  stroke: #8b7355;
+  fill: none;
+  stroke-width: 1.5;
+}
+
+.footerNav {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 60px;
+  padding-top: 40px;
+  border-top: 1px solid rgba(139, 115, 85, 0.2);
+}
+
+.footerNavLink {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: #8b7355;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.footerNavLink:hover {
+  color: #5a4a3a;
+}
+
+/* ========== BRAND TEXT — 100% FIXED ========== */
+.footerBrand {
+  margin-top: 60px;
+  text-align: center;
+  width: 100%;
+}
+
+.footerBrandText {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 300;
+  color: #8b7355;
+  text-transform: uppercase;
+  line-height: 1;
+  opacity: 0.9;
+  white-space: nowrap;
+  
+  /* 
+    KEY FIX: 
+    "JASHN-E-RIYASAT" = ~16 characters
+    Each character ~0.6em width in this font
+    Total text width ≈ 16 × 0.6em = 9.6em
+    Plus letter-spacing (0.4em per char ≈ 6.4em total)
+    Total ≈ 16em
+    
+    So: font-size = (100vw - padding) / 16
+    This ensures text ALWAYS fits in one line
+  */
+  font-size: clamp(14px, calc((100vw - 120px) / 14), 200px);
+  letter-spacing: clamp(1px, calc((100vw - 120px) / 200), 12px);
+}
+
+.footerBrandText span {
+  font-style: italic;
+}
+
+/* ========== MEDIA QUERIES ========== */
+@media (max-width: 1024px) {
+  .footerBrandText {
+    font-size: clamp(13px, calc((100vw - 80px) / 14), 150px);
+    letter-spacing: clamp(1px, calc((100vw - 80px) / 200), 10px);
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 50px 25px 30px;
+  }
+
+  .footerTop {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+  }
+
+  .footerLeft,
+  .footerRight {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .footerCenter {
+    position: relative;
+    left: auto;
+    transform: none;
+    order: -1;
+  }
+
+  .footerNav {
+    flex-wrap: wrap;
+    gap: 20px 30px;
+    margin-top: 40px;
+  }
+
+  .footerBrand {
+    margin-top: 40px;
+  }
+
+  .footerBrandText {
+    font-size: clamp(12px, calc((100vw - 50px) / 14), 100px);
+    letter-spacing: clamp(1px, calc((100vw - 50px) / 200), 8px);
+  }
+}
+
+@media (max-width: 480px) {
+  .footerBrandText {
+    font-size: clamp(10px, calc((100vw - 40px) / 14), 70px);
+    letter-spacing: clamp(0.5px, calc((100vw - 40px) / 250), 5px);
+  }
+}
+
+@media (max-width: 360px) {
+  .footerBrandText {
+    font-size: clamp(9px, calc((100vw - 30px) / 14), 50px);
+    letter-spacing: 0.5px;
+  }
+}

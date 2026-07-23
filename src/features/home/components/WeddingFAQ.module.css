@@ -1,0 +1,139 @@
+/* app/sections/WeddingFAQ.module.css */
+
+.section {
+  width: 100%;
+  padding: 80px 40px;
+  background-color: #f5f0e8;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.title {
+     color: var(--dark-brown);
+    font-family: Cormorant Garamond, serif;
+    font-size: clamp(28px, 3.5vw, 42px);
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+
+.subtitle {
+  font-size: clamp(16px, 2vw, 20px);
+  font-weight: 300;
+  color: #5a4a3a;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 60px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.item {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.question {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  width: 100%;
+  padding: 20px 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-size: 0.95rem;
+  color: #2c2c2c;
+  line-height: 1.5;
+}
+
+.dot {
+  width: 18px;
+  height: 18px;
+  min-width: 18px;
+  border-radius: 50%;
+  background-color: #2c2c2c;
+  margin-top: 2px;
+}
+
+.text {
+  flex: 1;
+  padding-right: 10px;
+}
+
+.arrow {
+  font-size: 1.4rem;
+  color: #2c2c2c;
+  transition: transform 0.3s ease;
+  min-width: 20px;
+  text-align: center;
+}
+
+.arrowOpen {
+  transform: rotate(90deg);
+}
+
+.answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease, padding 0.4s ease;
+  padding: 0 0 0 34px;
+}
+
+.answerOpen {
+  max-height: 300px;
+  padding: 0 0 20px 34px;
+}
+
+.answer p {
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-size: 0.9rem;
+  color: #5a5a5a;
+  line-height: 1.7;
+  margin: 0;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  
+  .section {
+    padding: 60px 24px;
+  }
+}
+
+@media (max-width: 640px) {
+  .section {
+    padding: 40px 16px;
+  }
+  
+  .question {
+    font-size: 0.9rem;
+    padding: 16px 0;
+  }
+  
+  .dot {
+    width: 14px;
+    height: 14px;
+    min-width: 14px;
+  }
+}

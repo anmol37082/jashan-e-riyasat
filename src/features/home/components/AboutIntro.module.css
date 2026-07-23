@@ -1,0 +1,164 @@
+.aboutIntro {
+  background-color: #f5f0e8;
+  padding: 100px 0;
+  position: relative;
+}
+
+.aboutInner {
+  max-width: 950px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.3fr 0.7fr;
+  gap: 40px;
+  align-items: center;
+  padding: 0 60px;
+}
+
+.aboutLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.aboutLogoSmall {
+  width: 50px;
+  height: auto;
+  margin-bottom: 5px;
+}
+
+.aboutLogoSmall svg {
+  width: 100%;
+  height: auto;
+}
+
+.aboutHeading {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(34px, 4vw, 50px);
+  font-weight: 300;
+  line-height: 1.15;
+  color: var(--dark-brown);
+  max-width: 460px;
+}
+
+.aboutHeading em {
+  font-style: italic;
+  font-weight: 400;
+}
+
+.aboutText {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.7;
+  color: var(--text-muted);
+  max-width: 420px;
+}
+
+.aboutCta {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--dark-brown);
+  font-weight: 500;
+  position: relative;
+  padding-bottom: 6px;
+  transition: all 0.3s ease;
+  width: fit-content;
+  margin-top: 10px;
+}
+
+.aboutCta::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: var(--dark-brown);
+}
+
+.aboutCta:hover {
+  gap: 16px;
+}
+
+.aboutRight {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutImageWrapper {
+  position: relative;
+  width: 100%;
+  max-width: 340px;
+  aspect-ratio: 2/3;
+  overflow: hidden;
+}
+
+.aboutImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 1024px) {
+  .aboutIntro {
+    padding: 80px 0;
+  }
+
+  .aboutInner {
+    grid-template-columns: 1fr;
+    gap: 50px;
+    padding: 0 40px;
+  }
+
+  .aboutLeft {
+    text-align: center;
+    align-items: center;
+  }
+
+  .aboutHeading {
+    max-width: 100%;
+  }
+
+  .aboutText {
+    max-width: 100%;
+  }
+
+  .aboutRight {
+    order: -1;
+  }
+
+  .aboutImageWrapper {
+    max-width: 280px;
+  }
+}
+
+@media (max-width: 768px) {
+  .aboutIntro {
+    padding: 60px 0;
+  }
+
+  .aboutInner {
+    padding: 0 25px;
+    gap: 40px;
+  }
+
+  .aboutHeading {
+    font-size: 28px;
+  }
+
+  .aboutText {
+    font-size: 15px;
+  }
+
+  .aboutImageWrapper {
+    max-width: 220px;
+  }
+}

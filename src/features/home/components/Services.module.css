@@ -1,0 +1,124 @@
+.services {
+  background-color: var(--cream);
+  padding: 80px 40px 120px;
+}
+
+.servicesInner {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.servicesHeader {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.servicesLabel {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.servicesHeading {
+     color: var(--dark-brown);
+    font-family: Cormorant Garamond, serif;
+    font-size: clamp(28px, 3.5vw, 42px);
+    font-weight: 300;
+    line-height: 1.2;
+
+}
+
+.servicesHeading em {
+  font-style: italic;
+  font-weight: 400;
+}
+
+.servicesGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.serviceCard {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 3/4;
+}
+
+.serviceImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s ease;
+}
+
+.serviceCard:hover .serviceImage {
+  transform: scale(1.05);
+}
+
+.serviceOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 40px;
+}
+
+.serviceNumber {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 14px;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 10px;
+}
+
+.serviceTitle {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 28px;
+  font-weight: 300;
+  color: #ffffff;
+  line-height: 1.2;
+}
+
+@media (max-width: 1024px) {
+  .services {
+    padding: 0 30px 80px;
+  }
+
+  .servicesGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+
+  .servicesHeader {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .services {
+    padding: 0 25px 60px;
+  }
+
+  .servicesGrid {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .serviceTitle {
+    font-size: 24px;
+  }
+
+  .serviceOverlay {
+    padding: 30px;
+  }
+}

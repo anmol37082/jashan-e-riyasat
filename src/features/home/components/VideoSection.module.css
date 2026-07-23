@@ -1,0 +1,134 @@
+.videoSection {
+  position: relative;
+  width: 100%;
+  background-color: #f5f0e8;
+  padding: 80px 0px 0;
+}
+
+.videoWrapper {
+  position: relative;
+  width: 100%;
+  height: 85vh;
+  min-height: 600px;
+  overflow: hidden;
+}
+
+.video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.video::-webkit-media-controls {
+  display: none !important;
+}
+
+.videoOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.05);
+  z-index: 1;
+  pointer-events: none;
+}
+
+/* Text content below video */
+.videoContent {
+  position: relative;
+  z-index: 2;
+  background-color: #f5f0e8;
+  padding: 20px 20px 80px;
+  max-width: 700px;
+}
+
+.videoLabel {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 22px;
+  font-weight: 300;
+  font-style: italic;
+  color: var(--dark-brown);
+  margin-bottom: 25px;
+}
+
+.videoText {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 1.7;
+  color: var(--dark-brown);
+  max-width: 520px;
+  margin-bottom: 45px;
+  
+}
+
+.videoCta {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--dark-brown);
+  font-weight: 500;
+  position: relative;
+  padding-bottom: 6px;
+  transition: all 0.3s ease;
+  width: fit-content;
+}
+
+.videoCta::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: var(--dark-brown);
+}
+
+.videoCta:hover {
+  gap: 16px;
+}
+
+@media (max-width: 1024px) {
+  .videoSection {
+    padding: 60px 30px 0;
+  }
+
+  .videoWrapper {
+    height: 75vh;
+    min-height: 500px;
+  }
+
+  .videoContent {
+    padding: 50px 0 70px;
+  }
+}
+
+@media (max-width: 768px) {
+  .videoSection {
+    padding: 50px 20px 0;
+  }
+
+  .videoWrapper {
+    height: 60vh;
+    min-height: 400px;
+  }
+
+  .videoContent {
+    padding: 40px 0 60px;
+  }
+
+  .videoLabel {
+    font-size: 20px;
+  }
+
+  .videoText {
+    font-size: 16px;
+  }
+}

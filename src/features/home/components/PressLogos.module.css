@@ -1,0 +1,79 @@
+.pressLogos {
+  background-color: #baaf9d;
+  padding: 35px 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.pressLogos::before,
+.pressLogos::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 150px;
+  height: 100%;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.pressLogos::before {
+  left: 0;
+  background: linear-gradient(to right, #baaf9d, transparent);
+}
+
+.pressLogos::after {
+  right: 0;
+  background: linear-gradient(to left, #baaf9d, transparent);
+}
+
+.pressTrack {
+  display: flex;
+  width: max-content;
+  animation: scroll 30s linear infinite;
+}
+
+.pressTrack:hover {
+  animation-play-state: paused;
+}
+
+.pressLogo {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 22px;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.85);
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  padding: 0 50px;
+  transition: color 0.3s ease;
+  cursor: default;
+}
+
+.pressLogo:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 768px) {
+  .pressLogos {
+    padding: 25px 0;
+  }
+
+  .pressLogo {
+    font-size: 18px;
+    padding: 0 30px;
+  }
+
+  .pressLogos::before,
+  .pressLogos::after {
+    width: 80px;
+  }
+}
