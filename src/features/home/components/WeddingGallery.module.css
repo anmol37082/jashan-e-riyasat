@@ -49,18 +49,18 @@
 }
 
 .tab {
-  padding: 11px 26px;
-  font-size: 11px;
+  padding: 20px 26px;
+  font-size: 12px;
   font-family: 'Inter', sans-serif;
   font-weight: 500;
   color: #5a4a3a;
   background-color: transparent;
-  border: 1px solid rgba(26, 35, 50, 0.2);
-  border-radius: 999px;
+  border: 1px dotted rgba(26, 35, 50, 0.2);
+  border-radius: 2px;
   cursor: pointer;
   transition: all 0.3s ease;
   letter-spacing: 1.5px;
-  text-transform: uppercase;
+  text-transform: camelcase;
 }
 
 .tab:hover {

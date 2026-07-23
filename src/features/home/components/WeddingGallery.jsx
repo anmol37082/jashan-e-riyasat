@@ -7,7 +7,7 @@ import { cities, galleryData } from '../data/gallery';
 // ^ adjust path based on your folder structure
 
 export default function WeddingGallery() {
-  const [activeCity, setActiveCity] = useState('melbourne');
+  const [activeCity, setActiveCity] = useState('haldi');
   const currentImages = galleryData[activeCity];
 
   return (

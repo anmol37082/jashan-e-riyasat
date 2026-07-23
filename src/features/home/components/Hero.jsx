@@ -4,12 +4,10 @@ import { useState, useEffect, useCallback } from 'react';
 import styles from './Hero.module.css';
 
 const slides = [
-  './hero/hero1.png',
-  './hero/hero2.png',
-  './hero/hero3.png',
+   './hero/hero7.jpeg',
+  './hero/hero9.jpeg',
   './hero/hero4.png',
-  './hero/hero5.png',
-  './hero/hero6.png',
+  
 ];
 
 const SLIDE_INTERVAL = 5000;

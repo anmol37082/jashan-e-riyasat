@@ -1,4 +1,4 @@
-  // data/gallery.js
+// data/gallery.js
 // All gallery content lives here so WeddingGallery.jsx stays purely presentational.
 
 const galleryFileNames = [
@@ -27,11 +27,11 @@ const galleryFileNames = [
 const galleryImagePaths = galleryFileNames.map((fileName) => `/gallery/${encodeURIComponent(fileName)}`);
 
 export const cities = [
-  { id: 'melbourne', label: 'Melbourne' },
-  { id: 'sydney', label: 'Sydney' },
-  { id: 'brisbane', label: 'Brisbane' },
-  { id: 'adelaide', label: 'Adelaide' },
-  { id: 'perth', label: 'Perth' },
+  { id: 'haldi', label: 'Haldi' },
+  { id: 'mehndi', label: 'Mehndi' },
+  { id: 'festivities', label: 'Festivities' },
+  { id: 'wedding', label: 'Wedding' },
+  { id: 'reception', label: 'Reception' },
 ];
 
 const buildGalleryItems = (labels, startIndex = 0) =>
@@ -42,7 +42,7 @@ const buildGalleryItems = (labels, startIndex = 0) =>
   }));
 
 export const galleryData = {
-  melbourne: buildGalleryItems(
+  haldi: buildGalleryItems(
     [
       'Luxury Decor',
       'Floral Design',
@@ -57,7 +57,7 @@ export const galleryData = {
     ],
     0,
   ),
-  sydney: buildGalleryItems(
+  mehndi: buildGalleryItems(
     [
       'Reception Night',
       'Candle Ceremony',
@@ -72,7 +72,7 @@ export const galleryData = {
     ],
     10,
   ),
-  brisbane: buildGalleryItems(
+  festivities: buildGalleryItems(
     [
       'The Mandap',
       'Table Design',
@@ -87,7 +87,7 @@ export const galleryData = {
     ],
     5,
   ),
-  adelaide: buildGalleryItems(
+  wedding: buildGalleryItems(
     [
       'Traditional Setup',
       'Rose Detail',
@@ -102,7 +102,7 @@ export const galleryData = {
     ],
     8,
   ),
-  perth: buildGalleryItems(
+  reception: buildGalleryItems(
     [
       'Sunset Vows',
       'Ocean View',
