@@ -1,4 +1,4 @@
-// data/gallery.js
+  // data/gallery.js
 // All gallery content lives here so WeddingGallery.jsx stays purely presentational.
 
 const galleryFileNames = [
