@@ -5,22 +5,22 @@ import styles from './WeddingStories.module.css';
 const stories = [
   {
     id: 1,
-    image: '/images/wedding-1.jpg',
+    image: '/stories/story1.webp',
     names: 'abhishek & shaili',
   },
   {
     id: 2,
-    image: '/images/wedding-2.jpg',
+    image: '/stories/story2.webp',
     names: 'raj & rhia',
   },
   {
     id: 3,
-    image: '/images/wedding-3.jpg',
+    image: '/stories/story3.webp',
     names: 'shivani & rahul',
   },
   {
     id: 4,
-    image: '/images/wedding-4.jpg',
+    image: '/stories/story4.png',
     names: 'ethereal souls',
   },
 ];

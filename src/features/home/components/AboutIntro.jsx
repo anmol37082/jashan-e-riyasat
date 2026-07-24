@@ -20,13 +20,15 @@ export default function AboutIntro() {
           </div>
 
           <h2 className={styles.aboutHeading}>
-            Refined Wedding Planning & <em>Creative Event Production</em>
+            Creating Weddings <em>That Feel Truly Yours </em>
           </h2>
           
           <p className={styles.aboutText}>
-            From Toronto to destinations worldwide, we produce thoughtfully crafted celebrations, 
-            known for refined taste, intentional detail, and a deep understanding of your vision 
-            and desired experience.
+           Your wedding is more than an event it&apos;s the beginning of 
+           a beautiful journey. At Jashn E Riyasat, we bring your vision 
+           to life through thoughtful planning, stunning décor, and 
+           seamless coordination, creating celebrations filled with 
+           love, joy, and unforgettable memories.
           </p>
           
           <a href="#services" className={styles.aboutCta}>
@@ -40,7 +42,7 @@ export default function AboutIntro() {
         <div className={styles.aboutRight}>
           <div className={styles.aboutImageWrapper}>
             <Image
-              src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=600&q=80"
+              src="/about.webp"
               alt="Elegant wedding table setting"
               className={styles.aboutImage}
               width={600}

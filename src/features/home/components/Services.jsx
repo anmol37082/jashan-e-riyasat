@@ -1,20 +1,46 @@
+import Image from 'next/image';
 import styles from './Services.module.css';
 
 const services = [
   {
     number: '01',
-    title: 'Full Service Planning',
-    image: 'https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=800&q=80',
+    title: 'Full Wedding Planning',
+    image: '/images/wedding-1.jpg',
   },
   {
     number: '02',
-    title: 'Partial Planning',
-    image: 'https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=800&q=80',
+    title: 'Destination Weddings',
+    image: '/images/wedding-2.jpg',
   },
   {
     number: '03',
-    title: 'Event Design',
-    image: 'https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=800&q=80',
+    title: 'Wedding Decoration',
+    image: '/images/wedding-3.jpg',
+  },
+  {
+    number: '04',
+    title: 'Photography & Films',
+    image: '/images/wedding-4.jpg',
+  },
+  {
+    number: '05',
+    title: 'Catering',
+    image: '/gallery/haldi1.webp',
+  },
+  {
+    number: '06',
+    title: 'Bridal Makeup',
+    image: '/gallery/haldi2.webp',
+  },
+  {
+    number: '07',
+    title: 'Entertainment',
+    image: '/gallery/haldi3.webp',
+  },
+  {
+    number: '08',
+    title: 'Guest Management',
+    image: '/gallery/haldi4.webp',
   },
 ];
 
@@ -28,15 +54,16 @@ export default function Services() {
             Creative Vision, <em>Seamless Execution</em>
           </h2>
         </div>
-        
+
         <div className={styles.servicesGrid}>
           {services.map((service) => (
             <div key={service.number} className={styles.serviceCard}>
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
+              <Image
                 src={service.image}
                 alt={service.title}
+                fill
                 className={styles.serviceImage}
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
               />
               <div className={styles.serviceOverlay}>
                 <span className={styles.serviceNumber}>{service.number}</span>

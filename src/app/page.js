@@ -18,6 +18,7 @@ import WeddingStories from '@/features/home/components/WeddingStories';
 import WeddingFAQ from '@/features/home/components/WeddingFAQ';
 import OurBlogs from '@/features/home/components/OurBlogs';
 
+
 export default function Home() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 

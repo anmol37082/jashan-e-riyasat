@@ -4,9 +4,11 @@ import { useState, useEffect, useCallback } from 'react';
 import styles from './Hero.module.css';
 
 const slides = [
-   './hero/hero7.jpeg',
-  './hero/hero9.jpeg',
-  './hero/hero4.png',
+   './hero/hero10.png',
+    './hero/hero12.png',
+    './hero/hero13.png',
+    './hero/hero14.png',
+  
   
 ];
 

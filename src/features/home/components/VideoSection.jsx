@@ -23,9 +23,10 @@ export default function VideoSection() {
         <p className={styles.videoLabel}>Our Approach</p>
         
         <p className={styles.videoText}>
-          Our award-winning team blends planning, design, and event production 
-          to create celebrations that are visually striking, flawlessly executed, 
-          and deeply personal.
+         At Jashn E Riyasat, we believe every couple has a unique story, 
+         and every wedding should reflect it. That&apos;s why we take the
+          time to understand your vision, preferences, and traditions
+           before we start planning.
         </p>
         
         <a href="#about" className={styles.videoCta}>

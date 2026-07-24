@@ -5,14 +5,15 @@ import Image from 'next/image';
 import styles from './Portfolio.module.css';
 
 const portfolioImages = [
-  { src: 'https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=600&q=80', alt: 'Wedding table setting' },
-  { src: 'https://images.unsplash.com/photo-1519741497674-611481863552?w=600&q=80', alt: 'Couple walking' },
-  { src: 'https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=600&q=80', alt: 'Wedding reception' },
-  { src: 'https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=600&q=80', alt: 'Bride portrait' },
-  { src: 'https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=600&q=80', alt: 'Wedding ceremony' },
-  { src: 'https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?w=600&q=80', alt: 'Wedding details' },
-  { src: 'https://images.unsplash.com/photo-1510076857177-7470076d4098?w=600&q=80', alt: 'Wedding flowers' },
-  { src: 'https://images.unsplash.com/photo-1460978812857-470ed1c77af0?w=600&q=80', alt: 'Wedding venue' },
+  { src: '/portfolio/portfolio(1).webp', alt: 'Wedding table setting' },
+  { src: '/portfolio/portfolio(2).webp', alt: 'Wedding cake' },
+  { src: '/portfolio/portfolio(3).webp', alt: 'Wedding flowers' },
+  { src: '/portfolio/portfolio(4).webp', alt: 'Bride and groom' },
+  { src: '/portfolio/portfolio(5).webp', alt: 'Wedding rings' },
+  { src: '/portfolio/portfolio(6).webp', alt: 'Wedding invitations' },
+  { src: '/portfolio/portfolio(7).webp', alt: 'Wedding flowers' },
+  { src: '/portfolio/portfolio(8).webp', alt: 'Wedding table setting' },
+
 ];
 
 export default function Portfolio() {
@@ -105,10 +106,10 @@ export default function Portfolio() {
     <section className={styles.portfolio} id="portfolio">
       <div className={styles.portfolioHeader}>
         <h2 className={styles.portfolioHeading}>
-          Named one of &ldquo;Canada&rsquo;s <em>Best</em> Wedding Planners&rdquo;
+         Crafting Bespoke <em>Luxury  </em> Weddings <br/> Across India & Beyond
         </h2>
         <a href="#portfolio" className={styles.portfolioCta}>
-          View Our Portfolio
+          View Our portfolio
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="14" height="14">
             <path d="M5 12h14M12 5l7 7-7 7" />
           </svg>

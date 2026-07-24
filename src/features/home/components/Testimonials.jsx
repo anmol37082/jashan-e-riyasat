@@ -6,39 +6,39 @@ import styles from './Testimonials.module.css';
 
 const testimonials = [
   {
-    quote: "Our corporate event was a huge success, thanks to EGO Company. Their attention to detail and professionalism are unmatched",
-    author: "JANE COOPER",
-    role: "CEO OF TOKOKERIPTO",
+    quote: "Our wedding was everything we had imagined and more. The team handled every detail with perfection. Thank you, Jashn E Riyasat, for making our special day unforgettable.",
+    author: "Rohan & Priya Sharma",
+    role: "",
     rating: "5 Star Rating",
-    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=500&fit=crop&q=80",
+    image: "/review/Rohan%26PriyaSharma.webp",
   },
   {
-    quote: "Working with this team was an absolute dream. They transformed our vision into reality with elegance and precision that exceeded every expectation",
-    author: "SARAH MITCHELL",
-    role: "DIRECTOR AT LUXE EVENTS",
+    quote: "The decor was elegant, the planning was smooth, and the execution was flawless. Every guest appreciated the beautiful arrangements. Highly recommend this team for anyone planning a luxury wedding.",
+    author: "Simran Kaur",
+    role: "",
     rating: "5 Star Rating",
-    image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=500&fit=crop&q=80",
+    image: "/review/SimranKaur.webp",
   },
   {
-    quote: "The level of creativity and dedication they brought to our special day was truly remarkable. Every moment felt magical and perfectly orchestrated",
-    author: "EMILY RICHARDS",
-    role: "FOUNDER OF BLOOM & CO",
+    quote: "From our first meeting until the final event, everything was managed professionally. The team was always available and ensured we never had to worry about a thing. A truly wonderful experience.",
+    author: "Aman Malhotra",
+    role: "",
     rating: "5 Star Rating",
-    image: "https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?w=400&h=500&fit=crop&q=80",
+    image: "/review/AmanMalhotra.webp",
   },
   {
-    quote: "From planning to execution, every detail was handled with such care and expertise. Our wedding was everything we dreamed of and more",
-    author: "AMANDA CLARKE",
-    role: "BRIDE, NEW YORK",
+    quote: "The best part was how stress-free the entire wedding felt. Every ceremony was perfectly coordinated, and we could simply enjoy our celebrations.",
+    author: "Neha Arora",
+    role: "",
     rating: "5 Star Rating",
-    image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&h=500&fit=crop&q=80",
+    image: "/review/NehaArora.webp",
   },
   {
-    quote: "Their professionalism and creative vision made our event truly unforgettable. The attention to every small detail was absolutely incredible",
-    author: "RACHEL THOMPSON",
-    role: "EVENT MANAGER",
+    quote: "Jashn E Riyasat exceeded all our expectations. The decor, hospitality, and event management were simply outstanding. We received compliments from almost every guest.",
+    author: "Harpreet Singh",
+    role: "",
     rating: "5 Star Rating",
-    image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=500&fit=crop&q=80",
+    image: "/review/HarpreetSingh.webp",
   },
 ];
 
@@ -65,7 +65,6 @@ export default function Testimonials() {
     goToSlide(prevIndex, 'prev');
   }, [current, goToSlide]);
 
-  // Auto-play
   useEffect(() => {
     const interval = setInterval(next, 6000);
     return () => clearInterval(interval);
@@ -76,7 +75,6 @@ export default function Testimonials() {
   return (
     <section className={styles.section}>
       <div className={styles.container}>
-        {/* Image with slide animation */}
         <div className={styles.imageBox}>
           <div
             key={`img-${current}`}
@@ -93,7 +91,6 @@ export default function Testimonials() {
           </div>
         </div>
 
-        {/* Quote with fade animation */}
         <div className={styles.contentBox}>
           <blockquote
             key={`quote-${current}`}
@@ -108,7 +105,8 @@ export default function Testimonials() {
             key={`author-${current}`}
             className={`${styles.authorName} ${styles.fadeInUpDelay1}`}
           >
-            {t.author}, {t.role}
+            {t.author}
+            {t.role ? `, ${t.role}` : ''}
           </p>
 
           <span
@@ -119,7 +117,6 @@ export default function Testimonials() {
           </span>
         </div>
 
-        {/* Navigation */}
         <div className={styles.navWrapper}>
           <button
             className={styles.navArrow}
