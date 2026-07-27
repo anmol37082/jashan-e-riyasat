@@ -1,4 +1,5 @@
 import './globals.css';
+import SiteShell from '@/components/SiteShell';
 
 export const metadata = {
   title: 'Clement & Co. Events | Luxury Wedding Planning',
@@ -8,7 +9,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <SiteShell>{children}</SiteShell>
+      </body>
     </html>
   );
 }

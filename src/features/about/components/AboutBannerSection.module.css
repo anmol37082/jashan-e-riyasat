@@ -1,0 +1,39 @@
+.section {
+  background: var(--cream);
+
+}
+
+.frame {
+  position: relative;
+  width: 100%;
+  min-height: 520px;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+ 
+  background: linear-gradient(135deg, rgba(184, 168, 138, 0.22), rgba(44, 36, 27, 0.08));
+  box-shadow: 0 24px 60px rgba(44, 36, 27, 0.12);
+}
+
+.image {
+  object-fit: cover;
+  object-position: center;
+}
+
+@media (max-width: 1024px) {
+  .frame {
+    min-height: 460px;
+    aspect-ratio: 16 / 10;
+  }
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 0 16px 72px;
+  }
+
+  .frame {
+    min-height: 360px;
+    aspect-ratio: 4 / 5;
+    border-radius: 22px;
+  }
+}

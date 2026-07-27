@@ -7,93 +7,93 @@ import styles from './WeddingFAQ.module.css';
 const faqData = [
   {
     id: 1,
-    question: 'Does Shaandaar Events do destination weddings?',
-    answer: 'Yes, we specialize in destination weddings across India and abroad. From royal palaces in Rajasthan to beach resorts in Goa and international locations, we handle everything from venue selection to guest logistics.',
+    question: 'Does Jashn-e-Riyasat plan destination weddings?',
+    answer: 'Yes. Jashn-e-Riyasat specializes in destination weddings across India and abroad. From royal palaces in Rajasthan to beach resorts in Goa and international venues, we manage the journey from planning to guest movement.',
   },
   {
     id: 2,
-    question: 'How does Shaandaar Events bring together the best venues, vendors, and wedding experiences?',
-    answer: 'We have built strong relationships with premium venues and vendors over the years. Our team carefully curates each vendor based on your vision, budget, and style to create a seamless wedding experience.',
+    question: 'How does Jashn-e-Riyasat choose venues and vendors?',
+    answer: 'We work with trusted venues and premium vendors built through years of relationships. Every recommendation is curated around your vision, budget, and aesthetic so the full experience feels cohesive.',
   },
   {
     id: 3,
-    question: 'How many weddings does Shaandaar Events take up at a time?',
-    answer: 'To ensure personalized attention, we take a limited number of weddings each month. This allows our team to dedicate full resources and creativity to make your special day truly unforgettable.',
+    question: 'How many weddings does Jashn-e-Riyasat handle at once?',
+    answer: 'We take a limited number of weddings each month so every couple gets focused attention, creative thinking, and responsive support from the first meeting to the final farewell.',
   },
   {
     id: 4,
-    question: 'Does Shaandaar Events offer wedding decor and theme styling?',
-    answer: 'Absolutely! Our in-house decor team creates bespoke themes from floral arrangements to stage design. Whether you want traditional, modern, or fusion decor, we bring your vision to life.',
+    question: 'Does Jashn-e-Riyasat offer decor and theme styling?',
+    answer: 'Absolutely. Our decor team designs bespoke themes, from floral direction to stage styling and guest-area details. Whether you want traditional, modern, or fusion styling, we shape it around your story.',
   },
   {
     id: 5,
-    question: 'How far in advance should couples plan their wedding with Shaandaar Events?',
-    answer: 'We recommend booking 6-12 months in advance for local weddings and 12-18 months for destination weddings. This ensures ample time for planning, vendor bookings, and perfect execution.',
+    question: 'How far in advance should couples book Jashn-e-Riyasat?',
+    answer: 'We recommend booking 6 to 12 months in advance for local weddings and 12 to 18 months for destination celebrations. That gives us enough time to secure venues, vendors, and the right planning rhythm.',
   },
   {
     id: 6,
-    question: 'Does Shaandaar Events assist in guest hospitality and logistics?',
-    answer: 'Yes, we provide end-to-end guest management including airport pickups, hotel bookings, transportation, and on-ground hospitality to ensure your guests have a comfortable experience.',
+    question: 'Does Jashn-e-Riyasat manage guest hospitality and logistics?',
+    answer: 'Yes. We handle guest hospitality end to end, including airport transfers, hotel coordination, transport planning, and on-ground support so every guest feels looked after.',
   },
   {
     id: 7,
-    question: 'Can Shaandaar Events create a completely personalized wedding experience for us?',
-    answer: 'Every wedding we plan is unique and personalized. From custom invitations to bespoke menus and entertainment, we tailor every detail to reflect your personality and love story.',
+    question: 'Can Jashn-e-Riyasat create a fully personalized wedding experience?',
+    answer: 'Yes. Every wedding is built around your personalities, rituals, and priorities. From invitations and menus to entertainment and flow, we tailor the details to reflect your story.',
   },
   {
     id: 8,
-    question: 'How does Shaandaar Events transform a wedding into a once in a lifetime experience?',
-    answer: 'We focus on storytelling through design, immersive experiences, surprise elements, and flawless execution. Our creative team ensures every moment becomes a cherished memory.',
+    question: 'How does Jashn-e-Riyasat make the wedding feel memorable?',
+    answer: 'We focus on storytelling, immersive design, meaningful moments, and smooth execution. The goal is simple: make the celebration feel personal, elegant, and unforgettable without feeling forced.',
   },
   {
     id: 9,
-    question: 'What makes Shaandaar Events one of the best luxury wedding planners in India?',
-    answer: 'Our attention to detail, creative excellence, vendor network, and commitment to making every wedding unique sets us apart. We treat every wedding as our own family celebration.',
+    question: 'What makes Jashn-e-Riyasat stand out as a luxury wedding planner?',
+    answer: 'Our attention to detail, strong vendor network, design sensibility, and calm execution set us apart. We plan every wedding with the care and pride we would bring to our own family celebration.',
   },
   {
     id: 10,
-    question: 'Does Shaandaar Events take care of end to end wedding planning?',
-    answer: 'Yes, we offer comprehensive wedding planning services from concept to execution. This includes venue, decor, catering, entertainment, photography, and on-day coordination.',
+    question: 'Does Jashn-e-Riyasat handle end-to-end wedding planning?',
+    answer: 'Yes. We manage the full process from concept to execution, including venue planning, decor, catering, entertainment, photography, vendor coordination, and on-day management.',
   },
   {
     id: 11,
-    question: 'Do you schedule wedding planning meetings according to our time zone if we live abroad?',
-    answer: 'Absolutely! We regularly work with NRI clients and schedule meetings at convenient times across all time zones. We also use video calls and digital planning tools for seamless communication.',
+    question: 'Can Jashn-e-Riyasat coordinate meetings across time zones?',
+    answer: 'Absolutely. We regularly work with NRI and overseas clients, so we schedule calls at convenient times and use video meetings and digital planning tools to keep everything moving smoothly.',
   },
   {
     id: 12,
-    question: 'Can Shaandaar Events plan our wedding if we don\'t live in Chandigarh?',
-    answer: 'Yes, we plan weddings for clients across India and globally. Our digital consultation process and on-ground team ensure distance is never a barrier to your dream wedding.',
+    question: 'Can Jashn-e-Riyasat plan our wedding if we do not live locally?',
+    answer: 'Yes. We plan weddings for clients across India and globally. With digital consultations and a strong on-ground team, distance never becomes a barrier to the final experience.',
   },
   {
     id: 13,
-    question: 'Will we have one dedicated point of contact throughout the wedding planning process?',
-    answer: 'Yes, each wedding is assigned a dedicated planner who serves as your single point of contact from start to finish, ensuring clear communication and consistent execution.',
+    question: 'Will we have one dedicated point of contact?',
+    answer: 'Yes. Each wedding is assigned a dedicated planner who stays with you from start to finish, keeping communication clear and execution consistent.',
   },
   {
     id: 14,
-    question: 'Will you introduce us to the team managing our wedding?',
-    answer: 'Of course! We believe in transparency. You will meet your core team including the planner, decor head, and coordinator well before the wedding day.',
+    question: 'Will we meet the team handling our wedding?',
+    answer: 'Of course. We believe in transparency, so you will be introduced to the core team, including the planner, decor lead, and coordination team well before the wedding day.',
   },
   {
     id: 15,
-    question: 'Can we speak to wedding vendors directly, or does Shaandaar Events handle all communication?',
-    answer: 'We handle all vendor coordination to ensure consistency and avoid confusion. However, we can arrange vendor meetings if you wish to discuss specific details personally.',
+    question: 'Can we speak to vendors directly?',
+    answer: 'We usually manage vendor communication to keep the process organized and avoid confusion. If you want to discuss a specific detail directly, we can arrange those conversations too.',
   },
   {
     id: 16,
     question: 'Can you work with vendors we have already booked on our own?',
-    answer: 'Yes, we are happy to collaborate with your preferred vendors. We will coordinate with them to ensure everything aligns with the overall wedding vision and timeline.',
+    answer: 'Yes. We are happy to collaborate with vendors you have already chosen and align them with the overall vision, timeline, and event flow.',
   },
   {
     id: 17,
-    question: 'How do you manage wedding planning when family members are involved from different cities or countries?',
-    answer: 'We use digital planning tools, group calls, and shared dashboards to keep everyone informed and involved, regardless of their location.',
+    question: 'How do you manage planning when family is spread across cities or countries?',
+    answer: 'We use digital planning tools, shared updates, and group calls to keep everyone informed and included, no matter where they are based.',
   },
   {
     id: 18,
-    question: 'Do you help with guest rooming lists, airport pickups, transport, and family movement across functions?',
-    answer: 'Yes, guest logistics is a key part of our service. We manage room allocations, airport transfers, inter-venue transport, and detailed itineraries for all guests.',
+    question: 'Do you help with rooming lists, airport pickups, and transport between functions?',
+    answer: 'Yes. Guest logistics is a key part of our service, including room allocations, airport transfers, inter-venue transport, and detailed movement plans across functions.',
   },
 ];
 
@@ -130,7 +130,7 @@ export default function WeddingFAQ() {
     <section className={styles.section}>
       <div className={styles.header}>
         <h2 className={styles.title}>Wedding FAQ&#39;s</h2>
-        <p className={styles.subtitle}>Instant Questions</p>
+        <p className={styles.subtitle}>Quick answers for couples planning with Jashn-e-Riyasat</p>
       </div>
       <div className={styles.grid}>
         <div className={styles.column}>
