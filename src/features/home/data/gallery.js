@@ -23,14 +23,14 @@ export const galleryData = {
     { img: img('haldi3.webp'), label: 'Haldi' },
     { img: img('haldi4.webp'), label: 'Haldi' },
     { img: img('haldi5.webp'), label: 'Haldi' },
-    { img: img('haldi6.webp'), label: 'Haldi' },
-    { img: img('haldi7.webp'), label: 'Haldi' },
+    { img: img('haldi06.webp'),label: 'Haldi' },
+    { img: img('haldi07.webp'),label: 'Haldi' },
     { img: img('haldi8.webp'), label: 'Haldi' },
    
     // ...tumhari actual haldi images yahan daalo
   ]),
   mehndi: buildGalleryItems([
-    { img: img('IMG_0414.JPG.jpeg'), label: 'Bridal Portrait' },
+    { img: img('IMG_0414.JPG.jpeg.webp'), label: 'Bridal Portrait' },
     // ...
   ]),
   festivities: buildGalleryItems([
