@@ -31,16 +31,17 @@ export default function Home() {
       <MobileMenu isOpen={isMenuOpen} onClose={closeMenu} />
       <Hero />
       <AboutIntro />
-      
+       <Services />
+       <PressLogos />
       <VideoSection />
-      <PressLogos />
+      
       <Gallery />
       {/* <Banner /> */}
       <WeddingStories />
      
       <Portfolio />
         <Testimonials />
-      <Services />
+     
       <CinematicPan />
      
       

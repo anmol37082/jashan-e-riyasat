@@ -46,7 +46,7 @@ export default function CinematicPan() {
         {/* Inner image that pans */}
         <div ref={imageInnerRef} className={styles.panImageInner}>
           <Image
-            src="https://images.unsplash.com/photo-1519741497674-611481863552?w=2400&h=1200&fit=crop&q=80"
+            src="/vision.webp"
             alt="Wedding couple cinematic"
             fill
             className={styles.panImage}

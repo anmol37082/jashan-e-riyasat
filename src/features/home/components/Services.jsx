@@ -5,42 +5,42 @@ const services = [
   {
     number: '01',
     title: 'Full Wedding Planning',
-    image: '/images/wedding-1.jpg',
+    image: '/services/service01.webp',
   },
   {
     number: '02',
     title: 'Destination Weddings',
-    image: '/images/wedding-2.jpg',
+    image: '/services/service2.webp',
   },
   {
     number: '03',
     title: 'Wedding Decoration',
-    image: '/images/wedding-3.jpg',
+    image: '/services/service3.webp',
   },
   {
     number: '04',
     title: 'Photography & Films',
-    image: '/images/wedding-4.jpg',
+    image: '/services/service4.webp',
   },
   {
     number: '05',
     title: 'Catering',
-    image: '/gallery/haldi1.webp',
+    image: '/services/service5.webp',
   },
   {
     number: '06',
     title: 'Bridal Makeup',
-    image: '/gallery/haldi2.webp',
+    image: '/services/service6.webp',
   },
   {
     number: '07',
     title: 'Entertainment',
-    image: '/gallery/haldi3.webp',
+    image: '/services/service7.webp',
   },
   {
     number: '08',
     title: 'Guest Management',
-    image: '/gallery/haldi4.webp',
+    image: '/services/service8.webp',
   },
 ];
 

@@ -1,11 +1,11 @@
 .portfolio {
-  background-color: var(--cream);
+background-color: #f5f0e8;
   position: relative;
 }
 
 .portfolioHeader {
   text-align: center;
-  padding: 100px 40px 80px;
+  padding: 0px 40px 40px;
 }
 
 .portfolioHeading {

@@ -1,0 +1,135 @@
+.section {
+  background:
+  var(--cream);
+  padding: 0 clamp(24px, 6vw, 112px) 112px;
+  position: relative;
+}
+
+.inner {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding-top: 24px;
+  border-top: 1px solid rgba(184, 168, 138, 0.35);
+}
+
+.header {
+  max-width: 820px;
+  margin-bottom: 38px;
+}
+
+.kicker {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 14px;
+}
+
+.heading {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(32px, 4vw, 58px);
+  font-weight: 300;
+  line-height: 1;
+  color: var(--dark-brown);
+  margin: 0 0 14px;
+  max-width: 860px;
+}
+
+.lead {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(16px, 1vw + 13px, 20px);
+  line-height: 1.75;
+  color: var(--text-muted);
+  max-width: 640px;
+  margin: 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(32px, 5vw, 84px);
+  align-items: start;
+}
+
+.column {
+  position: relative;
+  padding-top: 20px;
+  padding-left: 22px;
+}
+
+.rule {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 72px;
+  height: 1px;
+  background: rgba(184, 168, 138, 0.8);
+}
+
+.index {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 16px;
+  font-style: italic;
+  color: var(--gold);
+  margin: 0 0 10px;
+}
+
+.alt {
+  margin-top: 42px;
+}
+
+.alt .rule {
+  background: rgba(92, 69, 48, 0.5);
+}
+
+.column::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 20px;
+  bottom: 0;
+  width: 1px;
+  background: linear-gradient(180deg, rgba(184, 168, 138, 0.55), rgba(184, 168, 138, 0.08));
+}
+
+.label {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--dark-brown);
+  margin-bottom: 14px;
+}
+
+.copy {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(16px, 0.95vw + 13px, 20px);
+  line-height: 1.88;
+  color: var(--text-muted);
+  max-width: 520px;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 0 16px 88px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .heading {
+    font-size: clamp(28px, 10vw, 44px);
+  }
+
+  .alt {
+    margin-top: 0;
+  }
+
+  .column {
+    padding-left: 18px;
+  }
+}

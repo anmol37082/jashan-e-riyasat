@@ -1,0 +1,149 @@
+.storySection {
+  background: var(--cream);
+    
+  padding: 96px clamp(24px, 6vw, 112px) 120px;
+  position: relative;
+  overflow: hidden;
+}
+
+.storySection::before {
+  content: '';
+  position: absolute;
+  top: 8%;
+  right: -120px;
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(184, 168, 138, 0.14) 0%, rgba(184, 168, 138, 0) 70%);
+  pointer-events: none;
+}
+
+.storyStack {
+  position: relative;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  gap: clamp(42px, 6vw, 86px);
+}
+
+.storyInner {
+  display: grid;
+  grid-template-columns: minmax(280px, 0.82fr) minmax(420px, 1.18fr);
+  gap: clamp(28px, 4vw, 64px);
+  align-items: center;
+}
+
+.reverse {
+  grid-template-columns: minmax(420px, 1.18fr) minmax(280px, 0.82fr);
+}
+
+.reverse .storyMedia {
+  order: 2;
+  justify-self: end;
+}
+
+.reverse .storyText {
+  order: 1;
+  justify-self: start;
+  padding-left: 0;
+  padding-right: clamp(12px, 1.5vw, 28px);
+  border-left: 0;
+  border-right: 1px solid rgba(184, 168, 138, 0.35);
+}
+
+.storyText {
+  max-width: 680px;
+  justify-self: end;
+  padding-left: clamp(12px, 1.5vw, 28px);
+  border-left: 1px solid rgba(184, 168, 138, 0.35);
+}
+
+.kicker {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 18px;
+}
+
+.heading {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(34px, 4.2vw, 62px);
+  font-weight: 300;
+  line-height: 0.96;
+  color: var(--dark-brown);
+  margin: 0 0 18px;
+}
+
+.copy {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(15px, 0.8vw + 13px, 19px);
+  line-height: 1.86;
+  color: var(--text-muted);
+  margin: 0;
+  max-width: 620px;
+}
+
+.storyMedia {
+  position: relative;
+  justify-self: start;
+  width: min(100%, 340px);
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+  transform: none;
+}
+
+.storyMedia::before,
+.storyMedia::after {
+  display: none;
+}
+
+.storyImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 1024px) {
+  .storyInner,
+  .reverse {
+    grid-template-columns: 1fr;
+    gap: 22px;
+  }
+
+  .storyMedia,
+  .reverse .storyMedia {
+    width: min(100%, 420px);
+    justify-self: start;
+    order: 0;
+  }
+
+  .storyText,
+  .reverse .storyText {
+    order: 0;
+    justify-self: start;
+    max-width: 100%;
+    padding: 0;
+    border: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .storySection {
+    padding: 72px 16px 88px;
+  }
+
+  .storyStack {
+    gap: 34px;
+  }
+
+  .heading {
+    font-size: clamp(32px, 11vw, 48px);
+  }
+
+  .storyMedia,
+  .reverse .storyMedia {
+    width: min(100%, 360px);
+  }
+}

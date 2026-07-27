@@ -1,0 +1,137 @@
+.section {
+  background: var(--cream);
+  padding: 0 clamp(24px, 6vw, 112px) 112px;
+}
+
+.inner {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding-top: 24px;
+  border-top: 1px solid rgba(184, 168, 138, 0.35);
+}
+
+.header {
+  max-width: 860px;
+  margin-bottom: 40px;
+}
+
+.kicker {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 14px;
+}
+
+.heading {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(32px, 4vw, 58px);
+  font-weight: 300;
+  line-height: 1;
+  color: var(--dark-brown);
+  margin: 0 0 14px;
+  max-width: 900px;
+}
+
+.lead {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(16px, 1vw + 13px, 20px);
+  line-height: 1.78;
+  color: var(--text-muted);
+  max-width: 680px;
+  margin: 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(28px, 4vw, 72px);
+  align-items: start;
+}
+
+.item {
+  padding-top: 18px;
+  border-top: 1px solid rgba(184, 168, 138, 0.45);
+  position: relative;
+}
+
+.item::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 68px;
+  height: 1px;
+  background: rgba(184, 168, 138, 0.85);
+}
+
+.index {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 16px;
+  font-style: italic;
+  color: var(--gold);
+  margin: 0 0 10px;
+}
+
+.title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--dark-brown);
+  margin: 0 0 12px;
+}
+
+.copy {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(16px, 0.95vw + 13px, 20px);
+  line-height: 1.88;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+.quote {
+  margin: 32px 0 0;
+  max-width: 760px;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(18px, 1.15vw + 13px, 24px);
+  line-height: 1.7;
+  color: var(--dark-brown);
+  border-left: 1px solid rgba(184, 168, 138, 0.55);
+  padding-left: 20px;
+}
+
+.item:nth-child(2) {
+  margin-top: 32px;
+}
+
+.item:nth-child(3) {
+  margin-top: 64px;
+}
+
+@media (max-width: 1024px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 22px;
+  }
+
+  .item:nth-child(2),
+  .item:nth-child(3) {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 0 16px 88px;
+  }
+
+  .heading {
+    font-size: clamp(28px, 10vw, 44px);
+  }
+
+  .quote {
+    padding-left: 16px;
+  }
+}

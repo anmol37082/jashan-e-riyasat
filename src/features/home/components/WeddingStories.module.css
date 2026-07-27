@@ -3,7 +3,7 @@
 .section {
   width: 100%;
   padding: 80px 40px;
-  
+  background-color: #f5f0e8;
 }
 
 .header {
@@ -12,34 +12,62 @@
 }
 
 .title {
-color: var(--dark-brown);
-    font-family: Cormorant Garamond, serif;
-    font-size: clamp(28px, 3.5vw, 42px);
-    font-weight: 300;
-    line-height: 1.2;
+  color: var(--dark-brown);
+  font-family: Cormorant Garamond, serif;
+  font-size: clamp(28px, 3.5vw, 42px);
+  font-weight: 300;
+  line-height: 1.2;
 }
 
 .subtitle {
- font-size: clamp(16px, 2vw, 20px);
+  font-size: clamp(16px, 2vw, 20px);
   font-weight: 300;
   color: #5a4a3a;
   font-style: italic;
   margin-top: 10px;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 24px;
+.slide {
+  width: 280px;
+  flex: 0 0 auto;
+}
+
+.marqueeViewport {
   max-width: 1400px;
   margin: 0 auto;
+  overflow: hidden;
+  padding: 0 4px 10px;
+}
+
+.marqueeTrack {
+  display: flex;
+  width: max-content;
+  animation: marquee-scroll 28s linear infinite;
+  will-change: transform;
+}
+
+.marqueeGroup {
+  display: flex;
+  gap: 24px;
+  padding-right: 24px;
+  flex: 0 0 auto;
+}
+
+.marqueeViewport:hover .marqueeTrack {
+  animation-play-state: paused;
 }
 
 .card {
+  display: block;
+  width: 100%;
+  height: 100%;
   position: relative;
-  aspect-ratio: 3 / 5;
+  aspect-ratio: 4 / 5;
   overflow: hidden;
   cursor: pointer;
+  border-radius: 18px;
+  text-decoration: none;
+  color: inherit;
 }
 
 .image {
@@ -81,19 +109,50 @@ color: var(--dark-brown);
 
 /* Responsive */
 @media (max-width: 1024px) {
-  .grid {
-    grid-template-columns: repeat(2, 1fr);
+  .slide {
+    width: 240px;
+  }
+
+  .marqueeTrack {
+    animation-duration: 24s;
+  }
+
+  .marqueeGroup {
     gap: 20px;
+    padding-right: 20px;
   }
 }
 
 @media (max-width: 640px) {
-  .grid {
-    grid-template-columns: 1fr;
-    gap: 16px;
-  }
-  
   .section {
-    padding: 50px 20px;
+    padding: 24px 20px 50px;
+  }
+
+  .marqueeViewport {
+    padding: 0 0 10px;
+  }
+
+  .slide {
+    width: 82vw;
+    max-width: 320px;
+  }
+
+  .marqueeTrack {
+    animation-duration: 20s;
+  }
+
+  .marqueeGroup {
+    gap: 16px;
+    padding-right: 16px;
+  }
+}
+
+@keyframes marquee-scroll {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
   }
 }

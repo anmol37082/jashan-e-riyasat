@@ -1,9 +1,12 @@
 import styles from './MobileMenu.module.css';
 
 const menuItems = [
-  { label: 'About', href: '#about' },
+  { label: 'Home', href: '/' },
+  { label: 'About', href: '/about' },
   { label: 'Services', href: '#services' },
   { label: 'Portfolio', href: '#portfolio' },
+  { label: 'Blog', href: '/blog' },
+  { label: 'Our Work', href: '/stories' },
   { label: 'Journal', href: '#journal' },
   { label: 'Mentorship', href: '#mentorship' },
   { label: 'Contact', href: '#contact' },

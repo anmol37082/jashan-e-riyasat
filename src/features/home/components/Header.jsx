@@ -5,14 +5,14 @@ import styles from './Header.module.css';
 import useScrollPosition from '@/hooks/useScrollPosition';
 
 const leftNavItems = [
-  { label: 'About', href: '#about' },
+  { label: 'Home', href: '/' },
+  { label: 'About', href: '/about' },
   { label: 'Services', href: '#services' },
-  { label: 'Portfolio', href: '#portfolio' },
 ];
 
 const rightNavItems = [
-  { label: 'Journal', href: '#journal' },
-  { label: 'Mentorship', href: '#mentorship' },
+  { label: 'Blog', href: '/blog' },
+  { label: 'Our Work', href: '/stories' },
   { label: 'Contact', href: '#contact' },
 ];
 
@@ -24,6 +24,7 @@ export default function Header({ onMenuToggle }) {
     const handleScroll = () => {
       const portfolioSection = document.getElementById('portfolio');
       const testimonialsSection = document.getElementById('testimonials');
+      const storiesSection = document.getElementById('stories');
 
       let shouldHide = false;
 
@@ -42,6 +43,12 @@ export default function Header({ onMenuToggle }) {
         // and keep it hidden until the section has fully scrolled away.
         const isTestimonialsActive = testimonialsRect.top <= 0 && testimonialsRect.bottom > 0;
         if (isTestimonialsActive) shouldHide = true;
+      }
+
+      if (storiesSection) {
+        const storiesRect = storiesSection.getBoundingClientRect();
+        const isStoriesActive = storiesRect.top <= 0 && storiesRect.bottom > 0;
+        if (isStoriesActive) shouldHide = true;
       }
 
       setIsHidden(shouldHide);
@@ -66,9 +73,15 @@ export default function Header({ onMenuToggle }) {
         <ul className={styles.navLeft}>
           {leftNavItems.map((item) => (
             <li key={item.href}>
-              <a href={item.href} className={styles.navLink}>
-                {item.label}
-              </a>
+              {item.href.startsWith('/') ? (
+                <a href={item.href} className={styles.navLink}>
+                  {item.label}
+                </a>
+              ) : (
+                <a href={item.href} className={styles.navLink}>
+                  {item.label}
+                </a>
+              )}
             </li>
           ))}
         </ul>
@@ -90,7 +103,11 @@ export default function Header({ onMenuToggle }) {
         <ul className={styles.navRight}>
           {rightNavItems.map((item) => (
             <li key={item.href}>
-              <a href={item.href} className={styles.navLink}>
+              <a
+                href={item.href}
+                className={styles.navLink}
+                {...(item.href.startsWith('/') ? { 'aria-label': item.label } : {})}
+              >
                 {item.label}
               </a>
             </li>
