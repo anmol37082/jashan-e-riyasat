@@ -23,8 +23,8 @@ export const galleryData = {
     { img: img('haldi3.webp'), label: 'Haldi' },
     { img: img('haldi4.webp'), label: 'Haldi' },
     { img: img('haldi5.webp'), label: 'Haldi' },
-    { img: img('haldi06.WEBP'),label: 'Haldi' },
-    { img: img('haldi07.WEBP'),label: 'Haldi' },
+    { img: img('haldi06.webp'),label: 'Haldi' },
+    { img: img('haldi07.webp'),label: 'Haldi' },
     { img: img('haldi8.webp'), label: 'Haldi' },
    
     // ...tumhari actual haldi images yahan daalo
