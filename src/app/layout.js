@@ -2,8 +2,8 @@ import './globals.css';
 import SiteShell from '@/components/SiteShell';
 
 export const metadata = {
-  title: 'Clement & Co. Events | Luxury Wedding Planning',
-  description: 'Refined Wedding Planning & Creative Event Production. From Toronto to destinations worldwide.',
+  title: 'Jashn-e-Riyasat | Luxury Wedding Planning',
+  description: 'Luxury wedding planning, creative event design, and refined hospitality for celebrations in India and beyond.',
 };
 
 export default function RootLayout({ children }) {

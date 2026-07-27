@@ -1,3 +1,9 @@
+export const metadata = {
+  title: 'Jashn-e-Riyasat | Luxury Wedding Planning & Event Design',
+  description:
+    'Jashn-e-Riyasat plans elegant weddings with tailored design, thoughtful hospitality, and seamless execution for every celebration.',
+};
+
 import Hero from '@/features/home/components/Hero';
 import AboutIntro from '@/features/home/components/AboutIntro';
 import Services from '@/features/home/components/Services';
