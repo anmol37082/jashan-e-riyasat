@@ -7,7 +7,7 @@ import useScrollPosition from '@/hooks/useScrollPosition';
 const leftNavItems = [
   { label: 'Home', href: '/' },
   { label: 'About', href: '/about' },
-  { label: 'Services', href: '#services' },
+  { label: 'Services', href: '/#services' },
 ];
 
 const rightNavItems = [

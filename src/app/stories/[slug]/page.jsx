@@ -2,6 +2,7 @@ import Image from 'next/image';
 import { notFound } from 'next/navigation';
 
 import { getStoryBySlug, stories } from '@/features/home/data/stories';
+import StoryGallery from './StoryGallery';
 
 import styles from './page.module.css';
 
@@ -42,7 +43,7 @@ export default async function StoryPage({ params }) {
       <section className={styles.hero}>
         <div className={styles.heroMedia}>
           <Image
-            src={story.image}
+            src={story.heroImage || story.image}
             alt={story.names}
             fill
             priority
@@ -103,6 +104,13 @@ export default async function StoryPage({ params }) {
             <h2 className={styles.sectionTitle}>Outcome</h2>
             <p className={styles.outcomeText}>{story.detail.outcome}</p>
           </section>
+
+          {story.galleryMedia?.length || story.galleryImages?.length ? (
+            <StoryGallery
+              storyName={story.names}
+              mediaItems={story.galleryMedia || story.galleryImages}
+            />
+          ) : null}
         </>
       ) : (
         <section className={styles.placeholder}>

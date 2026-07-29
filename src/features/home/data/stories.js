@@ -1,10 +1,274 @@
-// data/stories.js
+﻿// data/stories.js
 
 const storyImages = [
-  '/stories/story1.webp',
-  '/stories/story2.webp',
-  '/stories/story3.webp',
-  '/stories/story4.png',
+  '/stories/mandytakker/471253612_18472665568004214_7820904793496896730_n.webp',
+  '/stories/Devikasohail/img(6).webp',
+  '/stories/hardiknitu/hardiknitu(1).webp',
+  '/stories/Oshin/495467098_18271867552284754_4339792822853782028_n.webp',
+  '/stories/abhinavgauri/card.webp',
+];
+
+const storyGalleryImages = [
+  '/images/wedding-1.jpg',
+  '/images/wedding-2.jpg',
+  '/images/wedding-3.jpg',
+  '/images/wedding-4.jpg',
+  '/portfolio/portfolio(1).webp',
+  '/portfolio/portfolio(2).webp',
+  '/portfolio/portfolio(3).webp',
+  '/portfolio/portfolio(4).webp',
+  '/portfolio/portfolio(5).webp',
+];
+
+const mandyGalleryMedia = [
+  {
+    type: 'image',
+    src: '/stories/mandytakker/470182496_18472669915004214_9222819541452647316_n.webp',
+  },
+  {
+    type: 'image',
+    src: '/stories/mandytakker/470190605_18472669543004214_9123953816962600330_n.webp',
+  },
+  {
+    type: 'image',
+    src: '/stories/mandytakker/470191546_18472665475004214_3713496761081829283_n.webp',
+  },
+  {
+    type: 'image',
+    src: '/stories/mandytakker/470202711_18472669588004214_3785563537294887416_n.webp',
+  },
+  {
+    type: 'image',
+    src: '/stories/mandytakker/470228213_18472669810004214_6969528956468875341_n.webp',
+  },
+  {
+    type: 'image',
+    src: '/stories/mandytakker/470461913_18472669807004214_8187768317041363042_n.webp',
+  },
+  {
+    type: 'image',
+    src: '/stories/mandytakker/470486550_18472669597004214_8456576522762097479_n.webp',
+  },
+  {
+    type: 'image',
+    src: '/stories/mandytakker/470814891_18472669855004214_1567438179194284328_n.webp',
+  },
+  {
+    type: 'image',
+    src: '/stories/mandytakker/471253612_18472665568004214_7820904793496896730_n.webp',
+  },
+  {
+    type: 'video',
+    src: '/stories/mandytakker/AQMVgewEqxyjogj7EjtLE3JvB7BjOiqpleL-Ubei1qywByF4_BoUEUur0LiINn_49KoxJDzYTkh2MBCBXF1Gs9XIT5JoQPuAtQL8Fdc.webm',
+  },
+  {
+    type: 'video',
+    src: '/stories/mandytakker/AQO--q5QWkIpM8_aH9I85Rv6pdZBAsIZraRwzMykuHOWu_e9hc7vYAyN4h9g5jrA-wTtuQHFR8LSz-SuHnuFeaDRIOnfplE3HuQjVzY.webm',
+  },
+  {
+    type: 'video',
+    src: '/stories/mandytakker/VID-20240217-WA0021.webm',
+  },
+];
+
+const hardikGalleryMedia = [
+  {
+    type: 'image',
+    src: '/stories/hardiknitu/hardiknitu(1).webp',
+  },
+  {
+    type: 'image',
+    src: '/stories/hardiknitu/hardiknitu(2).webp',
+  },
+  {
+    type: 'image',
+    src: '/stories/hardiknitu/hardiknitu(3).webp',
+  },
+  {
+    type: 'image',
+    src: '/stories/hardiknitu/hardiknitu(4).webp',
+  },
+  {
+    type: 'image',
+    src: '/stories/hardiknitu/hardiknitu(5).webp',
+  },
+  {
+    type: 'image',
+    src: '/stories/hardiknitu/hardiknitu(6).webp',
+  },
+  {
+    type: 'image',
+    src: '/stories/hardiknitu/hardiknitu(7).webp',
+  },
+  {
+    type: 'image',
+    src: '/stories/hardiknitu/hardiknitu(8).webp',
+  },
+  {
+    type: 'image',
+    src: '/stories/hardiknitu/hardiknitu(9).webp',
+  },
+  {
+    type: 'image',
+    src: '/stories/hardiknitu/hardiknitu(10).webp',
+  },
+  {
+    type: 'image',
+    src: '/stories/hardiknitu/hardiknitu(11).webp',
+  },
+  {
+    type: 'video',
+    src: '/stories/hardiknitu/AQMHG4nL_IMirgijyJ_AUpwPXCo4i8BIHePv5iAKAv11qmt0ZnPuY6cbGr6POM6oKN7bMdx2QKwRfA8WCBjFiCkuvPVF6ykMcrQNENg.mp4',
+  },
+  {
+    type: 'video',
+    src: '/stories/hardiknitu/AQMhqwcQqkpZWFpMO7KzFGSO1t1pn8R7j-HxY4Uw7LC9bVAyBth6mZ9t_EYLKry-I3DCnZP3Y4kZXrzpiFI-lRah5ldL79zLy8vFH8E.mp4',
+  },
+  {
+    type: 'video',
+    src: '/stories/hardiknitu/AQNaEUsZm4vF0IZNC0092jwC4l5mf91hYUvHQanRZGIV3FsULG9aOwvtJx1wa0SYjOnIoX6ljbn3Du5TrOweFcoFwbqS8gZi_aJLyTo.mp4',
+  },
+  {
+    type: 'video',
+    src: '/stories/hardiknitu/AQNcAB1tsk5rS_x4By0mpCadDvQg3A6bEIyWssKoNeGvi-JLG3I6Ezmtb-mJhP_s_v5myqNemzErdoqGgizteZtDEEATnY_qo-TbQd4.mp4',
+  },
+  {
+    type: 'video',
+    src: '/stories/hardiknitu/AQNNbtGCjGOuUQzNFQrw4Wz9Nc3Tj7eo8meNg0n3HUAcRwnt-BaqSUHcdWxDaa7KpoL57cFm4-0VrCKR8vTQ44ncfkKJ6lLS6PNBF6k.mp4',
+  },
+  {
+    type: 'video',
+    src: '/stories/hardiknitu/AQPS1p5fZz-gdkh_czXbjE9GgVtwY8qHYe9Km_P1YMS85qVB4PzVbI8FTUA10aWNA-BugBunC11I04fNdpJyKykKNDiSj-nMMvDfuIE.mp4',
+  },
+];
+
+const devikaGalleryMedia = [
+  {
+    type: 'image',
+    src: '/stories/Devikasohail/img(1).webp',
+  },
+  {
+    type: 'image',
+    src: '/stories/Devikasohail/img(2).webp',
+  },
+  {
+    type: 'image',
+    src: '/stories/Devikasohail/img(3).webp',
+  },
+  {
+    type: 'image',
+    src: '/stories/Devikasohail/img(4).webp',
+  },
+  {
+    type: 'image',
+    src: '/stories/Devikasohail/img(5).webp',
+  },
+  {
+    type: 'image',
+    src: '/stories/Devikasohail/img(6).webp',
+  },
+  {
+    type: 'image',
+    src: '/stories/Devikasohail/img(7).webp',
+  },
+  {
+    type: 'image',
+    src: '/stories/Devikasohail/img(8).webp',
+  },
+  {
+    type: 'image',
+    src: '/stories/Devikasohail/img(9).webp',
+  },
+  {
+    type: 'image',
+    src: '/stories/Devikasohail/img(10).webp',
+  },
+  {
+    type: 'image',
+    src: '/stories/Devikasohail/img(11).webp',
+  },
+  {
+    type: 'image',
+    src: '/stories/Devikasohail/img(12).webp',
+  },
+  {
+    type: 'image',
+    src: '/stories/Devikasohail/img(13).webp',
+  },
+  {
+    type: 'image',
+    src: '/stories/Devikasohail/img(14).webp',
+  },
+  {
+    type: 'image',
+    src: '/stories/Devikasohail/img(15).webp',
+  },
+];
+
+const abhinavGalleryMedia = [
+  {
+    type: 'image',
+    src: '/stories/abhinavgauri/img.webp',
+  },
+  {
+    type: 'video',
+    src: '/stories/abhinavgauri/video(1).mp4',
+  },
+  {
+    type: 'video',
+    src: '/stories/abhinavgauri/video(2).mp4',
+  },
+  {
+    type: 'video',
+    src: '/stories/abhinavgauri/video(3).mp4',
+  },
+  {
+    type: 'video',
+    src: '/stories/abhinavgauri/video(4).mp4',
+  },
+  {
+    type: 'video',
+    src: '/stories/abhinavgauri/video(5).mp4',
+  },
+];
+
+const oshinGalleryMedia = [
+  {
+    type: 'image',
+    src: '/stories/Oshin/491498853_18270806881284754_6439366137212506532_n.webp',
+  },
+  {
+    type: 'image',
+    src: '/stories/Oshin/494125320_18270806908284754_4798772998753042924_n.webp',
+  },
+  {
+    type: 'image',
+    src: '/stories/Oshin/495467098_18271867552284754_4339792822853782028_n.webp',
+  },
+  {
+    type: 'image',
+    src: '/stories/Oshin/495656544_18271867507284754_6209494513199533448_n.webp',
+  },
+  {
+    type: 'image',
+    src: '/stories/Oshin/495745263_18271867516284754_8617240618100830896_n.webp',
+  },
+  {
+    type: 'image',
+    src: '/stories/Oshin/495928513_18271867495284754_4346056833333977604_n.webp',
+  },
+  {
+    type: 'video',
+    src: '/stories/Oshin/AQM8cD65BBf0P3Q2PWdwx--y6rNOe_elE4OkgPEj3yw4BzqMIkxsp6Puhif-58koOErtVXfrz-PmBPgJoIVo1Xh7jAD99rKKRI33Zaw.mp4',
+  },
+  {
+    type: 'video',
+    src: '/stories/Oshin/AQN6tQzhmA6MQYKyBadQdTpZ93bsqhJ1WWnOu_IA1pbWFIS4vyUUIr-GU4t62bfYSpCSQwJbes0HBxvcV3Zz43vJiiJ8BBzHgbOIBaw.mp4',
+  },
+  {
+    type: 'video',
+    src: '/stories/Oshin/AQOKmltQ82HSCAMJbMcaVc7cPPX0t273cBpgjoEQrSNnZRpnD471QRjAzLy5dLQkUzqH-im6hWX2JGMvT6wMUEQVfgt_jQQMFybpgN8.mp4',
+  },
 ];
 
 export const stories = [
@@ -12,9 +276,12 @@ export const stories = [
     id: 1,
     slug: 'mandy-takhar-shekhar',
     image: storyImages[0],
+    heroImage:
+      '/stories/mandytakker/mandy1.webp',
     names: 'Mandy Takkar & Shekhar',
     title: 'Celebrity Wedding Hospitality',
     featured: true,
+    galleryMedia: mandyGalleryMedia,
     detail: {
       intro:
         'Mandy Takhar is a renowned Punjabi actress known for films like Mirza - The Untold Story, Tu Mera 22 Main Tera 22, Sardaar Ji, Rabb Da Radio, and several other successful Punjabi films. Her wedding became one of the most talked-about celebrity celebrations in Punjab, attended by family, close friends, industry personalities, and distinguished guests.',
@@ -105,8 +372,10 @@ export const stories = [
     id: 2,
     slug: 'devika-sohail',
     image: storyImages[1],
+    heroImage: '/stories/Devikasohail/hero.webp',
     names: 'Devika & Sohail',
     title: 'Wedding Hospitality',
+    galleryMedia: devikaGalleryMedia,
     detail: {
       intro:
         'Devika is an event industry professional from Amritsar, Punjab. For her own wedding, the primary goal was to step away from organizer mode and fully experience the celebrations as a bride. The event needed to balance professional-level execution with family expectations across all functions.',
@@ -158,8 +427,10 @@ export const stories = [
     id: 3,
     slug: 'hardik-neetu',
     image: storyImages[2],
+    heroImage: '/stories/hardiknitu/hero.webp',
     names: 'Hardik & Neetu',
     title: 'Wedding Hospitality',
+    galleryMedia: hardikGalleryMedia,
     detail: {
       intro:
         'Hardik and Neetu, college sweethearts, envisioned a wedding that blended rich Haryanvi traditions with luxury, grandeur, and high-energy celebration. With the groom hailing from a prominent political family, the event demanded top-tier hospitality, tight crowd management, and flawless execution for a high-profile guest list.',
@@ -221,14 +492,16 @@ export const stories = [
     id: 4,
     slug: 'oshin-savyasachi',
     image: storyImages[3],
+    heroImage: '/stories/Oshin/hero.webp',
     names: 'Oshin & Savyasachi',
     title: 'Wedding Hospitality',
+    galleryMedia: oshinGalleryMedia,
     detail: {
       intro:
         'Oshin and Savyasachi reached out to us on extremely short notice, giving us just 20 days to plan and execute a seamless celebration for 400 guests at Hotel Mountview, Sector 10, Chandigarh.',
       client: 'Oshin & Savyasachi',
       serviceProvided:
-        'Full Vendor Curation, RSVP & Guest Management, Logistics, On-Site Check-ins, Décor Supervision, F&B Coordination, and Entertainment & Show Flow Management',
+        'Full Vendor Curation, RSVP & Guest Management, Logistics, On-Site Check-ins, DÃ©cor Supervision, F&B Coordination, and Entertainment & Show Flow Management',
       guestCount: '400 Guests',
       overview:
         'Our immediate focus was to create a swift, structured, and stress-free communication channel with the family while translating a grand wedding vision into a realistic 20-day execution plan.',
@@ -259,7 +532,7 @@ export const stories = [
             'With limited time, trusted vendors were critical. We sourced, negotiated, and finalized photography, makeup, sound, and other essential vendors while maintaining high quality inside the tight deadline.',
         },
         {
-          title: 'Precision Décor Supervision',
+          title: 'Precision DÃ©cor Supervision',
           body:
             'Our team conducted rigorous quality checks so the final setup matched the approved concept boards. Every centerpiece, floral arrangement, and lighting detail at Hotel Mountview was cross-verified against reference photos.',
         },
@@ -283,19 +556,21 @@ export const stories = [
         'Delivered a complete wedding within a 20-day timeline',
         'Managed 400 guests with smooth RSVP and check-in flow',
         'Strong vendor curation under extreme time pressure',
-        'Décor matched approved concept boards closely',
+        'DÃ©cor matched approved concept boards closely',
         'Entertainment and F&B stayed on schedule throughout',
       ],
       outcome:
-        'Despite the high-pressure deadline and venue logistics, the wedding was a resounding success. The shuttles ran on time, the décor looked stunning, and all 400 guests experienced flawless hospitality from start to finish.',
+        'Despite the high-pressure deadline and venue logistics, the wedding was a resounding success. The shuttles ran on time, the dÃ©cor looked stunning, and all 400 guests experienced flawless hospitality from start to finish.',
     },
   },
   {
     id: 5,
     slug: 'abhinav-gauri',
-    image: storyImages[0],
+    image: storyImages[4],
+    heroImage: '/stories/abhinavgauri/hero.webp',
     names: 'Abhinav & Gauri',
     title: 'Wedding Hospitality',
+    galleryMedia: abhinavGalleryMedia,
     detail: {
       intro:
         'Abhinav and Gauri, a Chandigarh-based couple, wanted a dreamy fairytale wedding that felt warm, elegant, and stress-free. With a 3-month planning timeline and a December wedding, our team took complete end-to-end control of the celebration.',
@@ -345,15 +620,17 @@ export const stories = [
         'Fairytale decor executed with strict showflow discipline',
       ],
       outcome:
-        'Through careful planning, strict budget negotiation, and precise execution over three months, Abhinav and Gauri’s wedding was delivered as a true fairytale. The combination of high-end logistics, dedicated shadow support, and personalized hospitality let the couple and their families relax and enjoy every moment.',
+        'Through careful planning, strict budget negotiation, and precise execution over three months, Abhinav and Gauriâ€™s wedding was delivered as a true fairytale. The combination of high-end logistics, dedicated shadow support, and personalized hospitality let the couple and their families relax and enjoy every moment.',
     },
   },
   {
     id: 6,
     slug: 'saloni-atin',
     image: storyImages[1],
+    heroImage: '/images/wedding-1.jpg',
     names: 'Saloni & Atin',
     title: 'Wedding Hospitality',
+    galleryImages: storyGalleryImages,
     detail: {
       intro:
         'Saloni and Atin planned a high-end destination wedding at Roche Harbor, Ramgarh near Chandigarh, while living in Delhi. With only 1.5 months to plan, the wedding had to be executed through remote coordination, smart budgeting, and precise on-site management.',
@@ -385,7 +662,7 @@ export const stories = [
             'All 350 guests were welcomed with authentic Indian hospitality, personalized assistance, and effortless check-in procedures. A dedicated hospitality desk handled room support and wake-up or dress-up reminder calls so functions started on time.',
         },
         {
-          title: 'Precision Décor and Visual Alignment',
+          title: 'Precision DÃ©cor and Visual Alignment',
           body:
             'The decor setup was supervised on-site to ensure every detail matched the approved 3D renders and mood boards. Stage, floral arrangements, and ambient lighting were all finalized well before guest arrival.',
         },
@@ -415,8 +692,10 @@ export const stories = [
     id: 7,
     slug: 'varunay-liza',
     image: storyImages[2],
+    heroImage: '/images/wedding-2.jpg',
     names: 'Varunav & Liza',
     title: 'Wedding Hospitality',
+    galleryImages: storyGalleryImages,
     detail: {
       intro:
         'Varunav Modi and Liza Bondor planned a cross-cultural wedding at JW Marriott, Chandigarh, combining Hindu and White Wedding ceremonies. The bride family traveled from Russia, which made language comfort, hospitality, and precision especially important throughout the event.',
@@ -483,3 +762,4 @@ export const stories = [
 
 export const getStoryBySlug = (slug) =>
   stories.find((story) => story.slug === slug);
+

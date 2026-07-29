@@ -1,0 +1,163 @@
+.page {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top, rgba(184, 168, 138, 0.12), transparent 32%),
+    var(--cream);
+  color: var(--dark-brown);
+  padding: 0 24px 80px;
+}
+
+.hero {
+  max-width: none;
+  margin: 0 -24px;
+  padding: 0 0 36px;
+}
+
+.imageWrap {
+  position: relative;
+  aspect-ratio: 16 / 7;
+  border-radius: 0;
+  overflow: hidden;
+  background: #ddd2c2;
+  box-shadow: 0 24px 70px rgba(44, 36, 27, 0.14);
+}
+
+.image {
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(180deg, rgba(20, 14, 10, 0.08) 0%, rgba(20, 14, 10, 0.68) 100%),
+    linear-gradient(90deg, rgba(20, 14, 10, 0.18) 0%, transparent 55%);
+  pointer-events: none;
+}
+
+.heroContent {
+  position: absolute;
+  inset: auto 0 0 0;
+  padding: 32px 36px;
+  color: #fff8ef;
+  z-index: 1;
+  max-width: 860px;
+}
+
+.kicker {
+  display: inline-block;
+  margin: 0 0 14px;
+  font-size: 12px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: rgba(255, 248, 239, 0.82);
+}
+
+.title {
+  margin: 0;
+  font-size: clamp(28px, 4.2vw, 52px);
+  line-height: 1;
+  font-weight: 300;
+}
+
+.meta {
+  margin: 12px 0 0;
+  font-size: 15px;
+  color: rgba(255, 248, 239, 0.84);
+}
+
+.article {
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+.excerpt {
+  margin: 0;
+  font-size: 20px;
+  line-height: 1.8;
+  color: #4a3a2d;
+}
+
+.sections {
+  display: grid;
+  gap: 22px;
+  margin-top: 34px;
+}
+
+.sectionCard {
+  padding-left: 18px;
+  border-left: 1px solid rgba(184, 168, 138, 0.6);
+}
+
+.sectionHeading {
+  margin: 0 0 10px;
+  font-size: 26px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #5a4331;
+}
+
+.paragraph {
+  margin: 0 0 14px;
+  font-size: 18px;
+  line-height: 1.9;
+  color: #3f3428;
+}
+
+.paragraph:last-child {
+  margin-bottom: 0;
+}
+
+.placeholderText {
+  margin: 24px 0 0;
+  font-size: 18px;
+  line-height: 1.8;
+  color: #4a3a2d;
+}
+
+.backWrap {
+  padding-top: 34px;
+}
+
+.backLink {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 18px;
+  border-radius: 999px;
+  background: var(--dark-brown);
+  color: #fff8ef;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .page {
+    padding: 0 16px 64px;
+  }
+
+  .hero {
+    margin: 0 -16px;
+    padding: 0 0 28px;
+  }
+
+  .imageWrap {
+    aspect-ratio: 4 / 5;
+  }
+
+  .heroContent {
+    padding: 22px 20px;
+  }
+
+  .title {
+    font-size: clamp(24px, 7vw, 36px);
+  }
+
+  .excerpt,
+  .paragraph {
+    font-size: 16px;
+  }
+
+  .sectionHeading {
+    font-size: 22px;
+  }
+}

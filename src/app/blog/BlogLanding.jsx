@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 import Header from '@/features/home/components/Header';
 import MobileMenu from '@/features/home/components/MobileMenu';
@@ -27,19 +28,21 @@ export default function BlogLanding() {
           <div className={styles.grid}>
             {blogs.map((blog) => (
               <article key={blog.id} className={styles.card}>
-                <div className={styles.imageWrap}>
-                  <Image
-                    src={blog.image}
-                    alt={blog.title}
-                    className={styles.image}
-                    fill
-                  />
-                  <div className={styles.overlay} />
-                  <div className={styles.content}>
-                    <h2 className={styles.blogTitle}>{blog.title}</h2>
-                    <p className={styles.date}>{blog.date}</p>
+                <Link href={`/blog/${blog.slug}`} className={styles.cardLink}>
+                  <div className={styles.imageWrap}>
+                    <Image
+                      src={blog.image}
+                      alt={blog.title}
+                      className={styles.image}
+                      fill
+                    />
+                    <div className={styles.overlay} />
+                    <div className={styles.content}>
+                      <h2 className={styles.blogTitle}>{blog.title}</h2>
+                      <p className={styles.date}>{blog.date}</p>
+                    </div>
                   </div>
-                </div>
+                </Link>
               </article>
             ))}
           </div>
