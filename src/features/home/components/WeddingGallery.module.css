@@ -49,7 +49,7 @@
 }
 
 .tab {
-  padding: 20px 26px;
+  padding: 10px 26px;
   font-size: 12px;
   font-family: 'Inter', sans-serif;
   font-weight: 500;
@@ -67,6 +67,13 @@
   border-color: #1a2332;
   color: #1a2332;
 }
+
+.tabActive:hover {
+  background-color: #1a2332;
+  color: white;
+  border-color: #1a2332;
+}
+
 
 .tabActive {
   background-color: #1a2332;

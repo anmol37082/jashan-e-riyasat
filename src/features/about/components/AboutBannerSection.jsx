@@ -6,7 +6,7 @@ export default function AboutBannerSection() {
     <section className={styles.section} aria-label="About page banner">
       <div className={styles.frame}>
         <Image
-          src="/aboutbanner.webp"
+          src="/aboutbnner1.webp"
           alt="Elegant wedding celebration banner"
           fill
           priority

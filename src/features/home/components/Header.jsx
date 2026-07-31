@@ -7,13 +7,13 @@ import useScrollPosition from '@/hooks/useScrollPosition';
 const leftNavItems = [
   { label: 'Home', href: '/' },
   { label: 'About', href: '/about' },
-  { label: 'Services', href: '/#services' },
+  { label: 'Destinations', href: '/destinations/delhi-ncr' },
 ];
 
 const rightNavItems = [
   { label: 'Blog', href: '/blog' },
   { label: 'Our Work', href: '/stories' },
-  { label: 'Contact', href: '#contact' },
+  { label: 'Contact', href: '/contact' },
 ];
 
 export default function Header({ onMenuToggle }) {

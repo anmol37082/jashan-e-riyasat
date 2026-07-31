@@ -114,7 +114,7 @@ export default function WeddingFAQ() {
         className={styles.question}
         onClick={() => toggleFAQ(item.id)}
       >
-        <span className={styles.dot} />
+        <img className={styles.flower} src="/flower.svg" alt="" aria-hidden="true" />
         <span className={styles.text}>{item.question}</span>
         <span className={`${styles.arrow} ${openId === item.id ? styles.arrowOpen : ''}`}>
           ›

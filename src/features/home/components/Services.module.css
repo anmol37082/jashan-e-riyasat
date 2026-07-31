@@ -1,5 +1,5 @@
 .services {
-  background-color: #f5f0e8;
+  background: #f5f0e8;
   padding: 80px 40px 120px;
 }
 
@@ -10,7 +10,7 @@
 
 .servicesHeader {
   text-align: center;
-  margin-bottom: 80px;
+  margin-bottom: 64px;
 }
 
 .servicesLabel {
@@ -20,7 +20,7 @@
   text-transform: uppercase;
   color: var(--text-muted);
   margin-bottom: 20px;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .servicesHeading {
@@ -40,24 +40,30 @@
 .servicesGrid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 40px;
+  gap: 8px;
 }
 
 .serviceCard {
   position: relative;
   overflow: hidden;
   aspect-ratio: 3/4;
+  border-radius: 0;
+  border: 1px solid rgba(184, 168, 138, 0.22);
+  box-shadow: 0 14px 30px rgba(61, 43, 31, 0.08);
+  background: #1f1811;
 }
 
 .serviceImage {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: transform 0.6s ease;
+  transition: transform 0.75s cubic-bezier(0.16, 1, 0.3, 1), filter 0.75s ease;
+  filter: saturate(0.95) contrast(1.02);
 }
 
 .serviceCard:hover .serviceImage {
-  transform: scale(1.05);
+  transform: scale(1.08);
+  filter: saturate(1) contrast(1.05);
 }
 
 .serviceOverlay {
@@ -66,27 +72,33 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.3);
+  background:
+    linear-gradient(to top, rgba(44, 36, 27, 0.72) 0%, rgba(44, 36, 27, 0.18) 46%, transparent 74%),
+    linear-gradient(135deg, rgba(184, 168, 138, 0.14), transparent 42%);
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  padding: 40px;
+  padding: 28px;
 }
 
 .serviceNumber {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 14px;
+  font-size: 15px;
   font-style: italic;
-  color: rgba(255, 255, 255, 0.8);
-  margin-bottom: 10px;
+  color: rgba(255, 255, 255, 0.88);
+  margin-bottom: 8px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-shadow: 0 0 0.75px rgba(255, 255, 255, 0.65);
 }
 
 .serviceTitle {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 28px;
-  font-weight: 300;
+  font-size: 25px;
+  font-weight: 200;
   color: #ffffff;
   line-height: 1.2;
+  text-shadow: 0 0 0.9px rgba(255, 255, 255, 0.8);
 }
 
 @media (max-width: 1024px) {
@@ -96,7 +108,7 @@
 
   .servicesGrid {
     grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
+    gap: 8px;
   }
 
   .servicesHeader {
@@ -111,14 +123,14 @@
 
   .servicesGrid {
     grid-template-columns: 1fr;
-    gap: 25px;
+    gap: 8px;
   }
 
   .serviceTitle {
-    font-size: 24px;
+    font-size: 26px;
   }
 
   .serviceOverlay {
-    padding: 30px;
+    padding: 26px;
   }
 }

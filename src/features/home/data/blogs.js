@@ -4,7 +4,7 @@ export const blogs = [
   {
     id: 1,
     slug: 'behind-the-scenes-of-wedding-planning',
-    image: '/images/blog-1.jpg',
+    image: '/blog/blog1.webp',
     title: 'Behind the Scenes of Wedding Planning: What Really Happens Before Guests Arrive',
     date: 'Jun 24, 2026',
     excerpt:
@@ -61,7 +61,7 @@ export const blogs = [
   {
     id: 2,
     slug: 'top-wedding-planners-in-chandigarh-for-a-stress-free-wedding',
-    image: '/images/blog-2.jpg',
+    image: '/blog/blog2.webp',
     title: 'Top Wedding Planners in Chandigarh for a Stress-Free Wedding',
     date: 'Jun 24, 2026',
     excerpt:
@@ -167,7 +167,7 @@ export const blogs = [
   {
     id: 3,
     slug: 'complete-wedding-planning-guide-for-tricity-couples',
-    image: '/images/blog-3.jpg',
+    image: '/blog/blog3.webp',
     title: 'Wedding Decor Ideas for Every Occasion',
     date: 'Jun 19, 2026',
     excerpt:
@@ -243,7 +243,7 @@ export const blogs = [
   {
     id: 4,
     slug: 'how-to-plan-a-wedding-day-timeline-that-actually-works',
-    image: '/images/blog-4.jpg',
+    image: '/blog/blog4.webp',
     title: 'How to Plan a Wedding Day Timeline That Actually Works',
     date: 'Jun 19, 2026',
     excerpt:
@@ -321,7 +321,7 @@ export const blogs = [
   {
     id: 5,
     slug: 'planning-a-destination-wedding-what-to-know-before-you-book',
-    image: '/images/blog-1.jpg',
+    image: '/blog/blog5.webp',
     title: 'Planning a Destination Wedding: What to Know Before You Book',
     date: 'Jun 15, 2026',
     excerpt:
@@ -395,7 +395,7 @@ export const blogs = [
   {
     id: 6,
     slug: 'wedding-budget-where-to-spend-and-where-to-save',
-    image: '/images/blog-2.jpg',
+    image: '/blog/blog6.webp',
     title: 'Wedding Budget: Where to Spend and Where to Save',
     date: 'Jun 12, 2026',
     excerpt:
@@ -462,7 +462,7 @@ export const blogs = [
   {
     id: 7,
     slug: 'bridal-look-ideas-for-every-wedding-function',
-    image: '/images/blog-3.jpg',
+    image: '/blog/blog7.webp',
     title: 'Bridal Look Ideas for Every Wedding Function',
     date: 'Jun 08, 2026',
     excerpt:
@@ -530,7 +530,7 @@ export const blogs = [
   {
     id: 8,
     slug: 'planning-a-monsoon-wedding-what-actually-needs-extra-thought',
-    image: '/images/blog-4.jpg',
+    image: '/blog/blog8.webp',
     title: 'Planning a Monsoon Wedding: What Actually Needs Extra Thought',
     date: 'Jun 03, 2026',
     excerpt:

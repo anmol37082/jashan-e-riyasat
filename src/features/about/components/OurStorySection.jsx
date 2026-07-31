@@ -1,13 +1,20 @@
+'use client';
+
+import { useEffect, useRef } from 'react';
 import Image from 'next/image';
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import styles from './OurStorySection.module.css';
+
+gsap.registerPlugin(ScrollTrigger);
 
 const topics = [
   {
     id: 1,
     label: '01',
-    title: 'Our Story',
+    title: 'A Legacy of Celebration',
     body:
-      'At Jashn-e-Riyasat, we plan weddings around the people at the center of them. We begin with your story, your rituals, and the atmosphere you want your guests to remember, then shape every detail around that vision.',
+      'At Jashn E Riyasat, every wedding is a once-in-a-lifetime celebration planned with love, creativity, and care. Over the years, we have turned many dreams into beautifully designed celebrations shaped around each couple’s story, traditions, and personality.',
     image: '/about.webp',
     imageAlt: 'Elegant wedding setting',
     reverse: false,
@@ -15,9 +22,9 @@ const topics = [
   {
     id: 2,
     label: '02',
-    title: 'Our Approach',
+    title: 'Excellence Beyond Expectations',
     body:
-      'From intimate family moments to high-profile hospitality, our approach is simple: listen carefully, plan precisely, and manage every moving piece with calm execution so you can stay present in the celebration.',
+      'For us, excellence is more than delivering a beautiful wedding. It means creating an experience that feels effortless, thoughtful, and unforgettable through creative design, precise planning, and flawless execution at every step.',
     image: '/about.webp',
     imageAlt: 'Elegant wedding table setting',
     reverse: true,
@@ -25,22 +32,90 @@ const topics = [
   {
     id: 3,
     label: '03',
-    title: 'Our Commitment',
+    title: 'The Guest Experience',
     body:
-      'We design the experience so hosts can relax and guests feel genuinely cared for. Timing, logistics, and on-ground coordination stay closely managed while the celebration keeps its warmth and elegance.',
+      'A wedding becomes truly special when your guests feel just as celebrated as the couple. We focus on warm welcomes, smooth arrivals, comfortable spaces, and a natural flow so everyone can enjoy the day without stress.',
     image: '/about.webp',
     imageAlt: 'Wedding hospitality detail',
     reverse: false,
   },
+  {
+    id: 4,
+    label: '04',
+    title: 'Built on Trust',
+    body:
+      'Every wedding starts with trust, and we value that deeply. By listening closely, staying transparent, and keeping every promise, we build real connections with couples and families that continue long after the celebration ends.',
+    image: '/about.webp',
+    imageAlt: 'Wedding hospitality detail',
+    reverse: true,
+  },
 ];
 
 export default function OurStorySection() {
+  const sectionRef = useRef(null);
+  const rowMap = useRef(new Map());
+
+  const setRowRef = (id) => (el) => {
+    if (el) {
+      rowMap.current.set(id, el);
+    } else {
+      rowMap.current.delete(id);
+    }
+  };
+
+  useEffect(() => {
+    const ctx = gsap.context(() => {
+      rowMap.current.forEach((row) => {
+        const media = row.querySelector(`.${styles.storyMedia}`);
+        const kicker = row.querySelector(`.${styles.kicker}`);
+        const heading = row.querySelector(`.${styles.heading}`);
+        const copy = row.querySelector(`.${styles.copy}`);
+        const isReverse = row.classList.contains(styles.reverse);
+
+        const tl = gsap.timeline({
+          scrollTrigger: {
+            trigger: row,
+            start: 'top 78%',
+            once: true,
+          },
+        });
+
+        tl.fromTo(
+          media,
+          { autoAlpha: 0, x: isReverse ? 48 : -48, scale: 1.06 },
+          { autoAlpha: 1, x: 0, scale: 1, duration: 1.1, ease: 'power3.out' }
+        )
+          .fromTo(
+            kicker,
+            { autoAlpha: 0, y: 16 },
+            { autoAlpha: 1, y: 0, duration: 0.6, ease: 'power2.out' },
+            '-=0.7'
+          )
+          .fromTo(
+            heading,
+            { autoAlpha: 0, y: 24 },
+            { autoAlpha: 1, y: 0, duration: 0.8, ease: 'power3.out' },
+            '-=0.45'
+          )
+          .fromTo(
+            copy,
+            { autoAlpha: 0, y: 20 },
+            { autoAlpha: 1, y: 0, duration: 0.8, ease: 'power3.out' },
+            '-=0.55'
+          );
+      });
+    }, sectionRef);
+
+    return () => ctx.revert();
+  }, []);
+
   return (
-    <section className={styles.storySection}>
+    <section className={styles.storySection} ref={sectionRef}>
       <div className={styles.storyStack}>
         {topics.map((topic) => (
           <div
             key={topic.id}
+            ref={setRowRef(topic.id)}
             className={`${styles.storyInner} ${topic.reverse ? styles.reverse : ''}`}
           >
             <div className={styles.storyMedia}>
