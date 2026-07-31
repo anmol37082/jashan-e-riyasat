@@ -1,6 +1,6 @@
 .aboutIntro {
   background-color: #f5f0e8;
-  padding: 100px 0;
+  padding: 80px 0;
   position: relative;
 }
 
@@ -47,8 +47,8 @@
 
 .aboutText {
   font-family: 'Cormorant Garamond', serif;
-  font-size: clamp(14px, 0.6vw + 12px, 16px);
-  font-weight: 300;
+  font-size: 16px;
+  font-weight: 400;
   line-height: 1.7;
   color: var(--text-muted);
   max-width: 420px;
@@ -108,7 +108,7 @@
 
 @media (max-width: 1024px) {
   .aboutIntro {
-    padding: 80px 0;
+    padding: 64px 0;
   }
 
   .aboutInner {
@@ -137,11 +137,16 @@
 
 @media (max-width: 768px) {
   .aboutIntro {
-    padding: 60px 0;
+    padding: 48px 0;
   }
 
   .aboutInner {
     padding: 0 25px;
     gap: 40px;
+  }
+
+  .aboutText {
+    font-size: 15px;
+    line-height: 1.75;
   }
 }

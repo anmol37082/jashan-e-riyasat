@@ -102,7 +102,6 @@ export default function ContentSection({ blocks, destinations = [], currentSlug 
           },
           y: 50,
           opacity: 0,
-          filter: "blur(8px)",
           duration: 0.9,
           ease: "power2.out",
         });

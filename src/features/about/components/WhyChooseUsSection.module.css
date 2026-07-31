@@ -35,7 +35,7 @@ font-family: 'Cormorant Garamond', serif;
 .lead {
   font-family: 'Cormorant Garamond', serif;
   font-size: clamp(16px, 1vw + 13px, 20px);
-  line-height: 1.78;
+  line-height: 1.4;
   color: var(--text-muted);
   max-width: 680px;
   margin: 0;
@@ -98,7 +98,7 @@ font-family: 'Cormorant Garamond', serif;
 .copy {
   font-family: 'Cormorant Garamond', serif;
   font-size: clamp(16px, 0.95vw + 13px, 19px);
-  line-height: 1.85;
+  line-height: 1.4;
   color: var(--text-muted);
   margin: 0;
   max-width: 340px;
@@ -128,7 +128,7 @@ font-family: 'Cormorant Garamond', serif;
   font-family: 'Cormorant Garamond', serif;
   font-style: italic;
   font-size: clamp(18px, 1.15vw + 13px, 24px);
-  line-height: 1.7;
+  line-height: 1.4;
   color: var(--dark-brown);
 }
 

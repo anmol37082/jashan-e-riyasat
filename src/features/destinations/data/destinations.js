@@ -13,7 +13,7 @@ export const destinations = {
       h1: "Best Wedding Planner in Delhi NCR",
       subheadline:
         "Experience the wedding of your dreams with Jashn-e-Riyasat — Delhi NCR's trusted name for elegant, well-planned celebrations.",
-      image: "/images/wedding-1.jpg",
+      image: "/destination/delhi.webp",
     },
     contentBlocks: [
       {
@@ -133,7 +133,7 @@ export const destinations = {
       h1: "Best Wedding Planner in Jaipur",
       subheadline:
         "Royal palace weddings in the Pink City — where heritage meets luxury for your perfect day.",
-      image: "/images/wedding-2.jpg",
+      image: "/destination/jaipur.webp",
     },
     contentBlocks: [
       {
@@ -228,7 +228,7 @@ export const destinations = {
       h1: "Best Wedding Planner in Udaipur",
       subheadline:
         "Lakeside palace weddings where romance floats on water — Udaipur, the Venice of the East.",
-      image: "/images/wedding-3.jpg",
+      image: "/destination/udaipur.webp",
     },
     contentBlocks: [
       {
@@ -317,7 +317,7 @@ export const destinations = {
       h1: "Best Wedding Planner in Goa",
       subheadline:
         "Sun, sand & celebrations — where the ocean witnesses your forever.",
-      image: "/images/wedding-4.jpg",
+      image: "/destination/goa.webp",
     },
     contentBlocks: [
       {
@@ -406,7 +406,7 @@ export const destinations = {
       h1: "Best Wedding Planner in Jodhpur",
       subheadline:
         "Mehrangarh silhouettes, desert light, and royal hospitality for a wedding that feels timeless.",
-      image: "/images/wedding-1.jpg",
+       image: "/destination/jodhpur.webp",
     },
     contentBlocks: [
       {
@@ -483,7 +483,7 @@ export const destinations = {
       h1: "Best Wedding Planner in Kerala",
       subheadline:
         "Backwaters, palm-fringed resorts, and a softer wedding rhythm built for relaxed luxury.",
-      image: "/images/wedding-2.jpg",
+      image: "/destination/kerala.webp",
     },
     contentBlocks: [
       {
@@ -560,7 +560,7 @@ export const destinations = {
       h1: "Best Wedding Planner in Shimla",
       subheadline:
         "A mountain wedding backdrop with cooler weather, clean air, and a more intimate pace.",
-      image: "/images/wedding-3.jpg",
+      image: "/destination/shimla.webp",
     },
     contentBlocks: [
       {
@@ -629,7 +629,7 @@ export const destinations = {
       h1: "Best Wedding Planner in Mussoorie",
       subheadline:
         "A romantic hill station wedding with views, pine air, and a polished resort-driven experience.",
-      image: "/images/wedding-4.jpg",
+      image: "/destination/mussoori.webp",
     },
     contentBlocks: [
       {
@@ -698,7 +698,7 @@ export const destinations = {
       h1: "Best Wedding Planner in Alibaug",
       subheadline:
         "A coastal wedding escape close to Mumbai with resort luxury and relaxed beach energy.",
-      image: "/images/wedding-1.jpg",
+       image: "/destination/alibaug.webp",
     },
     contentBlocks: [
       {
@@ -771,7 +771,7 @@ export const destinations = {
       h1: "Best Wedding Planner in Rishikesh",
       subheadline:
         "River views, spiritual energy, and a calm destination wedding atmosphere by the Ganges.",
-      image: "/images/wedding-2.jpg",
+      image: "/destination/rishikesh.webp",
     },
     contentBlocks: [
       {
@@ -840,7 +840,7 @@ export const destinations = {
       h1: "Best Wedding Planner in Agra",
       subheadline:
         "Heritage venues, classic symbolism, and a strong destination identity built around timeless romance.",
-      image: "/images/wedding-3.jpg",
+       image: "/destination/agra.webp",
     },
     contentBlocks: [
       {
@@ -909,7 +909,7 @@ export const destinations = {
       h1: "Best Wedding Planner in Chandigarh",
       subheadline:
         "A clean, modern destination wedding city with strong access, premium venues, and easier logistics.",
-      image: "/images/wedding-4.jpg",
+      image: "/destination/chandigarh.webp",
     },
     contentBlocks: [
       {
@@ -978,7 +978,7 @@ export const destinations = {
       h1: "Best Wedding Planner in Nainital",
       subheadline:
         "A lake-view hill station wedding with cool weather, scenic charm, and a more intimate mood.",
-      image: "/images/wedding-1.jpg",
+      image: "/destination/nainital.webp",
     },
     contentBlocks: [
       {

@@ -1,11 +1,6 @@
 'use client';
 
-import { useEffect, useRef } from 'react';
-import gsap from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import styles from './WhyChooseUsSection.module.css';
-
-gsap.registerPlugin(ScrollTrigger);
 
 const reasons = [
   {
@@ -47,92 +42,11 @@ const reasons = [
 ];
 
 export default function WhyChooseUsSection() {
-  const sectionRef = useRef(null);
-  const headerRef = useRef(null);
-  const gridRef = useRef(null);
-  const quoteRef = useRef(null);
-
-  useEffect(() => {
-    const ctx = gsap.context(() => {
-      gsap.fromTo(
-        headerRef.current.querySelectorAll(`.${styles.kicker}, .${styles.heading}, .${styles.lead}`),
-        { autoAlpha: 0, y: 24 },
-        {
-          autoAlpha: 1,
-          y: 0,
-          duration: 0.8,
-          ease: 'power3.out',
-          stagger: 0.12,
-          scrollTrigger: {
-            trigger: headerRef.current,
-            start: 'top 82%',
-            once: true,
-          },
-        }
-      );
-
-      const items = gridRef.current.querySelectorAll(`.${styles.item}`);
-      gsap.fromTo(
-        items,
-        { autoAlpha: 0, y: 36 },
-        {
-          autoAlpha: 1,
-          y: 0,
-          duration: 0.9,
-          ease: 'power3.out',
-          stagger: 0.15,
-          scrollTrigger: {
-            trigger: gridRef.current,
-            start: 'top 78%',
-            once: true,
-          },
-        }
-      );
-
-      items.forEach((item) => {
-        const accent = item.querySelector(`.${styles.accent}`);
-        gsap.fromTo(
-          accent,
-          { scaleX: 0 },
-          {
-            scaleX: 1,
-            duration: 0.7,
-            ease: 'power2.inOut',
-            transformOrigin: 'left',
-            delay: 0.2,
-            scrollTrigger: {
-              trigger: item,
-              start: 'top 78%',
-              once: true,
-            },
-          }
-        );
-      });
-
-      gsap.fromTo(
-        quoteRef.current,
-        { autoAlpha: 0, y: 20 },
-        {
-          autoAlpha: 1,
-          y: 0,
-          duration: 0.9,
-          ease: 'power3.out',
-          scrollTrigger: {
-            trigger: quoteRef.current,
-            start: 'top 85%',
-            once: true,
-          },
-        }
-      );
-    }, sectionRef);
-
-    return () => ctx.revert();
-  }, []);
 
   return (
-    <section className={styles.section} ref={sectionRef}>
+    <section className={styles.section}>
       <div className={styles.inner}>
-        <div className={styles.header} ref={headerRef}>
+        <div className={styles.header}>
           <p className={styles.kicker}>Why Choose Us</p>
           <h2 className={styles.heading}>
            More than planners, we&rsquo;re the team behind your peace of mind. 
@@ -143,7 +57,7 @@ export default function WhyChooseUsSection() {
           </p>
         </div>
 
-        <div className={styles.grid} ref={gridRef}>
+        <div className={styles.grid}>
           {reasons.map((reason) => (
             <div key={reason.id} className={styles.item}>
               <span className={styles.accent} />
@@ -154,7 +68,7 @@ export default function WhyChooseUsSection() {
           ))}
         </div>
 
-        <div className={styles.quoteWrap} ref={quoteRef}>
+        <div className={styles.quoteWrap}>
           <span className={styles.quoteMark}>&ldquo;</span>
           <p className={styles.quote}>
             Trusted for weddings where hospitality, precision, and calm execution

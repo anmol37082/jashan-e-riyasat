@@ -7,35 +7,35 @@ const steps = [
     title: 'Planning',
     text: 'Understanding your vision, budget, and priorities.',
     image:
-      'https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=900&auto=format&fit=crop',
+      '/about/planning4.webp',
   },
   {
     id: 'II',
     title: 'Design',
     text: 'Curating a theme and decor direction around your story.',
     image:
-      'https://images.unsplash.com/photo-1522673607200-164d1b6ce486?q=80&w=900&auto=format&fit=crop',
+       '/about/design2.webp',
   },
   {
     id: 'III',
     title: 'Coordination',
     text: 'Locking in trusted vendors and aligning every detail.',
     image:
-      'https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=900&auto=format&fit=crop',
+      '/about/celebration1.webp',
   },
   {
     id: 'IV',
     title: 'Execution',
     text: 'Managing every moving part so you can simply experience it.',
     image:
-      'https://images.unsplash.com/photo-1519225421980-715cb0215aed?q=80&w=900&auto=format&fit=crop',
+'/about/excutaion.webp',
   },
   {
     id: 'V',
     title: 'Celebration',
     text: 'The final farewell, delivered with polish and warmth.',
     image:
-      'https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?q=80&w=900&auto=format&fit=crop',
+      '/about/celebration.webp',
   },
 ];
 
@@ -46,7 +46,7 @@ export default function PlanningProcessSection() {
         <div className={styles.header}>
           <p className={styles.kicker}>Our Planning Process</p>
           <h2 className={styles.heading}>
-            A clear, structured path from first conversation to final farewell.
+           A seamless journey from our first conversation to your final celebration. 
           </h2>
         </div>
 

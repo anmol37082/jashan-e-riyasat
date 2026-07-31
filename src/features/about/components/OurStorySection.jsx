@@ -15,7 +15,7 @@ const topics = [
     title: 'A Legacy of Celebration',
     body:
       'At Jashn E Riyasat, every wedding is a once-in-a-lifetime celebration planned with love, creativity, and care. Over the years, we have turned many dreams into beautifully designed celebrations shaped around each couple’s story, traditions, and personality.',
-    image: '/about.webp',
+    image: '/about/1.webp',
     imageAlt: 'Elegant wedding setting',
     reverse: false,
   },
@@ -25,7 +25,7 @@ const topics = [
     title: 'Excellence Beyond Expectations',
     body:
       'For us, excellence is more than delivering a beautiful wedding. It means creating an experience that feels effortless, thoughtful, and unforgettable through creative design, precise planning, and flawless execution at every step.',
-    image: '/about.webp',
+    image: '/about/2.webp',
     imageAlt: 'Elegant wedding table setting',
     reverse: true,
   },
@@ -35,7 +35,7 @@ const topics = [
     title: 'The Guest Experience',
     body:
       'A wedding becomes truly special when your guests feel just as celebrated as the couple. We focus on warm welcomes, smooth arrivals, comfortable spaces, and a natural flow so everyone can enjoy the day without stress.',
-    image: '/about.webp',
+    image: '/about/3.webp',
     imageAlt: 'Wedding hospitality detail',
     reverse: false,
   },
@@ -45,7 +45,7 @@ const topics = [
     title: 'Built on Trust',
     body:
       'Every wedding starts with trust, and we value that deeply. By listening closely, staying transparent, and keeping every promise, we build real connections with couples and families that continue long after the celebration ends.',
-    image: '/about.webp',
+    image: '/about/4.webp',
     imageAlt: 'Wedding hospitality detail',
     reverse: true,
   },

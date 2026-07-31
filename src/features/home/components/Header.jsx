@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import Link from 'next/link';
 import styles from './Header.module.css';
 import useScrollPosition from '@/hooks/useScrollPosition';
 
@@ -87,7 +88,7 @@ export default function Header({ onMenuToggle }) {
         </ul>
 
         {/* Center Logo */}
-        <div className={styles.logo}>
+        <Link href="/" className={styles.logo} aria-label="Go to home page">
           <div className={styles.logoTop}>
             <span className={styles.logoEst}>Est</span>
             <div className={styles.logoIcon} />
@@ -97,7 +98,7 @@ export default function Header({ onMenuToggle }) {
             Jashn-<span>e-</span>Riyasat
           </h1>
           <p className={styles.logoSub}>Events</p>
-        </div>
+        </Link>
 
         {/* Right Navigation */}
         <ul className={styles.navRight}>

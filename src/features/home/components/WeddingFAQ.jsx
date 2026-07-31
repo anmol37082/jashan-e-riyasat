@@ -1,6 +1,7 @@
 // app/sections/WeddingFAQ.jsx
 'use client';
 
+import Image from 'next/image';
 import { useState } from 'react';
 import styles from './WeddingFAQ.module.css';
 
@@ -114,7 +115,7 @@ export default function WeddingFAQ() {
         className={styles.question}
         onClick={() => toggleFAQ(item.id)}
       >
-        <img className={styles.flower} src="/flower.svg" alt="" aria-hidden="true" />
+        <Image className={styles.flower} src="/flower.svg" alt="" aria-hidden="true" width={24} height={24} />
         <span className={styles.text}>{item.question}</span>
         <span className={`${styles.arrow} ${openId === item.id ? styles.arrowOpen : ''}`}>
           ›

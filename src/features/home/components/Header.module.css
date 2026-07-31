@@ -100,6 +100,9 @@
   transform: translateX(-50%);
   z-index: 2;
   padding: 15px 20px;
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
 }
 
 .logoTop {
@@ -178,6 +181,13 @@
   text-transform: uppercase;
   margin-top: 8px;
   font-weight: 500;
+}
+
+.logo:hover .logoMain,
+.logo:hover .logoSub,
+.logo:hover .logoEst,
+.logo:hover .logoYear {
+  opacity: 0.9;
 }
 
 /* ===== NAVIGATION ===== */

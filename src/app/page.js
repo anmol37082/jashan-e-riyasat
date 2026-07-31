@@ -26,21 +26,14 @@ export default function Home() {
        <Services />
        <PressLogos />
       <VideoSection />
-      
       <Gallery />
       {/* <Banner /> */}
       <WeddingStories />
-     
       <Portfolio />
         <Testimonials />
-     
       <CinematicPan />
-     
-     
       <OurBlogs />
-      
  <WeddingFAQ />
-
       
     </>
   );

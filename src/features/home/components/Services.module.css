@@ -1,6 +1,6 @@
 .services {
   background: #f5f0e8;
-  padding: 80px 40px 120px;
+  padding: 64px 32px 88px;
 }
 
 .servicesInner {
@@ -14,13 +14,16 @@
 }
 
 .servicesLabel {
+  display: inline-flex;
+  align-items: center;
   font-family: 'Montserrat', sans-serif;
-  font-size: 11px;
-  letter-spacing: 3px;
+  font-size: clamp(10px, 0.4vw + 9px, 11px);
+  letter-spacing: clamp(1.5px, 0.15vw + 1px, 2.5px);
   text-transform: uppercase;
-  color: var(--text-muted);
+  color: var(--dark-brown);
   margin-bottom: 20px;
-  font-weight: 600;
+  font-weight: 500;
+  width: fit-content;
 }
 
 .servicesHeading {
@@ -48,7 +51,7 @@
   overflow: hidden;
   aspect-ratio: 3/4;
   border-radius: 0;
-  border: 1px solid rgba(184, 168, 138, 0.22);
+  border: none;
   box-shadow: 0 14px 30px rgba(61, 43, 31, 0.08);
   background: #1f1811;
 }
@@ -103,7 +106,7 @@
 
 @media (max-width: 1024px) {
   .services {
-    padding: 0 30px 80px;
+    padding: 0 24px 64px;
   }
 
   .servicesGrid {
@@ -118,7 +121,7 @@
 
 @media (max-width: 768px) {
   .services {
-    padding: 0 25px 60px;
+    padding: 0 20px 52px;
   }
 
   .servicesGrid {

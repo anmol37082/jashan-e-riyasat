@@ -2,7 +2,7 @@
 
 .section {
   width: 100%;
-  padding: 80px 40px;
+  padding: 60px 32px;
   background-color: #f5f0e8;
 }
 
@@ -118,13 +118,13 @@
   }
   
   .section {
-    padding: 60px 24px;
+    padding: 48px 20px;
   }
 }
 
 @media (max-width: 640px) {
   .section {
-    padding: 40px 16px;
+    padding: 36px 14px;
   }
   
   .question {

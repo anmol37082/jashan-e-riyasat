@@ -7,11 +7,13 @@
 
 .section {
  background-color: #f5f0e8;
-  padding: 80px 20px;
+  padding: clamp(44px, 5vw, 72px) 16px;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  min-height: 100svh;
+  min-height: clamp(540px, 82svh, 780px);
   overflow: hidden;
 }
 
@@ -234,7 +236,7 @@
 
 @media (max-width: 768px) {
   .section {
-    padding: 60px 20px;
+    padding: 48px 16px;
     min-height: auto;
   }
 
@@ -266,7 +268,7 @@
 
 @media (max-width: 480px) {
   .section {
-    padding: 50px 16px;
+    padding: 40px 14px;
   }
 
   .imageBox {

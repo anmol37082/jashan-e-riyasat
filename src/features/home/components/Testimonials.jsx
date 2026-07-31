@@ -73,7 +73,7 @@ export default function Testimonials() {
   const t = testimonials[current];
 
   return (
-    <section className={styles.section}>
+    <section id="testimonials" className={styles.section}>
       <div className={styles.container}>
         <div className={styles.imageBox}>
           <div

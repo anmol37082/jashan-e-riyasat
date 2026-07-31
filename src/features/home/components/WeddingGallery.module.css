@@ -2,7 +2,7 @@
 
 .container {
   background-color: #f5f0e8;
-  padding: 90px 20px 70px;
+  padding: 70px 16px 56px;
   font-family: 'Cormorant Garamond', Georgia, serif;
 }
 
@@ -13,13 +13,16 @@
 }
 
 .eyebrow {
-  font-size: 12px;
-  font-weight: 600;
-  letter-spacing: 4px;
+  display: inline-flex;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: clamp(10px, 0.4vw + 9px, 11px);
+  font-weight: 500;
+  letter-spacing: clamp(1.5px, 0.15vw + 1px, 2.5px);
   text-transform: uppercase;
-  color: #8b7355;
+  color: var(--dark-brown);
   margin: 0 0 10px;
-  font-family: 'Inter', sans-serif;
+  width: fit-content;
 }
 
 .title {
@@ -226,7 +229,7 @@
   }
 
   .container {
-    padding: 90px 80px 70px;
+    padding: 70px 60px 56px;
   }
 }
 
@@ -236,7 +239,7 @@
   }
 
   .container {
-    padding: 90px 100px 70px;
+    padding: 70px 72px 56px;
   }
 }
 
