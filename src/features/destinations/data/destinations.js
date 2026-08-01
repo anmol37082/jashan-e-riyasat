@@ -1035,6 +1035,144 @@ export const destinations = {
       },
     ],
   },
+"mount-abu": {
+    meta: {
+      title: "Best Wedding Planner in Mount Abu | Jashn-e-Riyasat",
+      description:
+        "Cool-climate lake weddings in Mount Abu, Rajasthan's only hill station, planned by Jashn-e-Riyasat with heritage stays and scenic guest experiences.",
+    },
+    hero: {
+      location: "Mount Abu",
+      h1: "Best Wedding Planner in Mount Abu",
+      subheadline:
+        "Rajasthan's only hill station — cool air, lake views, and a wedding that feels like a proper escape.",
+      image: "/destination/mount-abu.webp",
+    },
+    contentBlocks: [
+      {
+        h2: "Mount Abu — A Cooler Side of Rajasthan",
+        body: "Mount Abu gives couples something genuinely rare in Rajasthan — a wedding destination with hill-station weather instead of desert heat. Nakki Lake sits at the centre of the town and shows up in the background of almost every function we plan here, and the surrounding Aravalli greenery gives the whole event a softer, calmer feel than the palace cities further north. Jashn-e-Riyasat plans Mount Abu weddings around this contrast — Rajasthani hospitality with a hill-station pace.",
+      },
+      {
+        h2: "Why Couples Choose Mount Abu",
+        body: "Mount Abu works well for couples who want the cultural weight of a Rajasthani wedding without the heat and scale that comes with Jaipur or Udaipur. It's compact enough that guests can walk between the lake, the market and most heritage stays, which keeps a multi-day wedding feeling relaxed instead of spread thin across long transfers.",
+        stats: [
+          { label: "Climate", value: "Cool" },
+          { label: "Best Season", value: "Oct – Mar" },
+          { label: "Setting", value: "Lake & Hills" },
+          { label: "Guest Flow", value: "Compact" },
+        ],
+      },
+      {
+        h2: "Top Mount Abu Venues",
+        body: "Properties around Nakki Lake give guests a scenic base right in the centre of town, with easy access to the ghats for a sunset ceremony. Delwara's heritage havelis suit couples who want a quieter, more traditional Rajasthani setting away from the main market area. Wilson Hill and the surrounding resort belt offer more open lawns for larger sangeets and receptions, while properties near Sunset Point work well for evening functions that make use of the valley views.",
+        venues: [
+          { area: "Nakki Lake", type: "Central stays with lake and ghat access" },
+          { area: "Delwara", type: "Heritage havelis, quieter traditional setting" },
+          { area: "Wilson Hill", type: "Open lawns for larger functions" },
+          { area: "Sunset Point", type: "Valley-view venues for evening events" },
+        ],
+      },
+      {
+        h2: "Mount Abu Wedding Themes",
+        body: "We tend to keep Mount Abu décor a shade cooler and softer than a typical desert-palace wedding — sage greens, ivory and brass work well against the hill backdrop, and the lake gives evening functions a natural, reflective glow that needs very little added lighting to look complete.",
+        themes: [
+          { name: "Lakeside Royal", desc: "Rajasthani detailing with a cooler, softer palette" },
+          { name: "Misty Morning", desc: "Daytime functions styled around hill fog and greenery" },
+          { name: "Heritage Haveli", desc: "Traditional courtyards with intimate guest counts" },
+          { name: "Valley Sunset", desc: "Evening receptions framed by the Aravalli hills" },
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "Is Mount Abu good for a Rajasthani wedding without the heat?",
+        a: "Yes, it's the main reason couples pick it — you get the Rajasthani hospitality and architecture with genuinely cooler weather than Jaipur or Udaipur.",
+      },
+      {
+        q: "How many guests does Mount Abu suit best?",
+        a: "It works best for weddings between 100-400 guests. The town is compact, so very large guest counts can outgrow the available venue inventory quickly.",
+      },
+      {
+        q: "What is the best season for a Mount Abu wedding?",
+        a: "October to March, when the hill-station weather is at its most comfortable for both outdoor lake ceremonies and evening functions.",
+      },
+      {
+        q: "Do you arrange transport from the nearest airport?",
+        a: "Yes, we coordinate guest transfers from Udaipur airport, which is the closest, along with local movement between the lake area and venue stays.",
+      },
+    ],
+  },
+
+  "coorg": {
+    meta: {
+      title: "Best Wedding Planner in Coorg | Jashn-e-Riyasat",
+      description:
+        "Misty coffee-plantation weddings in Coorg planned by Jashn-e-Riyasat, with boutique resorts, calm hospitality and full destination coordination.",
+    },
+    hero: {
+      location: "Coorg",
+      h1: "Best Wedding Planner in Coorg",
+      subheadline:
+        "Misty coffee plantations and cool hill air — a quiet, intimate destination wedding in South India.",
+      image: "/destination/coorg.webp",
+    },
+    contentBlocks: [
+      {
+        h2: "Coorg — A Plantation Wedding Unlike Any Other",
+        body: "Coorg brings a completely different texture to a destination wedding compared to the Rajasthan or Goa circuit — coffee plantations, mist rolling over the hills in the early morning, and a genuinely quiet, private feel that suits a smaller guest list. Jashn-e-Riyasat plans Coorg weddings around boutique estate resorts, where the setting itself does most of the visual and emotional work.",
+      },
+      {
+        h2: "Why Coorg Works for Weddings",
+        body: "Couples pick Coorg when they want an intimate, nature-first wedding rather than a display of scale — it suits a close guest list who genuinely want to spend a few unhurried days together in the hills. The plantation estates also give a wedding a distinct, less-seen backdrop that photographs very differently from the usual palace or beach settings.",
+        stats: [
+          { label: "Setting", value: "Plantation" },
+          { label: "Best Season", value: "Oct – Mar" },
+          { label: "Mood", value: "Intimate" },
+          { label: "Guest Count", value: "Small – Mid" },
+        ],
+      },
+      {
+        h2: "Popular Coorg Venues",
+        body: "Madikeri's estate resorts offer the classic misty-hills experience with plantation walks built into the guest stay. Kushalnagar has more open resort properties suited to slightly larger functions and riverside ceremonies along the Cauvery. Chettalli's remote coffee estates work well for couples wanting near-total privacy, and Virajpet's boutique heritage bungalows suit a smaller, more personal wedding format.",
+        venues: [
+          { area: "Madikeri", type: "Estate resorts with plantation walks" },
+          { area: "Kushalnagar", type: "Riverside functions along the Cauvery" },
+          { area: "Chettalli", type: "Remote coffee estates for full privacy" },
+          { area: "Virajpet", type: "Boutique heritage bungalow stays" },
+        ],
+      },
+      {
+        h2: "Coorg Wedding Styling",
+        body: "Earthy tones, cane and wood textures, and generous use of local greenery suit Coorg far better than anything bright or heavily structured — the plantation setting already carries a lot of natural texture, so décor works best when it stays understated and lets the estate itself remain the focus.",
+        themes: [
+          { name: "Misty Estate", desc: "Soft morning functions styled around plantation fog" },
+          { name: "Plantation Rustic", desc: "Wood, cane and earthy neutral tones" },
+          { name: "Riverside Vows", desc: "Ceremony settings along the Cauvery" },
+          { name: "Quiet Luxury", desc: "Understated styling for a small, close guest list" },
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "Is Coorg suitable for a small, intimate wedding?",
+        a: "Yes, it's one of the strongest destinations in India for this — the plantation estates are built for smaller, closer guest lists rather than large-scale events.",
+      },
+      {
+        q: "How do guests reach Coorg?",
+        a: "The nearest airports are Mangalore and Bangalore, both around 4-5 hours by road. We coordinate group transfers and staggered arrivals so guests aren't stuck waiting around.",
+      },
+      {
+        q: "What is the best season for a Coorg wedding?",
+        a: "October to March offers the most reliable weather, with the misty mornings that make Coorg's plantation estates so photogenic.",
+      },
+      {
+        q: "Can Coorg handle a mid-sized guest list?",
+        a: "Yes, though it's best suited to guest counts under 250. Larger properties in Kushalnagar can accommodate mid-sized functions comfortably.",
+      },
+    ],
+  },
+
 };
 
 function buildSeoContentBlock(location) {
