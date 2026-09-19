@@ -5,7 +5,7 @@ const storyImages = [
   '/stories/Devikasohail/img(6).webp',
   '/stories/hardiknitu/hardiknitu(1).webp',
   '/stories/Oshin/495467098_18271867552284754_4339792822853782028_n.webp',
-  '/stories/abhinavgauri/card.webp',
+  '/stories/abhinavgauri/card1.webp',
 ];
 
 const storyGalleryImages = [
@@ -623,6 +623,7 @@ export const stories = [
         'Through careful planning, strict budget negotiation, and precise execution over three months, Abhinav and Gauriâ€™s wedding was delivered as a true fairytale. The combination of high-end logistics, dedicated shadow support, and personalized hospitality let the couple and their families relax and enjoy every moment.',
     },
   },
+  /* Temporarily hidden from both the homepage Wedding Stories carousel and Our Work page.
   {
     id: 6,
     slug: 'saloni-atin',
@@ -758,8 +759,8 @@ export const stories = [
         'The cross-cultural union of Varunav and Liza was a flawless, high-energy success. The Russian guests felt deeply welcomed and cherished, the venue operations ran like clockwork, and the couple experienced their dream wedding completely stress-free.',
     },
   },
+  */
 ];
 
 export const getStoryBySlug = (slug) =>
   stories.find((story) => story.slug === slug);
-

@@ -97,8 +97,8 @@
 
 .serviceTitle {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 25px;
-  font-weight: 200;
+  font-size: 22px;
+  font-weight: 300;
   color: #ffffff;
   line-height: 1.2;
   text-shadow: 0 0 0.9px rgba(255, 255, 255, 0.8);
@@ -130,7 +130,7 @@
   }
 
   .serviceTitle {
-    font-size: 26px;
+    font-size: 22px;
   }
 
   .serviceOverlay {

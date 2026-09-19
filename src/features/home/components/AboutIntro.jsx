@@ -42,7 +42,7 @@ export default function AboutIntro() {
         <div className={styles.aboutRight}>
           <div className={styles.aboutImageWrapper}>
             <Image
-              src="/about.webp"
+              src="/aboutbnner2.webp"
               alt="Elegant wedding table setting"
               className={styles.aboutImage}
               width={600}

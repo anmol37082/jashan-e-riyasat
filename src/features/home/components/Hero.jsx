@@ -58,7 +58,7 @@ export default function Hero() {
             </p>
           </div>
           
-          <span className={styles.bottomYear}>2012</span>
+          <span className={styles.bottomYear}>2026</span>
         </div>
         
         {/* Decorative line */}
