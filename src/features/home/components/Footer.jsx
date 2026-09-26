@@ -83,16 +83,6 @@ export default function Footer() {
         ))}
       </nav>
 
-      {/* Large Brand Name */}
-      <div className={styles.footerBrand}>
-        <Image
-          src="/textlogo.webp"
-          alt="Jashan-e-Riyasat"
-          width={1359}
-          height={256}
-          className={styles.footerBrandLogo}
-        />
-      </div>
     </footer>
   );
 }

@@ -129,58 +129,7 @@
   color: #fedb7c;
 }
 
-/* ========== BRAND TEXT — 100% FIXED ========== */
-.footerBrand {
-  margin-top: 60px;
-  text-align: center;
-  width: 100%;
-}
-
-.footerBrandLogo {
-  display: block;
-  width: min(100%, 1100px);
-  height: auto;
-  margin: 0 auto;
-}
-
-.footerBrandText {
-  font-family: 'Cormorant Garamond', serif;
-  font-weight: 300;
-  color: #fedb7c;
-  text-transform: uppercase;
-  line-height: 1;
-  opacity: 1;
-  white-space: nowrap;
-  
-  
-  
-  /* 
-    KEY FIX: 
-    "JASHAN-E-RIYASAT" = ~16 characters
-    Each character ~0.6em width in this font
-    Total text width ≈ 16 × 0.6em = 9.6em
-    Plus letter-spacing (0.4em per char ≈ 6.4em total)
-    Total ≈ 16em
-    
-    So: font-size = (100vw - padding) / 16
-    This ensures text ALWAYS fits in one line
-  */
-  font-size: clamp(14px, calc((100vw - 120px) / 16), 120px);
-  letter-spacing: clamp(1px, calc((100vw - 120px) / 260), 10px);
-}
-
-.footerBrandText span {
-  font-style: italic;
-}
-
 /* ========== MEDIA QUERIES ========== */
-@media (max-width: 1024px) {
-  .footerBrandText {
-    font-size: clamp(13px, calc((100vw - 80px) / 16), 96px);
-    letter-spacing: clamp(1px, calc((100vw - 80px) / 260), 8px);
-  }
-}
-
 @media (max-width: 768px) {
   .footer {
     padding: 42px 20px 24px;
@@ -215,28 +164,5 @@
     flex-wrap: wrap;
     gap: 20px 30px;
     margin-top: 40px;
-  }
-
-  .footerBrand {
-    margin-top: 40px;
-  }
-
-  .footerBrandText {
-    font-size: clamp(12px, calc((100vw - 50px) / 16), 70px);
-    letter-spacing: clamp(1px, calc((100vw - 50px) / 260), 6px);
-  }
-}
-
-@media (max-width: 480px) {
-  .footerBrandText {
-    font-size: clamp(10px, calc((100vw - 40px) / 16), 56px);
-    letter-spacing: clamp(0.5px, calc((100vw - 40px) / 280), 4px);
-  }
-}
-
-@media (max-width: 360px) {
-  .footerBrandText {
-    font-size: clamp(9px, calc((100vw - 30px) / 16), 42px);
-    letter-spacing: 0.5px;
   }
 }
