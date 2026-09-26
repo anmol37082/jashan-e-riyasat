@@ -31,8 +31,8 @@ export default function ContactInfo() {
         </svg>
       ),
       label: 'Email',
-      value: 'info@jashn-e-riyasat.com',
-      href: 'mailto:info@jashn-e-riyasat.com',
+      value: 'info@jashan-e-riyasat.com',
+      href: 'mailto:info@jashan-e-riyasat.com',
     },
     {
       icon: (

@@ -24,9 +24,9 @@ export default function AboutIntro() {
           </h2>
           
           <p className={styles.aboutText}>
-           Your wedding is more than an event it&apos;s the beginning of 
-           a beautiful journey. At Jashn E Riyasat, we bring your vision 
-           to life through thoughtful planning, stunning décor, and 
+           Your wedding is more than an event it&apos;s the beginning of
+           a beautiful journey. At Jashan-e-Riyasat, we bring your vision
+           to life through thoughtful planning, stunning décor, and
            seamless coordination, creating celebrations filled with 
            love, joy, and unforgettable memories.
           </p>
@@ -42,7 +42,7 @@ export default function AboutIntro() {
         <div className={styles.aboutRight}>
           <div className={styles.aboutImageWrapper}>
             <Image
-              src="/aboutbnner2.webp"
+              src="/about.jpeg"
               alt="Elegant wedding table setting"
               className={styles.aboutImage}
               width={600}

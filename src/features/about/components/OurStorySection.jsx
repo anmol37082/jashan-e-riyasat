@@ -14,7 +14,7 @@ const topics = [
     label: '01',
     title: 'A Legacy of Celebration',
     body:
-      'At Jashn E Riyasat, every wedding is a once-in-a-lifetime celebration planned with love, creativity, and care. Over the years, we have turned many dreams into beautifully designed celebrations shaped around each couple’s story, traditions, and personality.',
+      'At Jashan-e-Riyasat, every wedding is a once-in-a-lifetime celebration planned with love, creativity, and care. Over the years, we have turned many dreams into beautifully designed celebrations shaped around each couple’s story, traditions, and personality.',
     image: '/about/1.webp',
     imageAlt: 'Elegant wedding setting',
     reverse: false,

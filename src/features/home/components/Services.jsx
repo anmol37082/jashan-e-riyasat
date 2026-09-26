@@ -5,37 +5,37 @@ const services = [
   {
     number: '01',
     title: 'Full Wedding Planning',
-    image: '/services/service01.webp',
+    image: '/services/fullplaninng.webp',
   },
   {
     number: '02',
     title: 'Destination Weddings',
-    image: '/services/service2.webp',
+    image: '/services/destination.webp',
   },
   {
     number: '03',
     title: 'Wedding Decoration',
-    image: '/services/service3.webp',
+    image: '/services/dec.webp',
   },
   {
     number: '04',
     title: 'Photography & Films',
-    image: '/services/service4.webp',
+    image: '/services/photography.webp',
   },
   {
     number: '05',
     title: 'Catering',
-    image: '/services/service5.webp',
+    image: '/services/catering.webp',
   },
   {
     number: '06',
     title: 'Bridal Makeup',
-    image: '/services/service6.webp',
+    image: '/services/bridal.webp',
   },
   {
     number: '07',
     title: 'Entertainment',
-    image: '/services/service7.webp',
+    image: '/services/entertainment.webp',
   },
   {
     number: '08',

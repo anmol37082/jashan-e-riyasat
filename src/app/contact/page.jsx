@@ -3,9 +3,9 @@ import ContactInfo from '@/features/contact/components/ContactInfo';
 import WeddingEnquiry from '@/features/contact/components/WeddingEnquiry';
 
 export const metadata = {
-  title: 'Contact | Jashn-e-Riyasat Events',
+  title: 'Contact | Jashan-e-Riyasat Events',
   description:
-    'Get in touch with Jashn-e-Riyasat Events to start planning your Haldi, Mehndi, Wedding, or Reception celebration.',
+    'Get in touch with Jashan-e-Riyasat Events to start planning your Haldi, Mehndi, Wedding, or Reception celebration.',
 };
 
 export default function Page() {

@@ -6,7 +6,7 @@
    ============================================ */
 
 .section {
- background-color: #f5f0e8;
+ background-color: var(--cream);
   padding: clamp(44px, 5vw, 72px) 16px;
   display: flex;
   justify-content: center;

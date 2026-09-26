@@ -4,7 +4,7 @@ export const blogs = [
   {
     id: 1,
     slug: 'behind-the-scenes-of-wedding-planning',
-    image: '/blog/blog1.webp',
+    image: '/blog/blog01.webp',
     title: 'Behind the Scenes of Wedding Planning: What Really Happens Before Guests Arrive',
     date: 'Jun 24, 2026',
     excerpt:
@@ -61,16 +61,16 @@ export const blogs = [
   {
     id: 2,
     slug: 'top-wedding-planners-in-chandigarh-for-a-stress-free-wedding',
-    image: '/blog/blog2.webp',
+    image: '/blog/blog02.webp',
     title: 'Top Wedding Planners in Chandigarh for a Stress-Free Wedding',
     date: 'Jun 24, 2026',
     excerpt:
       'A good wedding planner takes the logistics off your shoulders so you can actually enjoy the lead-up to your wedding.',
     content: [
       {
-        heading: 'Jashn-e-Riyasat - Weddings That Feel Like Royal Celebrations',
+        heading: 'Jashan-e-Riyasat - Weddings That Feel Like Royal Celebrations',
         body: [
-          "Jashn-e-Riyasat has built a reputation as one of Chandigarh's go-to wedding planners because the team does not try to fit every couple into the same template.",
+          "Jashan-e-Riyasat has built a reputation as one of Chandigarh's go-to wedding planners because the team does not try to fit every couple into the same template.",
           "Every couple's story is different, and the team plans around that whether it is a big palace-style wedding, a modern luxury setup, or a smaller destination ceremony.",
           'From the first meeting to the final send-off, they stay involved in the details so the couple is not left chasing vendors or worrying about logistics on the actual day.',
           'What they offer includes complete wedding planning and coordination, luxury decor and styling, destination wedding planning, vendor and hospitality management, entertainment and guest experience planning, custom wedding themes, and packages across different budgets.',
@@ -143,9 +143,9 @@ export const blogs = [
         ],
       },
       {
-        heading: 'Why Couples Keep Choosing Jashn-e-Riyasat',
+        heading: 'Why Couples Keep Choosing Jashan-e-Riyasat',
         body: [
-          'Jashn-e-Riyasat does not hand you a fixed package and call it a day.',
+          'Jashan-e-Riyasat does not hand you a fixed package and call it a day.',
           'The team builds around your personality, your traditions, and what you actually pictured for your wedding.',
           'Big destination wedding, luxury reception, a lively mehendi, or a small intimate ceremony, the approach stays the same: plan it properly, execute it well, and let the couple actually enjoy their own wedding instead of running it.',
         ],
@@ -155,10 +155,10 @@ export const blogs = [
         body: [
           'A wedding should be about the two of you, not spreadsheets and vendor calls.',
           'The right planner takes that weight off so you and your family can actually be present for it.',
-          'If you are looking for a wedding planner in Chandigarh who gets both the creative side and the logistics right, Jashn-e-Riyasat is worth talking to.',
-          'Planning your wedding? Whether it is a big destination celebration or something small and intimate, Jashn-e-Riyasat can help you build it the way you actually pictured it.',
+          'If you are looking for a wedding planner in Chandigarh who gets both the creative side and the logistics right, Jashan-e-Riyasat is worth talking to.',
+          'Planning your wedding? Whether it is a big destination celebration or something small and intimate, Jashan-e-Riyasat can help you build it the way you actually pictured it.',
           'Ready to Plan Your Dream Wedding?',
-          "Whether you're planning a grand destination wedding or an intimate celebration, Jashn-e-Riyasat is here to turn your vision into an unforgettable experience.",
+          "Whether you're planning a grand destination wedding or an intimate celebration, Jashan-e-Riyasat is here to turn your vision into an unforgettable experience.",
           'Let your wedding story begin with elegance, perfection, and memories that last forever.',
         ],
       },
@@ -167,7 +167,7 @@ export const blogs = [
   {
     id: 3,
     slug: 'complete-wedding-planning-guide-for-tricity-couples',
-    image: '/blog/blog3.webp',
+    image: '/blog/blog03.webp',
     title: 'Wedding Decor Ideas for Every Occasion',
     date: 'Jun 19, 2026',
     excerpt:
@@ -243,7 +243,8 @@ export const blogs = [
   {
     id: 4,
     slug: 'how-to-plan-a-wedding-day-timeline-that-actually-works',
-    image: '/blog/blog4.webp',
+    image: '/blog/blog004.webp',
+    heroImage: '/blog/blog004.webp',
     title: 'How to Plan a Wedding Day Timeline That Actually Works',
     date: 'Jun 19, 2026',
     excerpt:
@@ -313,7 +314,7 @@ export const blogs = [
         heading: 'Final Thoughts',
         body: [
           "A wedding timeline is not really about being on time for the sake of it. It is about making sure nobody is rushing, nothing feels chaotic, and the couple actually gets to experience their own day instead of just getting through it.",
-          "At Jashn-e-Riyasat, timeline planning is one of the first things we work out with every couple, well before the decor or vendor details, because everything else runs smoother once the day's flow is figured out.",
+          "At Jashan-e-Riyasat, timeline planning is one of the first things we work out with every couple, well before the decor or vendor details, because everything else runs smoother once the day's flow is figured out.",
         ],
       },
     ],
@@ -387,7 +388,7 @@ export const blogs = [
         body: [
           'A destination wedding is not just a regular wedding with a nicer backdrop. It is a different kind of planning altogether, with its own logistics, budget lines, and timing.',
           'Get the practical side right early, and the effortless part in the photos actually becomes effortless for you too.',
-          'At Jashn-e-Riyasat, destination weddings are planned with the logistics sorted first and the aesthetics built around them because a beautiful setting only works if everything else runs on time.',
+          'At Jashan-e-Riyasat, destination weddings are planned with the logistics sorted first and the aesthetics built around them because a beautiful setting only works if everything else runs on time.',
         ],
       },
     ],
@@ -454,7 +455,7 @@ export const blogs = [
         body: [
           'There is no universal formula for where wedding money should go. It depends on what actually matters to you as a couple.',
           'The couples who end up happiest with their budget are usually the ones who decided early what they cared about most, and gave themselves permission to spend less everywhere else.',
-          'At Jashn-e-Riyasat, budget planning is one of the first conversations we have with every couple, not to cut corners, but to make sure the money goes where it will actually be felt on the day.',
+          'At Jashan-e-Riyasat, budget planning is one of the first conversations we have with every couple, not to cut corners, but to make sure the money goes where it will actually be felt on the day.',
         ],
       },
     ],
@@ -522,7 +523,7 @@ export const blogs = [
         body: [
           'There is no single correct bridal look. What matters is that each outfit fits the mood of its function and that you are actually comfortable wearing it for hours at a stretch.',
           'Plan them as a set, not as five separate decisions, and the whole week ends up feeling a lot more put together.',
-          'At Jashn-e-Riyasat, we help couples plan outfit direction alongside decor and colour themes, so every function feels visually connected from the Haldi morning to the reception night.',
+          'At Jashan-e-Riyasat, we help couples plan outfit direction alongside decor and colour themes, so every function feels visually connected from the Haldi morning to the reception night.',
         ],
       },
     ],
@@ -597,7 +598,7 @@ export const blogs = [
         body: [
           'A monsoon wedding is not something to avoid. It just needs a different kind of planning than a dry-season one.',
           'Get the backup plan, the tenting, and the guest comfort details sorted early, and the rain becomes part of the charm instead of a problem to manage.',
-          'At Jashn-e-Riyasat, monsoon weddings are planned with a proper indoor-outdoor contingency from day one, so a sudden shower never actually derails the celebration.',
+          'At Jashan-e-Riyasat, monsoon weddings are planned with a proper indoor-outdoor contingency from day one, so a sudden shower never actually derails the celebration.',
         ],
       },
     ],
@@ -605,4 +606,3 @@ export const blogs = [
 ];
 
 export const getBlogBySlug = (slug) => blogs.find((blog) => blog.slug === slug);
-

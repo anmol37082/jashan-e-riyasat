@@ -1,9 +1,9 @@
 .enquirySection {
-  --text: var(--dark-brown);
+  --text: var(--title-color);
   --muted: var(--text-muted);
   --accent: var(--gold);
   
-background-color: #f5f0e8;
+  background-color: var(--cream);
   padding: clamp(1.5rem, 3vw, 2.5rem) clamp(1.5rem, 5vw, 4rem) clamp(5rem, 10vw, 8rem);
 }
 
@@ -78,7 +78,7 @@ background-color: #f5f0e8;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.12em;
-  color: rgba(44, 36, 27, 0.72);
+  color: var(--title-color);
 }
 
 .input,

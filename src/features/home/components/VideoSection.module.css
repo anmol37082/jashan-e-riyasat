@@ -1,7 +1,7 @@
 .videoSection {
   position: relative;
   width: 100%;
-  background-color: #f5f0e8;
+  background-color: var(--cream);
   padding: 56px 0px 0;
 }
 
@@ -39,7 +39,7 @@
 .videoContent {
   position: relative;
   z-index: 2;
-  background-color: #f5f0e8;
+  background-color: var(--cream);
   padding: 24px 16px 56px;
   max-width: 820px;
   margin: 0;

@@ -6,7 +6,7 @@ import styles from './Testimonials.module.css';
 
 const testimonials = [
   {
-    quote: "Our wedding was everything we had imagined and more. The team handled every detail with perfection. Thank you, Jashn E Riyasat, for making our special day unforgettable.",
+    quote: "Our wedding was everything we had imagined and more. The team handled every detail with perfection. Thank you, Jashan-e-Riyasat, for making our special day unforgettable.",
     author: "Rohan & Priya Sharma",
     role: "",
     rating: "5 Star Rating",
@@ -34,7 +34,7 @@ const testimonials = [
     image: "/review/NehaArora.webp",
   },
   {
-    quote: "Jashn E Riyasat exceeded all our expectations. The decor, hospitality, and event management were simply outstanding. We received compliments from almost every guest.",
+    quote: "Jashan-e-Riyasat exceeded all our expectations. The decor, hospitality, and event management were simply outstanding. We received compliments from almost every guest.",
     author: "Harpreet Singh",
     role: "",
     rating: "5 Star Rating",

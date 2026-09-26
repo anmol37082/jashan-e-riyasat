@@ -1,6 +1,6 @@
 .page {
   min-height: 100vh;
   background: var(--cream);
-  color: var(--dark-brown);
+  color: var(--title-color);
   overflow-x: hidden;
 }

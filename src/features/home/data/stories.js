@@ -1,10 +1,10 @@
 ﻿// data/stories.js
 
 const storyImages = [
-  '/stories/mandytakker/471253612_18472665568004214_7820904793496896730_n.webp',
-  '/stories/Devikasohail/img(6).webp',
-  '/stories/hardiknitu/hardiknitu(1).webp',
-  '/stories/Oshin/495467098_18271867552284754_4339792822853782028_n.webp',
+  '/stories/mandytakker/takr.webp',
+  '/stories/Devikasohail/devika.webp',
+  '/stories/hardiknitu/hardik.webp',
+  '/stories/Oshin/oshin.webp',
   '/stories/abhinavgauri/card1.webp',
 ];
 

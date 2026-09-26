@@ -209,7 +209,11 @@ export default function ContentSection({ blocks, destinations = [], currentSlug 
                       <span className={styles.sidebarCity}>
                         {destination.hero?.location || destination.slug}
                       </span>
-                      <span className={styles.sidebarArrow}>-&gt;</span>
+                      <span className={styles.sidebarArrow} aria-hidden="true">
+                        <svg viewBox="0 0 20 20" fill="none">
+                          <path d="M3.5 10h12M10 4.5l5.5 5.5-5.5 5.5" />
+                        </svg>
+                      </span>
                     </Link>
                   );
                 })}

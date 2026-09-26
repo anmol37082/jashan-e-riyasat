@@ -21,9 +21,9 @@ export default function VideoSection() {
       {/* Text content below video */}
       <div className={styles.videoContent}>
         <p className={styles.videoLabel}>Our Approach</p>
-        
+
         <p className={styles.videoText}>
-         At Jashn E Riyasat, we believe every couple has a unique story, 
+         At Jashan-e-Riyasat, we believe every couple has a unique story,
          and every wedding should reflect it. That&apos;s why we take the
           time to understand your vision, preferences, and traditions
            before we start planning.

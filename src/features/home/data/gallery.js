@@ -18,14 +18,14 @@ const buildGalleryItems = (items) =>
 
 export const galleryData = {
   haldi: buildGalleryItems([
-    { img: img('haldi1.webp'), label: 'Haldi' },
-    { img: img('haldi2.webp'), label: 'Haldi' },
-    { img: img('haldi3.webp'), label: 'Haldi' },
-    { img: img('haldi4.webp'), label: 'Haldi' },
-    { img: img('haldi5.webp'), label: 'Haldi' },
-    { img: img('haldi06.webp'),label: 'Haldi' },
-    { img: img('haldi07.webp'),label: 'Haldi' },
-    { img: img('haldi8.webp'), label: 'Haldi' },
+    { img: img('haldi01.webp'), label: 'Haldi' },
+    { img: img('haldi02.webp'), label: 'Haldi' },
+    { img: img('haldi03.webp'), label: 'Haldi' },
+    { img: img('haldi04.webp'), label: 'Haldi' },
+    { img: img('haldi05.webp'), label: 'Haldi' },
+    { img: img('haldi006.webp'), label: 'Haldi' },
+    { img: img('haldi007.webp'), label: 'Haldi' },
+    { img: img('haldi08.webp'), label: 'Haldi' },
    
     // ...tumhari actual haldi images yahan daalo
   ]),
@@ -40,10 +40,14 @@ export const galleryData = {
     { img: img('mehndi(8).webp'), label: 'Mehndi' },
   ]),
   festivities: buildGalleryItems([
-    { img: img('festivites(1).webp'), label: 'Festivities' },
-    { img: img('festivites(2).webp'), label: 'Festivities' },
-    { img: img('festivites(3).webp'), label: 'Festivities' },
-    { img: img('festivites(4).webp'), label: 'Festivities' },
+    { img: img('fes1.webp'), label: 'Festivities' },
+    { img: img('fes2.webp'), label: 'Festivities' },
+    { img: img('fes3.webp'), label: 'Festivities' },
+    { img: img('fes4.webp'), label: 'Festivities' },
+    { img: img('fes5.webp'), label: 'Festivities' },
+    { img: img('fes6.webp'), label: 'Festivities' },
+    { img: img('fes7.webp'), label: 'Festivities' },
+    { img: img('fes8.webp'), label: 'Festivities' },
   ]),
   wedding: buildGalleryItems([
     { img: img('wedding(1).webp'), label: 'Wedding' },
@@ -53,8 +57,16 @@ export const galleryData = {
     { img: img('wedding(5).webp'), label: 'Wedding' },
     { img: img('wedding(6).webp'), label: 'Wedding' },
     { img: img('wedding(7).webp'), label: 'Wedding' },
+    { img: img('wedding(8).webp'), label: 'Wedding' },
   ]),
   reception: buildGalleryItems([
-    // ...
+    { img: img('rec1.webp'), label: 'Reception' },
+    { img: img('Rec2.webp'), label: 'Reception' },
+    { img: img('rec3.webp'), label: 'Reception' },
+    { img: img('Rec4.webp'), label: 'Reception' },
+    { img: img('Rec5.webp'), label: 'Reception' },
+    { img: img('Rec6.webp'), label: 'Reception' },
+    { img: img('rec7.webp'), label: 'Reception' },
+    { img: img('Rec8.webp'), label: 'Reception' },
   ]),
 };

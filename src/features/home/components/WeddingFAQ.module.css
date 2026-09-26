@@ -3,7 +3,7 @@
 .section {
   width: 100%;
   padding: 60px 32px;
-  background-color: #f5f0e8;
+  background-color: var(--cream);
 }
 
 .header {
@@ -12,7 +12,7 @@
 }
 
 .title {
-     color: var(--dark-brown);
+     color: var(--title-color);
     font-family: Cormorant Garamond, serif;
     font-size: clamp(28px, 3.5vw, 42px);
     font-weight: 300;

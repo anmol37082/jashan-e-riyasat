@@ -4,21 +4,21 @@
 export const destinations = {
   "delhi-ncr": {
     meta: {
-      title: "Best Wedding Planner in Delhi NCR | Jashn-e-Riyasat",
+      title: "Best Wedding Planner in Delhi NCR | Jashan-e-Riyasat",
       description:
-        "Jashn-e-Riyasat is one of the best wedding planners in Delhi NCR. We design bespoke weddings across Delhi, Gurgaon, Noida and Faridabad with elegance, luxury and timeless beauty. Book your dream wedding today.",
+        "Jashan-e-Riyasat is one of the best wedding planners in Delhi NCR. We design bespoke weddings across Delhi, Gurgaon, Noida and Faridabad with elegance, luxury and timeless beauty. Book your dream wedding today.",
     },
     hero: {
       location: "Delhi NCR",
       h1: "Best Wedding Planner in Delhi NCR",
       subheadline:
-        "Experience the wedding of your dreams with Jashn-e-Riyasat — Delhi NCR's trusted name for elegant, well-planned celebrations.",
+        "Experience the wedding of your dreams with Jashan-e-Riyasat — Delhi NCR's trusted name for elegant, well-planned celebrations.",
       image: "/destination/delhi.webp",
     },
     contentBlocks: [
       {
         h2: "Wedding Planners in Delhi NCR — Experience the Wedding of Your Dreams",
-        body: "Jashn-e-Riyasat is a Delhi NCR based wedding planning company that works with couples across Delhi, Gurgaon, Noida, Faridabad and Ghaziabad to put together weddings that actually feel like them, not a copy-paste template. We plan the venue, the vendors, the décor and the day-to-day running of the event so the family gets to enjoy the wedding instead of managing it. Whether it's a small nikah, a big fat Punjabi wedding, or a modern courthouse-style ceremony followed by a reception, our job is to make sure every function runs on time, looks good in photos, and doesn't leave you exhausted by the third day.",
+        body: "Jashan-e-Riyasat is a Delhi NCR based wedding planning company that works with couples across Delhi, Gurgaon, Noida, Faridabad and Ghaziabad to put together weddings that actually feel like them, not a copy-paste template. We plan the venue, the vendors, the décor and the day-to-day running of the event so the family gets to enjoy the wedding instead of managing it. Whether it's a small nikah, a big fat Punjabi wedding, or a modern courthouse-style ceremony followed by a reception, our job is to make sure every function runs on time, looks good in photos, and doesn't leave you exhausted by the third day.",
       },
       {
         h2: "Why Hire a Wedding Planner in Delhi?",
@@ -67,7 +67,7 @@ export const destinations = {
       },
       {
         h2: "Our Complete Wedding Planning Services in Delhi NCR",
-        body: "Some couples come to Jashn-e-Riyasat wanting complete, start-to-finish planning; others just need help with the parts that are giving them a headache — usually décor or catering. We work both ways. What matters is that whatever piece you hand us, we run it properly: honest vendor rates, no last-minute surprises, and someone from our team physically present on the ground for every function so you're not the one fielding vendor calls at 7am on your wedding day.",
+        body: "Some couples come to Jashan-e-Riyasat wanting complete, start-to-finish planning; others just need help with the parts that are giving them a headache — usually décor or catering. We work both ways. What matters is that whatever piece you hand us, we run it properly: honest vendor rates, no last-minute surprises, and someone from our team physically present on the ground for every function so you're not the one fielding vendor calls at 7am on your wedding day.",
         list: [
           "Full wedding conceptualisation and theme creation",
           "Venue scouting and booking support",
@@ -83,7 +83,7 @@ export const destinations = {
       },
       {
         h2: "Start Your New Journey Today",
-        body: "Delhi NCR's wedding season moves fast, and the venues and vendors worth booking get taken early. If you're getting married anytime in the next year, the smartest thing you can do is start the venue conversation now, even before the guest list is final. Jashn-e-Riyasat has been planning weddings across Delhi, Gurgaon, Noida and Faridabad long enough to know which venues are worth the price and which vendors actually show up on time. Reach out and let's talk through what you're picturing for your day.",
+        body: "Delhi NCR's wedding season moves fast, and the venues and vendors worth booking get taken early. If you're getting married anytime in the next year, the smartest thing you can do is start the venue conversation now, even before the guest list is final. Jashan-e-Riyasat has been planning weddings across Delhi, Gurgaon, Noida and Faridabad long enough to know which venues are worth the price and which vendors actually show up on time. Reach out and let's talk through what you're picturing for your day.",
       },
     ],
     faqs: [
@@ -116,7 +116,7 @@ export const destinations = {
         a: "Yes. More couples are asking for this now — locally grown flowers, minimal plastic in décor, and vendors who work sustainably. We can build an eco-conscious wedding that still looks and feels premium.",
       },
       {
-        q: "What makes Jashn-e-Riyasat different from other wedding planners in Delhi?",
+        q: "What makes Jashan-e-Riyasat different from other wedding planners in Delhi?",
         a: "We keep our vendor relationships honest and our pricing transparent, and we don't disappear once the contract is signed. Our team is physically present at every function, which is where most planning companies actually fall short. Every wedding we plan is built around what the couple wants, not a fixed package.",
       },
     ],
@@ -124,9 +124,9 @@ export const destinations = {
 
   "jaipur": {
     meta: {
-      title: "Best Wedding Planner in Jaipur | Jashn-e-Riyasat",
+      title: "Best Wedding Planner in Jaipur | Jashan-e-Riyasat",
       description:
-        "Jashn-e-Riyasat plans royal palace weddings in Jaipur, the Pink City. Heritage venues, elephant baraats and luxury décor planned by Jaipur's trusted destination wedding planner.",
+        "Jashan-e-Riyasat plans royal palace weddings in Jaipur, the Pink City. Heritage venues, elephant baraats and luxury décor planned by Jaipur's trusted destination wedding planner.",
     },
     hero: {
       location: "Jaipur",
@@ -138,7 +138,7 @@ export const destinations = {
     contentBlocks: [
       {
         h2: "Royal Wedding Planner in Jaipur — The Pink City Awaits",
-        body: "Jaipur has become the default answer for Indian couples who want their wedding to feel like an occasion, not just an event. The palaces do a lot of the visual heavy lifting on their own — sandstone facades, courtyards built for exactly this kind of gathering, arches that need almost no extra décor to look complete. Jashn-e-Riyasat has planned weddings across Jaipur's major heritage properties and knows which palace suits a 150-guest wedding versus a 500-guest one, which venues allow outside caterers, and where the photography actually comes out best at golden hour.",
+        body: "Jaipur has become the default answer for Indian couples who want their wedding to feel like an occasion, not just an event. The palaces do a lot of the visual heavy lifting on their own — sandstone facades, courtyards built for exactly this kind of gathering, arches that need almost no extra décor to look complete. Jashan-e-Riyasat has planned weddings across Jaipur's major heritage properties and knows which palace suits a 150-guest wedding versus a 500-guest one, which venues allow outside caterers, and where the photography actually comes out best at golden hour.",
       },
       {
         h2: "Why Choose Jaipur for Your Destination Wedding?",
@@ -182,7 +182,7 @@ export const destinations = {
       },
       {
         h2: "Start Planning Your Jaipur Wedding",
-        body: "If Jaipur is even on your shortlist, it's worth having a proper conversation with a planner before you lock a venue — the difference between a good palace booking and a great one usually comes down to timing, season and how the space suits your actual guest count. Jashn-e-Riyasat handles the venue negotiation, vendor sourcing and full event execution for Jaipur weddings, and our team is present on the ground for every function so nothing is left to chance on the day itself.",
+        body: "If Jaipur is even on your shortlist, it's worth having a proper conversation with a planner before you lock a venue — the difference between a good palace booking and a great one usually comes down to timing, season and how the space suits your actual guest count. Jashan-e-Riyasat handles the venue negotiation, vendor sourcing and full event execution for Jaipur weddings, and our team is present on the ground for every function so nothing is left to chance on the day itself.",
       },
     ],
     faqs: [
@@ -211,7 +211,7 @@ export const destinations = {
         a: "Definitely. Jaipur has plenty of boutique havelis and smaller palace properties built for weddings in the 50-100 guest range — Samode Palace and Dera Amer are two we recommend often for this.",
       },
       {
-        q: "What makes Jashn-e-Riyasat a good choice for a Jaipur wedding?",
+        q: "What makes Jashan-e-Riyasat a good choice for a Jaipur wedding?",
         a: "We've worked directly with most of Jaipur's major heritage venues and know their pricing, restrictions and best photo spots well. That familiarity means fewer surprises and better negotiated rates for our couples.",
       },
     ],
@@ -219,9 +219,9 @@ export const destinations = {
 
   "udaipur": {
     meta: {
-      title: "Best Wedding Planner in Udaipur | Jashn-e-Riyasat",
+      title: "Best Wedding Planner in Udaipur | Jashan-e-Riyasat",
       description:
-        "Jashn-e-Riyasat creates lakeside palace weddings in Udaipur with boat entries, sunset ceremonies and royal Rajasthani hospitality planned end to end.",
+        "Jashan-e-Riyasat creates lakeside palace weddings in Udaipur with boat entries, sunset ceremonies and royal Rajasthani hospitality planned end to end.",
     },
     hero: {
       location: "Udaipur",
@@ -233,7 +233,7 @@ export const destinations = {
     contentBlocks: [
       {
         h2: "Udaipur — The City of Lakes for Your Dream Wedding",
-        body: "Udaipur is, without much argument, the most photogenic wedding destination in India. Every venue has water somewhere in the frame — Lake Pichola, Fateh Sagar, or one of the smaller lakes tucked into the hills — and that alone changes how a wedding feels compared to a landlocked palace city. Jashn-e-Riyasat has planned weddings across Udaipur's lake palaces and hillside resorts, and our biggest job here is usually logistics: getting guests, décor and catering across water without anything running late.",
+        body: "Udaipur is, without much argument, the most photogenic wedding destination in India. Every venue has water somewhere in the frame — Lake Pichola, Fateh Sagar, or one of the smaller lakes tucked into the hills — and that alone changes how a wedding feels compared to a landlocked palace city. Jashan-e-Riyasat has planned weddings across Udaipur's lake palaces and hillside resorts, and our biggest job here is usually logistics: getting guests, décor and catering across water without anything running late.",
       },
       {
         h2: "Why Udaipur is Perfect for Your Wedding",
@@ -270,7 +270,7 @@ export const destinations = {
         body: "Udaipur weddings look effortless in photos, but the actual planning behind a boat entry or a multi-venue event across the lake takes real coordination — tide timing, boat capacity, backup arrangements if weather changes at the last minute. This is the part most families don't think about until it's almost too late, and it's exactly where a planner earns their fee. We handle every boat transfer, guest movement between palace sections, and weather contingency plan so the day runs the way it looked on paper.",
       },
       {
-        h2: "Plan Your Udaipur Wedding with Jashn-e-Riyasat",
+        h2: "Plan Your Udaipur Wedding with Jashan-e-Riyasat",
         body: "We've spent years building direct relationships with Udaipur's major palace properties, boat operators and local vendors, which means better rates and fewer surprises for the families we work with. If Udaipur is where you're picturing your wedding, let's start with a conversation about your guest count and the season you're targeting — from there we can map out which properties actually make sense for your budget.",
       },
     ],
@@ -300,7 +300,7 @@ export const destinations = {
         a: "Udaipur has direct flights from Delhi, Mumbai and Jaipur, and we coordinate group bookings, pickups and local transfers for your guests. Driving from Delhi takes roughly 10-11 hours if any guests prefer the road.",
       },
       {
-        q: "Why book Jashn-e-Riyasat for an Udaipur wedding?",
+        q: "Why book Jashan-e-Riyasat for an Udaipur wedding?",
         a: "We know exactly which boats, venues and vendors work well together in Udaipur, which cuts down on the logistical guesswork that trips up a lot of destination weddings here.",
       },
     ],
@@ -308,9 +308,9 @@ export const destinations = {
 
   "goa": {
     meta: {
-      title: "Best Wedding Planner in Goa | Jashn-e-Riyasat",
+      title: "Best Wedding Planner in Goa | Jashan-e-Riyasat",
       description:
-        "Beach weddings, sunset ceremonies and tropical celebrations in Goa, planned end to end by Jashn-e-Riyasat, a trusted destination wedding planner.",
+        "Beach weddings, sunset ceremonies and tropical celebrations in Goa, planned end to end by Jashan-e-Riyasat, a trusted destination wedding planner.",
     },
     hero: {
       location: "Goa",
@@ -322,7 +322,7 @@ export const destinations = {
     contentBlocks: [
       {
         h2: "Goa — India's Beach Wedding Paradise",
-        body: "Goa works for a specific kind of couple — the ones who want their wedding to feel more like a holiday with their closest people than a formal event. Barefoot ceremonies on the sand, sundowner cocktails, guests who end up staying an extra two days just to enjoy the beach — that's the Goa wedding experience, and it's very different from a palace wedding up north. Jashn-e-Riyasat plans both beach resort weddings and the more heritage Portuguese-villa style events across North and South Goa.",
+        body: "Goa works for a specific kind of couple — the ones who want their wedding to feel more like a holiday with their closest people than a formal event. Barefoot ceremonies on the sand, sundowner cocktails, guests who end up staying an extra two days just to enjoy the beach — that's the Goa wedding experience, and it's very different from a palace wedding up north. Jashan-e-Riyasat plans both beach resort weddings and the more heritage Portuguese-villa style events across North and South Goa.",
       },
       {
         h2: "Why Choose Goa for Your Destination Wedding?",
@@ -359,7 +359,7 @@ export const destinations = {
         body: "What most couples don't realise about Goa until they start planning is how much paperwork sits behind a beach wedding — permits for the beach itself, noise clearance for evening functions, and monsoon contingency plans if you're getting married outside the November-February window. This is genuinely the part where a local planner saves you the most trouble, because permit offices and beach authorities respond very differently to an agency they already work with versus a one-off request from out of state.",
       },
       {
-        h2: "Plan Your Goa Wedding with Jashn-e-Riyasat",
+        h2: "Plan Your Goa Wedding with Jashan-e-Riyasat",
         body: "We've built our vendor network in Goa over several wedding seasons, which means better rates on décor and catering and a much smoother permit process than most families manage on their own. If a beach wedding is what you're picturing, get in touch and we'll walk you through venue options for your guest count and season.",
       },
     ],
@@ -374,7 +374,7 @@ export const destinations = {
       },
       {
         q: "Do we need permits for a beach wedding in Goa?",
-        a: "Yes, beach weddings need permits from local authorities, along with noise clearance for evening events. Jashn-e-Riyasat handles all of this as part of our planning process, so you're not the one navigating the paperwork.",
+        a: "Yes, beach weddings need permits from local authorities, along with noise clearance for evening events. Jashan-e-Riyasat handles all of this as part of our planning process, so you're not the one navigating the paperwork.",
       },
       {
         q: "Can we have a Catholic church wedding in Goa?",
@@ -389,7 +389,7 @@ export const destinations = {
         a: "Definitely. Most beach resorts have several event spaces on the same property, so you can run a poolside mehendi, a lawn sangeet, and a beach ceremony all without moving guests between properties.",
       },
       {
-        q: "Why work with Jashn-e-Riyasat for a Goa wedding?",
+        q: "Why work with Jashan-e-Riyasat for a Goa wedding?",
         a: "We already have working relationships with Goa's permit offices and local vendors, which cuts down the back-and-forth that usually slows down a destination wedding here.",
       },
     ],
@@ -397,9 +397,9 @@ export const destinations = {
 
   "jodhpur": {
     meta: {
-      title: "Best Wedding Planner in Jodhpur | Jashn-e-Riyasat",
+      title: "Best Wedding Planner in Jodhpur | Jashan-e-Riyasat",
       description:
-        "Royal blue-city weddings in Jodhpur planned by Jashn-e-Riyasat, with fort venues, heritage havelis and refined hospitality execution.",
+        "Royal blue-city weddings in Jodhpur planned by Jashan-e-Riyasat, with fort venues, heritage havelis and refined hospitality execution.",
     },
     hero: {
       location: "Jodhpur",
@@ -411,7 +411,7 @@ export const destinations = {
     contentBlocks: [
       {
         h2: "Jodhpur Weddings With Royal Presence",
-        body: "Jodhpur hands a wedding scale and drama the moment guests arrive — Mehrangarh Fort sits above the entire blue city and shows up in the background of practically every photo taken here. But the fort's grandeur only works in the wedding's favour if the planning underneath it is disciplined. Jashn-e-Riyasat structures every Jodhpur wedding around clear guest movement, tight venue sequencing, and on-ground coordination so the visual drama of the city doesn't come with logistical chaos.",
+        body: "Jodhpur hands a wedding scale and drama the moment guests arrive — Mehrangarh Fort sits above the entire blue city and shows up in the background of practically every photo taken here. But the fort's grandeur only works in the wedding's favour if the planning underneath it is disciplined. Jashan-e-Riyasat structures every Jodhpur wedding around clear guest movement, tight venue sequencing, and on-ground coordination so the visual drama of the city doesn't come with logistical chaos.",
       },
       {
         h2: "Why Couples Choose Jodhpur",
@@ -474,9 +474,9 @@ export const destinations = {
 
   "kerala": {
     meta: {
-      title: "Best Wedding Planner in Kerala | Jashn-e-Riyasat",
+      title: "Best Wedding Planner in Kerala | Jashan-e-Riyasat",
       description:
-        "Backwater, beach and plantation weddings in Kerala planned by Jashn-e-Riyasat with calm hospitality and complete destination coordination.",
+        "Backwater, beach and plantation weddings in Kerala planned by Jashan-e-Riyasat with calm hospitality and complete destination coordination.",
     },
     hero: {
       location: "Kerala",
@@ -488,7 +488,7 @@ export const destinations = {
     contentBlocks: [
       {
         h2: "Kerala Destination Weddings With Calm Luxury",
-        body: "Kerala isn't chasing scale the way palace destinations do — the appeal here is atmosphere. Backwaters, palm trees, houseboats, and a slower rhythm that lets guests actually relax between functions instead of rushing from one venue to the next. That doesn't mean the planning is any less demanding though, especially when functions are spread across a resort, a beach and a backwater property over several days. Jashn-e-Riyasat plans Kerala weddings around this exact balance — keeping the mood relaxed while the logistics stay tight behind the scenes.",
+        body: "Kerala isn't chasing scale the way palace destinations do — the appeal here is atmosphere. Backwaters, palm trees, houseboats, and a slower rhythm that lets guests actually relax between functions instead of rushing from one venue to the next. That doesn't mean the planning is any less demanding though, especially when functions are spread across a resort, a beach and a backwater property over several days. Jashan-e-Riyasat plans Kerala weddings around this exact balance — keeping the mood relaxed while the logistics stay tight behind the scenes.",
       },
       {
         h2: "Why Kerala Works for Weddings",
@@ -551,9 +551,9 @@ export const destinations = {
 
   "shimla": {
     meta: {
-      title: "Best Wedding Planner in Shimla | Jashn-e-Riyasat",
+      title: "Best Wedding Planner in Shimla | Jashan-e-Riyasat",
       description:
-        "Mountain weddings in Shimla planned by Jashn-e-Riyasat, with scenic backdrops, cool weather and complete guest logistics handled end to end.",
+        "Mountain weddings in Shimla planned by Jashan-e-Riyasat, with scenic backdrops, cool weather and complete guest logistics handled end to end.",
     },
     hero: {
       location: "Shimla",
@@ -565,7 +565,7 @@ export const destinations = {
     contentBlocks: [
       {
         h2: "Shimla Weddings in the Hills",
-        body: "Shimla suits couples who want a genuinely scenic wedding without going for anything extravagant — the mountains and cool weather do most of the atmospheric work on their own. What the destination does demand is tighter planning around travel time, timing between functions, and weather contingencies, since hill routes and unpredictable weather can throw off a schedule faster than a city wedding would. Jashn-e-Riyasat builds every Shimla wedding around that reality from day one.",
+        body: "Shimla suits couples who want a genuinely scenic wedding without going for anything extravagant — the mountains and cool weather do most of the atmospheric work on their own. What the destination does demand is tighter planning around travel time, timing between functions, and weather contingencies, since hill routes and unpredictable weather can throw off a schedule faster than a city wedding would. Jashan-e-Riyasat builds every Shimla wedding around that reality from day one.",
       },
       {
         h2: "Why Couples Book Shimla",
@@ -620,9 +620,9 @@ export const destinations = {
 
   "mussoorie": {
     meta: {
-      title: "Best Wedding Planner in Mussoorie | Jashn-e-Riyasat",
+      title: "Best Wedding Planner in Mussoorie | Jashan-e-Riyasat",
       description:
-        "A scenic hill wedding in Mussoorie planned by Jashn-e-Riyasat, with resort stays, guest transport and refined mountain hospitality.",
+        "A scenic hill wedding in Mussoorie planned by Jashan-e-Riyasat, with resort stays, guest transport and refined mountain hospitality.",
     },
     hero: {
       location: "Mussoorie",
@@ -634,7 +634,7 @@ export const destinations = {
     contentBlocks: [
       {
         h2: "Mussoorie as a Destination Wedding",
-        body: "Mussoorie suits couples who want a quieter mountain celebration without giving up on premium hospitality. Because the destination photographs so well and the venues tend to be smaller than what you'd find in Rajasthan, it works best when the guest count stays controlled and the schedule is paced properly rather than crammed. Jashn-e-Riyasat plans Mussoorie weddings around one central resort property and a handful of well-timed functions, which is where the destination genuinely shines.",
+        body: "Mussoorie suits couples who want a quieter mountain celebration without giving up on premium hospitality. Because the destination photographs so well and the venues tend to be smaller than what you'd find in Rajasthan, it works best when the guest count stays controlled and the schedule is paced properly rather than crammed. Jashan-e-Riyasat plans Mussoorie weddings around one central resort property and a handful of well-timed functions, which is where the destination genuinely shines.",
       },
       {
         h2: "Why Mussoorie Works",
@@ -689,9 +689,9 @@ export const destinations = {
 
   "alibaug": {
     meta: {
-      title: "Best Wedding Planner in Alibaug | Jashn-e-Riyasat",
+      title: "Best Wedding Planner in Alibaug | Jashan-e-Riyasat",
       description:
-        "Luxury coastal weddings in Alibaug planned by Jashn-e-Riyasat, with resort stays, ferry coordination and beachside celebrations near Mumbai.",
+        "Luxury coastal weddings in Alibaug planned by Jashan-e-Riyasat, with resort stays, ferry coordination and beachside celebrations near Mumbai.",
     },
     hero: {
       location: "Alibaug",
@@ -762,9 +762,9 @@ export const destinations = {
 
   "rishikesh": {
     meta: {
-      title: "Best Wedding Planner in Rishikesh | Jashn-e-Riyasat",
+      title: "Best Wedding Planner in Rishikesh | Jashan-e-Riyasat",
       description:
-        "A spiritual river wedding in Rishikesh planned by Jashn-e-Riyasat, with scenic riverside venues, guest logistics and calm hospitality.",
+        "A spiritual river wedding in Rishikesh planned by Jashan-e-Riyasat, with scenic riverside venues, guest logistics and calm hospitality.",
     },
     hero: {
       location: "Rishikesh",
@@ -831,9 +831,9 @@ export const destinations = {
 
   "agra": {
     meta: {
-      title: "Best Wedding Planner in Agra | Jashn-e-Riyasat",
+      title: "Best Wedding Planner in Agra | Jashan-e-Riyasat",
       description:
-        "A Taj Mahal inspired wedding destination in Agra planned by Jashn-e-Riyasat, with heritage venues, guest planning and elegant production.",
+        "A Taj Mahal inspired wedding destination in Agra planned by Jashan-e-Riyasat, with heritage venues, guest planning and elegant production.",
     },
     hero: {
       location: "Agra",
@@ -900,9 +900,9 @@ export const destinations = {
 
   "chandigarh": {
     meta: {
-      title: "Best Wedding Planner in Chandigarh | Jashn-e-Riyasat",
+      title: "Best Wedding Planner in Chandigarh | Jashan-e-Riyasat",
       description:
-        "Modern North Indian weddings in Chandigarh planned by Jashn-e-Riyasat, with premium venues, easy access and polished execution.",
+        "Modern North Indian weddings in Chandigarh planned by Jashan-e-Riyasat, with premium venues, easy access and polished execution.",
     },
     hero: {
       location: "Chandigarh",
@@ -969,9 +969,9 @@ export const destinations = {
 
   "nainital": {
     meta: {
-      title: "Best Wedding Planner in Nainital | Jashn-e-Riyasat",
+      title: "Best Wedding Planner in Nainital | Jashan-e-Riyasat",
       description:
-        "A lake destination wedding in Nainital planned by Jashn-e-Riyasat, with scenic venues, guest management and premium hill-station planning.",
+        "A lake destination wedding in Nainital planned by Jashan-e-Riyasat, with scenic venues, guest management and premium hill-station planning.",
     },
     hero: {
       location: "Nainital",
@@ -1037,9 +1037,9 @@ export const destinations = {
   },
 "mount-abu": {
     meta: {
-      title: "Best Wedding Planner in Mount Abu | Jashn-e-Riyasat",
+      title: "Best Wedding Planner in Mount Abu | Jashan-e-Riyasat",
       description:
-        "Cool-climate lake weddings in Mount Abu, Rajasthan's only hill station, planned by Jashn-e-Riyasat with heritage stays and scenic guest experiences.",
+        "Cool-climate lake weddings in Mount Abu, Rajasthan's only hill station, planned by Jashan-e-Riyasat with heritage stays and scenic guest experiences.",
     },
     hero: {
       location: "Mount Abu",
@@ -1051,7 +1051,7 @@ export const destinations = {
     contentBlocks: [
       {
         h2: "Mount Abu — A Cooler Side of Rajasthan",
-        body: "Mount Abu gives couples something genuinely rare in Rajasthan — a wedding destination with hill-station weather instead of desert heat. Nakki Lake sits at the centre of the town and shows up in the background of almost every function we plan here, and the surrounding Aravalli greenery gives the whole event a softer, calmer feel than the palace cities further north. Jashn-e-Riyasat plans Mount Abu weddings around this contrast — Rajasthani hospitality with a hill-station pace.",
+        body: "Mount Abu gives couples something genuinely rare in Rajasthan — a wedding destination with hill-station weather instead of desert heat. Nakki Lake sits at the centre of the town and shows up in the background of almost every function we plan here, and the surrounding Aravalli greenery gives the whole event a softer, calmer feel than the palace cities further north. Jashan-e-Riyasat plans Mount Abu weddings around this contrast — Rajasthani hospitality with a hill-station pace.",
       },
       {
         h2: "Why Couples Choose Mount Abu",
@@ -1106,9 +1106,9 @@ export const destinations = {
 
   "coorg": {
     meta: {
-      title: "Best Wedding Planner in Coorg | Jashn-e-Riyasat",
+      title: "Best Wedding Planner in Coorg | Jashan-e-Riyasat",
       description:
-        "Misty coffee-plantation weddings in Coorg planned by Jashn-e-Riyasat, with boutique resorts, calm hospitality and full destination coordination.",
+        "Misty coffee-plantation weddings in Coorg planned by Jashan-e-Riyasat, with boutique resorts, calm hospitality and full destination coordination.",
     },
     hero: {
       location: "Coorg",
@@ -1120,7 +1120,7 @@ export const destinations = {
     contentBlocks: [
       {
         h2: "Coorg — A Plantation Wedding Unlike Any Other",
-        body: "Coorg brings a completely different texture to a destination wedding compared to the Rajasthan or Goa circuit — coffee plantations, mist rolling over the hills in the early morning, and a genuinely quiet, private feel that suits a smaller guest list. Jashn-e-Riyasat plans Coorg weddings around boutique estate resorts, where the setting itself does most of the visual and emotional work.",
+        body: "Coorg brings a completely different texture to a destination wedding compared to the Rajasthan or Goa circuit — coffee plantations, mist rolling over the hills in the early morning, and a genuinely quiet, private feel that suits a smaller guest list. Jashan-e-Riyasat plans Coorg weddings around boutique estate resorts, where the setting itself does most of the visual and emotional work.",
       },
       {
         h2: "Why Coorg Works for Weddings",
@@ -1179,7 +1179,7 @@ function buildSeoContentBlock(location) {
   return {
     h2: `${location} destination wedding planning with full-service execution`,
     body:
-      `If you're searching for a destination wedding planner in ${location}, Jashn-e-Riyasat handles venue selection, guest hospitality, vendor coordination, décor styling, catering flow and on-ground management so the celebration feels premium and well organised from start to finish. We work as one of the leading names for wedding planning in ${location}, and our approach stays the same everywhere we go — clear communication, honest budgets, and a team physically present at every function.`,
+      `If you're searching for a destination wedding planner in ${location}, Jashan-e-Riyasat handles venue selection, guest hospitality, vendor coordination, décor styling, catering flow and on-ground management so the celebration feels premium and well organised from start to finish. We work as one of the leading names for wedding planning in ${location}, and our approach stays the same everywhere we go — clear communication, honest budgets, and a team physically present at every function.`,
     list: [
       `${location} destination wedding planning`,
       `Best wedding planner in ${location}`,

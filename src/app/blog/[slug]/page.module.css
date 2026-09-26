@@ -1,9 +1,7 @@
 .page {
   min-height: 100vh;
-  background:
-    radial-gradient(circle at top, rgba(184, 168, 138, 0.12), transparent 32%),
-    var(--cream);
-  color: var(--dark-brown);
+  background: var(--cream);
+  color: var(--title-color);
   padding: 0 24px 80px;
 }
 
@@ -74,7 +72,7 @@
 .excerpt {
   margin: 0;
   font-size: 20px;
-  line-height: 1.8;
+  line-height: 1.4;
   color: #4a3a2d;
 }
 
@@ -94,13 +92,13 @@
   font-size: 26px;
   line-height: 1.2;
   font-weight: 400;
-  color: #5a4331;
+  color: var(--title-color);
 }
 
 .paragraph {
   margin: 0 0 14px;
   font-size: 18px;
-  line-height: 1.9;
+  line-height: 1.4;
   color: #3f3428;
 }
 
@@ -111,7 +109,7 @@
 .placeholderText {
   margin: 24px 0 0;
   font-size: 18px;
-  line-height: 1.8;
+  line-height: 1.4;
   color: #4a3a2d;
 }
 

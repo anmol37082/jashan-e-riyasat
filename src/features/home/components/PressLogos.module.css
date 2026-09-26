@@ -1,5 +1,5 @@
 .pressLogos {
-  background-color: #baaf9d;
+  background-color: #550000;
   padding: 35px 0;
   overflow: hidden;
   position: relative;
@@ -18,12 +18,12 @@
 
 .pressLogos::before {
   left: 0;
-  background: linear-gradient(to right, #baaf9d, transparent);
+  background: linear-gradient(to right, var(--cream), transparent);
 }
 
 .pressLogos::after {
   right: 0;
-  background: linear-gradient(to left, #baaf9d, transparent);
+  background: linear-gradient(to left, var(--cream), transparent);
 }
 
 .pressTrack {

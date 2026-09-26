@@ -1,5 +1,5 @@
 .services {
-  background: #f5f0e8;
+  background: var(--cream);
   padding: 64px 32px 88px;
 }
 
@@ -27,7 +27,7 @@
 }
 
 .servicesHeading {
-     color: var(--dark-brown);
+     color: var(--title-color);
     font-family: Cormorant Garamond, serif;
     font-size: clamp(28px, 3.5vw, 42px);
     font-weight: 300;

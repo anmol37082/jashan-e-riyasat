@@ -6,7 +6,7 @@
   min-height: 100svh;
   min-height: clamp(560px, 90svh, 880px);
   position: relative;
-  background-color: #f5f0e8;
+  background-color: var(--cream);
   padding: clamp(12px, 1.4vw, 22px) 0;
   display: flex;
   align-items: center;

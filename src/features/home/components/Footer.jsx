@@ -41,8 +41,8 @@ export default function Footer() {
         {/* Center - Logo */}
         <div className={styles.footerCenter}>
           <Image
-            src="/logo.png"
-            alt="Jashn-e-Riyasat Monogram"
+            src="/mainlogo.webp"
+            alt="Jashan-e-Riyasat Monogram"
             width={120}
             height={150}
             className={styles.footerLogo}
@@ -55,8 +55,8 @@ export default function Footer() {
           <p className={styles.footerInquire}>
             Inquire <a href="#contact">here</a> for weddings, for other questions:
           </p>
-          <a href="mailto:hello@jashneriyasat.com" className={styles.footerEmail}>
-            hello@jashneriyasat.com
+          <a href="mailto:hello@jashaneriyasat.com" className={styles.footerEmail}>
+            hello@jashaneriyasat.com
           </a>
           <a
             href="https://instagram.com"
@@ -85,9 +85,13 @@ export default function Footer() {
 
       {/* Large Brand Name */}
       <div className={styles.footerBrand}>
-        <p className={styles.footerBrandText}>
-          JASHN<span>-E-</span>RIYASAT
-        </p>
+        <Image
+          src="/textlogo.webp"
+          alt="Jashan-e-Riyasat"
+          width={1359}
+          height={256}
+          className={styles.footerBrandLogo}
+        />
       </div>
     </footer>
   );

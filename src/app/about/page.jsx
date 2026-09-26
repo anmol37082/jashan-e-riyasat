@@ -1,7 +1,7 @@
 import AboutLanding from './AboutLanding';
 
 export const metadata = {
-  title: 'About | Jashn-e-Riyasat',
+  title: 'About | Jashan-e-Riyasat',
   description: 'Our story, approach, and wedding hospitality philosophy.',
 };
 

@@ -23,7 +23,7 @@ export async function generateMetadata({ params }) {
   }
 
   return {
-    title: `${blog.title} | Jashn-e-Riyasat`,
+    title: `${blog.title} | Jashan-e-Riyasat`,
     description: blog.excerpt,
   };
 }
@@ -40,7 +40,7 @@ export default async function BlogSlugPage({ params }) {
     <main className={styles.page}>
       <section className={styles.hero}>
         <div className={styles.imageWrap}>
-          <Image src={blog.image} alt={blog.title} fill priority className={styles.image} />
+          <Image src={blog.heroImage || blog.image} alt={blog.title} fill priority className={styles.image} />
           <div className={styles.overlay} />
           <div className={styles.heroContent}>
             <p className={styles.kicker}>Blog</p>

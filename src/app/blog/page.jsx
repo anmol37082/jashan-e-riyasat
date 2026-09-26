@@ -1,7 +1,7 @@
 import BlogLanding from './BlogLanding';
 
 export const metadata = {
-  title: 'Blog | Jashn-e-Riyasat',
+  title: 'Blog | Jashan-e-Riyasat',
   description: 'Wedding planning insights and hospitality notes.',
 };
 

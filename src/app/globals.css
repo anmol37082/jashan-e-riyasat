@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Montserrat:wght@300;400;500;600&display=swap');
 
 :root {
-  --cream:#f5f0e8;
+  --cream:#fefae7;
   --dark-brown: #2c241b;
   --gold: #b8a88a;
   --text-muted: #6b5d4d;
+  --title-color: #550000;
 }
 
 * {
@@ -22,4 +23,5 @@ body {
   background-color: var(--cream);
   color: var(--dark-brown);
   overflow-x: hidden;
+  color: var(--title-color);
 }
