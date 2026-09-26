@@ -78,15 +78,17 @@
   border-right-color: var(--gold-1);
   border-bottom-color: var(--gold-2);
   box-shadow: 0 0 8px 1px rgba(246, 215, 138, 0.35);
-  animation: spin 1.8s linear infinite;
+  animation: loaderRingSpin 1.2s linear infinite;
   will-change: transform;
-  transform: translateZ(0);
-  backface-visibility: hidden;
+  transform-origin: center;
 }
 
-@keyframes spin {
+@keyframes loaderRingSpin {
+  from {
+    rotate: 0deg;
+  }
   to {
-    transform: rotate(360deg);
+    rotate: 360deg;
   }
 }
 
@@ -94,10 +96,9 @@
 .spark {
   position: absolute;
   inset: 2%;
-  animation: spin 2.4s linear infinite;
+  animation: loaderRingSpin 1.2s linear infinite;
   will-change: transform;
-  transform: translateZ(0);
-  backface-visibility: hidden;
+  transform-origin: center;
 }
 .spark::after {
   content: "";

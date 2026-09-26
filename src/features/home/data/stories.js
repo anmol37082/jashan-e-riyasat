@@ -8,17 +8,7 @@ const storyImages = [
   '/stories/abhinavgauri/card1.webp',
 ];
 
-const storyGalleryImages = [
-  '/images/wedding-1.jpg',
-  '/images/wedding-2.jpg',
-  '/images/wedding-3.jpg',
-  '/images/wedding-4.jpg',
-  '/portfolio/portfolio(1).webp',
-  '/portfolio/portfolio(2).webp',
-  '/portfolio/portfolio(3).webp',
-  '/portfolio/portfolio(4).webp',
-  '/portfolio/portfolio(5).webp',
-];
+
 
 const mandyGalleryMedia = [
   {
