@@ -1,10 +1,10 @@
 ﻿// data/stories.js
 
 const storyImages = [
-  '/stories/mandytakker/takr.webp',
-  '/stories/Devikasohail/devika.webp',
-  '/stories/hardiknitu/hardik.webp',
-  '/stories/Oshin/oshin.webp',
+  '/stories/mandytakker/Takr.webp',
+  '/stories/Devikasohail/Devika.webp',
+  '/stories/hardiknitu/Hardik.webp',
+  '/stories/Oshin/Oshin.webp',
   '/stories/abhinavgauri/card1.webp',
 ];
 
