@@ -6,7 +6,7 @@
    ============================================ */
 
 .section {
- background-color: #cf9e57;
+ background-color: #fffdf2;
   padding: clamp(44px, 5vw, 72px) 16px;
   display: flex;
   justify-content: center;
@@ -143,8 +143,8 @@
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 8px;
-  color: #fff0a3;
-  text-shadow: 0 0 5px #ffd700, 0 0 12px rgba(255, 215, 0, 0.9), 0 0 22px rgba(255, 190, 0, 0.65);
+  color: #c88700;
+  text-shadow: 0 0 3px rgba(184, 115, 0, 0.75), 0 0 9px rgba(184, 115, 0, 0.45);
   display: inline-block;
   margin-bottom: 8px;
   animation-duration: 500ms;
