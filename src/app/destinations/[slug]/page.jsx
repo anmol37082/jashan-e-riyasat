@@ -9,6 +9,7 @@ import ContentSection from '@/features/destinations/components/ContentSection';
 import FAQSection from '@/features/destinations/components/FAQSection';
 
 import styles from './page.module.css';
+import { absoluteUrl, JsonLd, pageSchema } from '@/lib/seo';
 
 async function resolveParams(params) {
   return typeof params?.then === 'function' ? await params : params;
@@ -42,6 +43,11 @@ export default async function DestinationPage({ params }) {
 
   return (
     <main className={styles.page}>
+      <JsonLd data={{
+        ...pageSchema(`/destinations/${data.slug}`, data.meta.title, data.meta.description, 'WebPage'),
+        about: { '@type': 'Place', name: data.hero.location },
+        primaryImageOfPage: absoluteUrl(data.hero.image),
+      }} />
       <HeroSection data={data.hero} />
       <ContentSection
         blocks={data.contentBlocks}

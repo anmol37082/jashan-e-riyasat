@@ -40,7 +40,7 @@ const services = [
   {
     number: '08',
     title: 'Guest Management',
-    image: '/services/service8.webp',
+    image: '/services/service08.webp',
   },
 ];
 

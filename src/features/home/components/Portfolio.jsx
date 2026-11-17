@@ -5,15 +5,16 @@ import Image from 'next/image';
 import styles from './Portfolio.module.css';
 
 const portfolioImages = [
-  { src: '/portfolio/portfolio(1).webp', alt: 'Wedding table setting' },
-  { src: '/portfolio/portfolio(2).webp', alt: 'Wedding cake' },
-  { src: '/portfolio/portfolio(3).webp', alt: 'Wedding flowers' },
-  { src: '/portfolio/portfolio(4).webp', alt: 'Bride and groom' },
-  { src: '/portfolio/portfolio(5).webp', alt: 'Wedding rings' },
-  { src: '/portfolio/portfolio(6).webp', alt: 'Wedding invitations' },
-  { src: '/portfolio/portfolio(7).webp', alt: 'Wedding flowers' },
-  { src: '/portfolio/portfolio(8).webp', alt: 'Wedding table setting' },
-
+  { src: '/global/img1.webp', alt: 'Wedding celebration' },
+  { src: '/global/img2.webp', alt: 'Wedding celebration' },
+  { src: '/global/img3.webp', alt: 'Wedding celebration' },
+  { src: '/global/img4.webp', alt: 'Wedding celebration' },
+  { src: '/global/img5.webp', alt: 'Wedding celebration' },
+  { src: '/global/img6.webp', alt: 'Wedding celebration' },
+  { src: '/global/img7.webp', alt: 'Wedding celebration' },
+  { src: '/global/img8.webp', alt: 'Wedding celebration' },
+  { src: '/global/img9.webp', alt: 'Wedding celebration' },
+  { src: '/global/img10.webp', alt: 'Wedding celebration' },
 ];
 
 export default function Portfolio() {
@@ -106,7 +107,7 @@ export default function Portfolio() {
     <section className={styles.portfolio} id="portfolio">
       <div className={styles.portfolioHeader}>
         <h2 className={styles.portfolioHeading}>
-         Crafting Bespoke <em>Luxury  </em> Weddings <br/> Across India & Beyond
+         Crafting <em>Luxury</em> Destination Weddings <br/> Across the Globe
         </h2>
         <a href="#portfolio" className={styles.portfolioCta}>
           View Our portfolio

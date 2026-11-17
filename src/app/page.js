@@ -16,12 +16,14 @@ import Gallery from '@/features/home/components/WeddingGallery';
 import WeddingStories from '@/features/home/components/WeddingStories';
 import WeddingFAQ from '@/features/home/components/WeddingFAQ';
 import OurBlogs from '@/features/home/components/OurBlogs';
+import { JsonLd, pageSchema } from '@/lib/seo';
 
 
 export default function Home() {
   return (
     <>
-      <Hero />
+      <JsonLd data={pageSchema('/', 'Luxury Wedding Planning & Event Design', 'Jashan-e-Riyasat plans elegant weddings with tailored design, thoughtful hospitality, and seamless execution for every celebration.', 'WebPage')} />
+      <Hero backgroundVideo />
       <AboutIntro />
        <Services />
        <PressLogos />

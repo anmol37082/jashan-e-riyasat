@@ -3,44 +3,41 @@
 import { useState, useEffect, useCallback } from 'react';
 import Image from 'next/image';
 import styles from './Testimonials.module.css';
+import { stories } from '../data/stories';
 
-const testimonials = [
+const testimonialQuotes = [
   {
     quote: "Our wedding was everything we had imagined and more. The team handled every detail with perfection. Thank you, Jashan-e-Riyasat, for making our special day unforgettable.",
-    author: "Rohan & Priya Sharma",
     role: "",
     rating: "5 Star Rating",
-    image: "/review/Rohan%26PriyaSharma.webp",
   },
   {
     quote: "The decor was elegant, the planning was smooth, and the execution was flawless. Every guest appreciated the beautiful arrangements. Highly recommend this team for anyone planning a luxury wedding.",
-    author: "Simran Kaur",
     role: "",
     rating: "5 Star Rating",
-    image: "/review/SimranKaur.webp",
   },
   {
     quote: "From our first meeting until the final event, everything was managed professionally. The team was always available and ensured we never had to worry about a thing. A truly wonderful experience.",
-    author: "Aman Malhotra",
     role: "",
     rating: "5 Star Rating",
-    image: "/review/AmanMalhotra.webp",
   },
   {
     quote: "The best part was how stress-free the entire wedding felt. Every ceremony was perfectly coordinated, and we could simply enjoy our celebrations.",
-    author: "Neha Arora",
     role: "",
     rating: "5 Star Rating",
-    image: "/review/NehaArora.webp",
   },
   {
     quote: "Jashan-e-Riyasat exceeded all our expectations. The decor, hospitality, and event management were simply outstanding. We received compliments from almost every guest.",
-    author: "Harpreet Singh",
     role: "",
     rating: "5 Star Rating",
-    image: "/review/HarpreetSingh.webp",
   },
 ];
+
+const testimonials = testimonialQuotes.map((testimonial, index) => ({
+  ...testimonial,
+  author: stories[index].names,
+  image: stories[index].image,
+}));
 
 export default function Testimonials() {
   const [current, setCurrent] = useState(0);
@@ -75,6 +72,7 @@ export default function Testimonials() {
   return (
     <section id="testimonials" className={styles.section}>
       <div className={styles.container}>
+        <h2 className={styles.sectionTitle}>Testimonials</h2>
         <div className={styles.imageBox}>
           <div
             key={`img-${current}`}
@@ -113,11 +111,10 @@ export default function Testimonials() {
             key={`rating-${current}`}
             className={`${styles.rating} ${styles.fadeInUpDelay2}`}
           >
-            {t.rating}
+            <span className={styles.visuallyHidden}>{t.rating}</span>
+            <span aria-hidden="true">★★★★★</span>
           </span>
-        </div>
-
-        <div className={styles.navWrapper}>
+          <div className={styles.navWrapper}>
           <button
             className={styles.navArrow}
             onClick={prev}
@@ -151,6 +148,7 @@ export default function Testimonials() {
               <path d="M5 12h14M12 5l7 7-7 7" />
             </svg>
           </button>
+          </div>
         </div>
       </div>
     </section>

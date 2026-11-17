@@ -322,7 +322,7 @@ export const blogs = [
   {
     id: 5,
     slug: 'planning-a-destination-wedding-what-to-know-before-you-book',
-    image: '/blog/blog5.webp',
+    image: '/blog/blog05.webp',
     title: 'Planning a Destination Wedding: What to Know Before You Book',
     date: 'Jun 15, 2026',
     excerpt:

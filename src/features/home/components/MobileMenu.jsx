@@ -2,7 +2,7 @@ import styles from './MobileMenu.module.css';
 
 const menuItems = [
   { label: 'Home', href: '/' },
-  { label: 'About', href: '/about' },
+  { label: 'About Us', href: '/about' },
   { label: 'Destinations', href: '/destinations/delhi-ncr' },
   { label: 'Portfolio', href: '/#portfolio' },
   { label: 'Blog', href: '/blog' },

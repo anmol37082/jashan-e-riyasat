@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@400;500;600&display=swap');
 
 .container {
-  background-color: var(--cream);
+  background-color: #cf9e57;
   padding: 70px 16px 56px;
   font-family: 'Cormorant Garamond', Georgia, serif;
 }
@@ -15,20 +15,19 @@
 .eyebrow {
   display: inline-flex;
   align-items: center;
-  font-family: 'Montserrat', sans-serif;
-  font-size: clamp(10px, 0.4vw + 9px, 11px);
-  font-weight: 500;
-  letter-spacing: clamp(1.5px, 0.15vw + 1px, 2.5px);
-  text-transform: uppercase;
-  color: var(--dark-brown);
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(48px, 7vw, 64px);
+  font-weight: 300;
+  line-height: 1;
+  color: #650000;
   margin: 0 0 10px;
   width: fit-content;
 }
 
 .title {
-  color: var(--title-color);
+  color: #650000;
   font-family: 'Cormorant Garamond', serif;
-  font-size: clamp(28px, 3.5vw, 42px);
+  font-size: clamp(24px, 2.5vw, 30px);
   font-weight: 300;
   line-height: 1.2;
 }
@@ -36,7 +35,7 @@
 .subtitle {
   font-size: clamp(16px, 2vw, 20px);
   font-weight: 300;
-  color: #5a4a3a;
+  color: #650000;
   font-style: italic;
   margin-top: 10px;
 }
@@ -53,7 +52,7 @@
 
 .tab {
   padding: 10px 26px;
-  font-size: 12px;
+  font-size: 15px;
   font-family: 'Inter', sans-serif;
   font-weight: 500;
   color: #5a4a3a;
@@ -181,7 +180,7 @@
 
 .captionLabel {
   font-family: 'Inter', sans-serif;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 500;
   letter-spacing: 1.2px;
   text-transform: uppercase;
@@ -217,7 +216,7 @@
   }
 
   .captionLabel {
-    font-size: 11.5px;
+    font-size: 14px;
   }
 }
 

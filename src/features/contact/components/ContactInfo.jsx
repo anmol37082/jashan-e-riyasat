@@ -10,7 +10,7 @@ export default function ContactInfo() {
         </svg>
       ),
       label: 'Address',
-      value: 'SCO 123, Sector 34, Chandigarh, Punjab, India',
+      value: 'Studio address available on request',
       href: null,
     },
     {
@@ -20,8 +20,8 @@ export default function ContactInfo() {
         </svg>
       ),
       label: 'Phone',
-      value: '+91 98765 43210',
-      href: 'tel:+919876543210',
+      value: '+91 78891 08874',
+      href: 'tel:+917889108874',
     },
     {
       icon: (
@@ -31,8 +31,8 @@ export default function ContactInfo() {
         </svg>
       ),
       label: 'Email',
-      value: 'info@jashan-e-riyasat.com',
-      href: 'mailto:info@jashan-e-riyasat.com',
+      value: 'jashneriyasat@gmail.com',
+      href: 'mailto:jashneriyasat@gmail.com',
     },
     {
       icon: (
@@ -52,8 +52,8 @@ export default function ContactInfo() {
         </svg>
       ),
       label: 'WhatsApp',
-      value: '+91 98765 43210',
-      href: 'https://wa.me/919876543210',
+      value: '+91 78891 08874',
+      href: 'https://wa.me/917889108874',
     },
   ];
 
@@ -65,7 +65,7 @@ export default function ContactInfo() {
             <span className={styles.overline}>Contact</span>
             <h2 className={styles.heading}>Let&apos;s Plan Your Perfect Day</h2>
             <p className={styles.subheading}>
-              Visit our studio or reach out — we&apos;re here to make your celebrations unforgettable.
+              Reach out to plan your celebration, or connect with us on social media.
             </p>
           </div>
 
@@ -92,14 +92,14 @@ export default function ContactInfo() {
           <div className={styles.mapWrapper}>
             <iframe
               className={styles.mapFrame}
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3430.9!2d76.7794!3d30.7333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sChandigarh!5e0!3m2!1sen!2sin!4v1234567890"
+              src="https://www.google.com/maps?q=Chandigarh&output=embed"
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Office Location Map"
+              title="Chandigarh Map"
             />
           </div>
           <a
-            href="https://maps.google.com/?q=SCO+123,+Sector+34,+Chandigarh"
+            href="https://maps.google.com/?q=Chandigarh"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.directionsLink}
@@ -107,7 +107,7 @@ export default function ContactInfo() {
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <polygon points="3 11 22 2 13 21 11 13 3 11" />
             </svg>
-            Get Directions
+            View Chandigarh Map
           </a>
         </div>
       </div>

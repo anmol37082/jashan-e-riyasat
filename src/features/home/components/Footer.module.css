@@ -27,7 +27,7 @@
 
 .footerDesc {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 1.7;
   color: #fedb7c;
@@ -45,6 +45,25 @@
   stroke: #8b7355;
   fill: none;
   stroke-width: 1.5;
+}
+
+.footerSocials {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 18px;
+  margin-top: 24px;
+}
+
+.footerSocials a {
+  color: #fedb7c;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+.footerSocials a:hover {
+  text-decoration: underline;
 }
 
 .footerCenter {
@@ -68,7 +87,7 @@
 
 .footerInquire {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 1.7;
   color: #fedb7c;
@@ -86,7 +105,7 @@
   display: block;
   margin-top: 8px;
   font-family: 'Cormorant Garamond', serif;
-  font-size: 16px;
+  font-size: 18px;
   color: #fedb7c;
   font-style: italic;
   text-decoration: none;
@@ -116,7 +135,7 @@
 
 .footerNavLink {
   font-family: 'Montserrat', sans-serif;
-  font-size: 11px;
+  font-size: 14px;
   letter-spacing: 2.5px;
   text-transform: uppercase;
   color: #fedb7c;

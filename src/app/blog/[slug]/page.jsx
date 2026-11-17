@@ -5,6 +5,7 @@ import { notFound } from 'next/navigation';
 import { blogs, getBlogBySlug } from '@/features/home/data/blogs';
 
 import styles from './page.module.css';
+import { absoluteUrl, JsonLd, pageSchema } from '@/lib/seo';
 
 async function resolveParams(params) {
   return typeof params?.then === 'function' ? await params : params;
@@ -38,6 +39,13 @@ export default async function BlogSlugPage({ params }) {
 
   return (
     <main className={styles.page}>
+      <JsonLd data={{
+        ...pageSchema(`/blog/${blog.slug}`, blog.title, blog.excerpt, 'BlogPosting'),
+        headline: blog.title,
+        datePublished: new Date(blog.date).toISOString(),
+        image: absoluteUrl(blog.heroImage || blog.image),
+        author: { '@type': 'Organization', name: 'Jashan-e-Riyasat' },
+      }} />
       <section className={styles.hero}>
         <div className={styles.imageWrap}>
           <Image src={blog.heroImage || blog.image} alt={blog.title} fill priority className={styles.image} />

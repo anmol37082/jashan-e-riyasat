@@ -14,14 +14,14 @@
 .title {
      color: var(--title-color);
     font-family: Cormorant Garamond, serif;
-    font-size: clamp(28px, 3.5vw, 42px);
+    font-size: clamp(48px, 7vw, 64px);
     font-weight: 300;
     line-height: 1.2;
 }
 
 
 .subtitle {
-  font-size: clamp(16px, 2vw, 20px);
+  font-size: clamp(24px, 3vw, 30px);
   font-weight: 300;
   color: #5a4a3a;
   font-style: italic;
@@ -58,7 +58,7 @@
   cursor: pointer;
   text-align: left;
   font-family: 'Georgia', 'Times New Roman', serif;
-  font-size: 0.95rem;
+  font-size: 1.2rem;
   color: #2c2c2c;
   line-height: 1.5;
 }
@@ -98,13 +98,13 @@
 }
 
 .answerOpen {
-  max-height: 300px;
+  max-height: 500px;
   padding: 0 0 20px 34px;
 }
 
 .answer p {
   font-family: 'Georgia', 'Times New Roman', serif;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   color: #5a5a5a;
   line-height: 1.7;
   margin: 0;
@@ -128,7 +128,7 @@
   }
   
   .question {
-    font-size: 0.9rem;
+    font-size: 1.05rem;
     padding: 16px 0;
   }
   

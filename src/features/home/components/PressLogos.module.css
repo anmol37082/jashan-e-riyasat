@@ -38,7 +38,7 @@
 
 .pressLogo {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.85);
   letter-spacing: 4px;
@@ -68,7 +68,7 @@
   }
 
   .pressLogo {
-    font-size: 18px;
+    font-size: 20px;
     padding: 0 30px;
   }
 

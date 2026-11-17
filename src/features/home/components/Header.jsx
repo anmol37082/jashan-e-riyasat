@@ -8,7 +8,7 @@ import useScrollPosition from '@/hooks/useScrollPosition';
 
 const leftNavItems = [
   { label: 'Home', href: '/' },
-  { label: 'About', href: '/about' },
+  { label: 'About Us', href: '/about' },
   { label: 'Destinations', href: '/destinations/delhi-ncr' },
 ];
 

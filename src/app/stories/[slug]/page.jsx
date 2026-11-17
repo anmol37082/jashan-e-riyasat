@@ -5,6 +5,7 @@ import { getStoryBySlug, stories } from '@/features/home/data/stories';
 import StoryGallery from './StoryGallery';
 
 import styles from './page.module.css';
+import { absoluteUrl, JsonLd, pageSchema } from '@/lib/seo';
 
 async function resolveParams(params) {
   return typeof params?.then === 'function' ? await params : params;
@@ -40,6 +41,11 @@ export default async function StoryPage({ params }) {
 
   return (
     <main className={styles.page}>
+      <JsonLd data={{
+        ...pageSchema(`/stories/${story.slug}`, `${story.names} | ${story.title}`, story.detail?.overview || `${story.names} wedding story`, 'Article'),
+        image: absoluteUrl(story.heroImage || story.image),
+        about: { '@type': 'Event', name: `${story.names} Wedding` },
+      }} />
       <section className={styles.hero}>
         <div className={styles.heroMedia}>
           <Image

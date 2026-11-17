@@ -6,7 +6,7 @@
    ============================================ */
 
 .section {
- background-color: var(--cream);
+ background-color: #cf9e57;
   padding: clamp(44px, 5vw, 72px) 16px;
   display: flex;
   justify-content: center;
@@ -18,12 +18,25 @@
 }
 
 .container {
-  max-width: 700px;
+  max-width: 1100px;
   width: 100%;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: minmax(280px, 0.8fr) minmax(0, 1.2fr);
+  column-gap: clamp(40px, 7vw, 96px);
+  row-gap: 24px;
   align-items: center;
+  text-align: left;
+}
+
+.sectionTitle {
+  grid-column: 1 / -1;
   text-align: center;
+  color: #650000;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(48px, 7vw, 64px);
+  font-weight: 300;
+  line-height: 1;
+  margin: 0 0 32px;
 }
 
 /* ============================================
@@ -32,9 +45,9 @@
 
 .imageBox {
   position: relative;
-  width: 200px;
-  height: 250px;
-  margin-bottom: 40px;
+  width: min(100%, 340px);
+  height: 425px;
+  margin: 0 auto;
   overflow: hidden;
 }
 
@@ -90,7 +103,7 @@
 .contentBox {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .quoteBlock {
@@ -104,7 +117,7 @@
 
 .quoteText {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 28px;
+  font-size: 32px;
   font-weight: 400;
   line-height: 1.4;
   color: #000000;
@@ -114,7 +127,7 @@
 
 .authorName {
   font-family: 'Montserrat', sans-serif;
-  font-size: 11px;
+  font-size: 14px;
   font-weight: 500;
   letter-spacing: 2.5px;
   text-transform: uppercase;
@@ -126,19 +139,29 @@
 }
 
 .rating {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 14px;
-  font-weight: 400;
-  font-style: italic;
-  color: #8B3A3A;
-  border: 1px solid #8B3A3A;
-  padding: 6px 18px;
-  border-radius: 20px;
+  font-family: Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 8px;
+  color: #fff0a3;
+  text-shadow: 0 0 5px #ffd700, 0 0 12px rgba(255, 215, 0, 0.9), 0 0 22px rgba(255, 190, 0, 0.65);
   display: inline-block;
-  margin-bottom: 40px;
+  margin-bottom: 8px;
   animation-duration: 500ms;
   animation-fill-mode: both;
   animation-timing-function: ease-out;
+}
+
+.visuallyHidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 /* Fade Up Animations */
@@ -175,6 +198,7 @@
   display: flex;
   align-items: center;
   gap: 16px;
+  margin-top: 20px;
 }
 
 .navArrow {
@@ -240,25 +264,44 @@
     min-height: auto;
   }
 
+  .container {
+    grid-template-columns: 1fr;
+    text-align: center;
+    row-gap: 24px;
+  }
+
+  .sectionTitle {
+    grid-column: 1;
+  }
+
+  .contentBox {
+    align-items: center;
+  }
+
+  .navWrapper {
+    justify-content: center;
+    margin: 20px auto 0;
+  }
+
   .imageBox {
-    width: 160px;
-    height: 200px;
-    margin-bottom: 30px;
+    width: min(75vw, 340px);
+    height: min(94vw, 425px);
+    margin: 0 auto;
   }
 
   .quoteText {
-    font-size: 22px;
+    font-size: 26px;
   }
 
   .authorName {
-    font-size: 10px;
+    font-size: 12px;
     letter-spacing: 2px;
   }
 
   .rating {
-    font-size: 13px;
-    padding: 5px 14px;
-    margin-bottom: 30px;
+    font-size: 26px;
+    letter-spacing: 6px;
+    margin-bottom: 8px;
   }
 
   .progressLine {
@@ -272,25 +315,24 @@
   }
 
   .imageBox {
-    width: 140px;
-    height: 175px;
-    margin-bottom: 24px;
+    width: min(75vw, 300px);
+    height: min(94vw, 375px);
   }
 
   .quoteText {
-    font-size: 18px;
+    font-size: 22px;
     line-height: 1.45;
   }
 
   .authorName {
-    font-size: 9px;
+    font-size: 11px;
     letter-spacing: 1.5px;
   }
 
   .rating {
-    font-size: 12px;
-    padding: 4px 12px;
-    margin-bottom: 24px;
+    font-size: 22px;
+    letter-spacing: 5px;
+    margin-bottom: 8px;
   }
 
   .navArrow {

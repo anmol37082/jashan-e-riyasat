@@ -21,7 +21,7 @@ export default function BlogLanding() {
     <>
       <Header onMenuToggle={toggleMenu} />
       <MobileMenu isOpen={isMenuOpen} onClose={closeMenu} />
-      <Hero />
+      <Hero title="Blog" />
 
       <section className={styles.page}>
         <div className={styles.gridWrap}>

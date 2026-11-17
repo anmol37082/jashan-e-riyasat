@@ -65,7 +65,7 @@ export default function WeddingEnquiry() {
                 id="phone"
                 name="phone"
                 type="tel"
-                placeholder="+91 98765 43210"
+                placeholder="+91 78891 08874"
                 value={formData.phone}
                 onChange={handleChange}
                 className={styles.input}

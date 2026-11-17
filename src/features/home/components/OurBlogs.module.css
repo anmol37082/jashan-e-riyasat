@@ -15,14 +15,14 @@
 .title {
      color: var(--title-color);
     font-family: Cormorant Garamond, serif;
-    font-size: clamp(28px, 3.5vw, 42px);
+    font-size: clamp(48px, 7vw, 64px);
     font-weight: 300;
     line-height: 1.2;
 }
 
 
 .subtitle {
-  font-size: clamp(16px, 2vw, 20px);
+  font-size: clamp(24px, 3vw, 30px);
   font-weight: 300;
   color: #5a4a3a;
   font-style: italic;
@@ -88,7 +88,7 @@
 
 .blogTitle {
   font-family: 'Georgia', 'Times New Roman', serif;
-  font-size: 1rem;
+  font-size: 1.25rem;
   font-weight: 200;
   color: #ffffff;
   line-height: 1.4;
@@ -97,7 +97,7 @@
 
 .date {
   font-family: 'Georgia', 'Times New Roman', serif;
-  font-size: 0.78rem;
+  font-size: 1rem;
   font-weight: 200;
   color: rgba(255, 255, 255, 0.8);
   margin: 0;
@@ -126,12 +126,12 @@
   }
   
   .blogTitle {
-    font-size: 0.95rem;
+    font-size: 1.15rem;
     font-weight: 200;
   }
 
   .date {
-    font-size: 0.75rem;
+    font-size: 0.95rem;
     font-weight: 200;
   }
 }

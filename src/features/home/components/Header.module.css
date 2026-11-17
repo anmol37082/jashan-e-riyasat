@@ -216,7 +216,7 @@
 
 .navLink {
   font-family: 'Montserrat', sans-serif;
-  font-size: 11px;
+  font-size: 18px;
   letter-spacing: 2.5px;
   text-transform: uppercase;
   text-decoration: none;
@@ -225,6 +225,11 @@
   padding-bottom: 5px;
   transition: color 0.3s ease;
   white-space: nowrap;
+}
+
+.header .navLink:hover,
+.header.scrolled .navLink:hover {
+  color: #cf9e57;
 }
 
 .navLink::after {

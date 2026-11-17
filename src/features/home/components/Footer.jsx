@@ -12,6 +12,13 @@ const navLinks = [
   { label: 'STUDIO', href: '#studio' },
 ];
 
+const socialLinks = [
+  { label: 'Facebook', href: 'https://www.facebook.com/JASHNERIYASAT/' },
+  { label: 'YouTube', href: 'https://www.youtube.com/@Jashn-E-Riyasat' },
+  { label: 'Pinterest', href: 'https://www.pinterest.com/Jashn_E_Riyasat/' },
+  { label: 'Instagram', href: 'https://www.instagram.com/jashn_e_riyasat/' },
+];
+
 export default function Footer() {
   return (
     <footer className={styles.footer}>
@@ -20,22 +27,16 @@ export default function Footer() {
         <div className={styles.footerLeft}>
           <p className={styles.footerDesc}>
             Your destination for luxury wedding planning, creative event
-            production, and refined celebrations in Toronto and destinations
-            worldwide. Recognized as one of Canada&apos;s top wedding planners.
+            production, and refined celebrations in India and destinations
+            worldwide.
           </p>
-          <a
-            href="https://instagram.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.footerInstagram}
-            aria-label="Instagram"
-          >
-            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
-              <circle cx="12" cy="12" r="5" />
-              <circle cx="17.5" cy="6.5" r="1.5" />
-            </svg>
-          </a>
+          <div className={styles.footerSocials} aria-label="Social media links">
+            {socialLinks.map((link) => (
+              <a key={link.label} href={link.href} target="_blank" rel="noopener noreferrer">
+                {link.label}
+              </a>
+            ))}
+          </div>
         </div>
 
         {/* Center - Logo */}
@@ -55,21 +56,8 @@ export default function Footer() {
           <p className={styles.footerInquire}>
             Inquire <a href="#contact">here</a> for weddings, for other questions:
           </p>
-          <a href="mailto:hello@jashaneriyasat.com" className={styles.footerEmail}>
-            hello@jashaneriyasat.com
-          </a>
-          <a
-            href="https://instagram.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.footerInstagramRight}
-            aria-label="Instagram"
-          >
-            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
-              <circle cx="12" cy="12" r="5" />
-              <circle cx="17.5" cy="6.5" r="1.5" />
-            </svg>
+          <a href="mailto:jashneriyasat@gmail.com" className={styles.footerEmail}>
+            jashneriyasat@gmail.com
           </a>
         </div>
       </div>

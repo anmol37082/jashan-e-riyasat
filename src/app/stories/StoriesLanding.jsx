@@ -21,7 +21,7 @@ export default function StoriesLanding() {
     <>
       <Header onMenuToggle={toggleMenu} />
       <MobileMenu isOpen={isMenuOpen} onClose={closeMenu} />
-      <Hero />
+      <Hero title="Our Work" />
 
       <section id="stories" className={styles.page}>
         <div className={styles.gridWrap}>

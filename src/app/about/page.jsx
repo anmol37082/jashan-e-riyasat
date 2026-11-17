@@ -1,4 +1,5 @@
 import AboutLanding from './AboutLanding';
+import { JsonLd, pageSchema } from '@/lib/seo';
 
 export const metadata = {
   title: 'About | Jashan-e-Riyasat',
@@ -6,5 +7,5 @@ export const metadata = {
 };
 
 export default function AboutPage() {
-  return <AboutLanding />;
+  return <><JsonLd data={pageSchema('/about', 'About Jashan-e-Riyasat', 'Our story, approach, and wedding hospitality philosophy.')} /><AboutLanding /></>;
 }
