@@ -262,6 +262,14 @@
   flex-shrink: 0;
 }
 
+.listLabel {
+  color: var(--title-color);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.95em;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
 .venuesWrapper {
   margin-bottom: 2rem;
 }

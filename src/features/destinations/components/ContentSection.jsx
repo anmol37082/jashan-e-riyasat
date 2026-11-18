@@ -242,12 +242,26 @@ export default function ContentSection({ blocks, destinations = [], currentSlug 
 
               {block.list && (
                 <ul className={styles.list}>
-                  {block.list.map((item, idx) => (
-                    <li key={idx}>
-                      <span className={styles.bullet} />
-                      <span>{item}</span>
-                    </li>
-                  ))}
+                  {block.list.map((item, idx) => {
+                    const colonIndex = item.indexOf(':');
+                    const hasLabel = colonIndex > 0;
+                    const label = hasLabel ? item.slice(0, colonIndex) : '';
+                    const description = hasLabel ? item.slice(colonIndex + 1).trim() : item;
+
+                    return (
+                      <li key={idx}>
+                        <span className={styles.bullet} />
+                        <span>
+                          {hasLabel ? (
+                            <>
+                              <strong className={styles.listLabel}>{label}</strong>
+                              {`: ${description}`}
+                            </>
+                          ) : item}
+                        </span>
+                      </li>
+                    );
+                  })}
                 </ul>
               )}
 
