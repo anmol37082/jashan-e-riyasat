@@ -109,97 +109,114 @@ export const destinations = {
 
   "jaipur": {
     meta: {
-      title: "Best Wedding Planner in Jaipur | Jashan-e-Riyasat",
+      title: "Royal Wedding Planners in Jaipur | Jashan-e-Riyasat",
       description:
-        "Jashan-e-Riyasat plans royal palace weddings in Jaipur, the Pink City. Heritage venues, elephant baraats and luxury décor planned by Jaipur's trusted destination wedding planner.",
+        "Jaipur, famously known as the Pink City, is one of India's most enchanting destinations for couples dreaming of a royal wedding.",
     },
     hero: {
       location: "Jaipur",
-      h1: "Best Wedding Planner in Jaipur",
+      h1: "Royal Wedding Planners in Jaipur – Celebrate Your Love in Royal Grandeur",
       subheadline:
-        "Royal palace weddings in the Pink City — where heritage meets luxury for your perfect day.",
+        "Jaipur, famously known as the Pink City, is one of India's most enchanting destinations for couples dreaming of a royal wedding.",
       image: "/destination/jaipur.webp",
     },
     contentBlocks: [
       {
-        h2: "Royal Wedding Planner in Jaipur — The Pink City Awaits",
-        body: "Jaipur has become the default answer for Indian couples who want their wedding to feel like an occasion, not just an event. The palaces do a lot of the visual heavy lifting on their own — sandstone facades, courtyards built for exactly this kind of gathering, arches that need almost no extra décor to look complete. Jashan-e-Riyasat has planned weddings across Jaipur's major heritage properties and knows which palace suits a 150-guest wedding versus a 500-guest one, which venues allow outside caterers, and where the photography actually comes out best at golden hour.",
+        h2: "Royal Wedding Planners in Jaipur – Celebrate Your Love in Royal Grandeur",
+        body: "Jaipur, famously known as the Pink City, is one of India's most enchanting destinations for couples dreaming of a royal wedding. With its magnificent palaces, grand heritage properties, beautiful courtyards, and timeless architecture, the city offers a breathtaking setting for celebrations filled with elegance and grandeur.\n\nAt Jashan-e-Riyasat, we bring your royal wedding dreams to life through thoughtful planning, creative concepts, exquisite décor, and seamless event coordination. From selecting the perfect venue and designing stunning wedding themes to managing vendors, guest hospitality, and every celebration detail, we create personalised wedding experiences that reflect your love story, traditions, and vision. Whether you dream of an intimate royal celebration or a grand destination wedding, we make every moment truly unforgettable.",
       },
       {
-        h2: "Why Choose Jaipur for Your Destination Wedding?",
-        body: "The appeal of Jaipur as a wedding destination for us as planners is that the city gives you both scale and access at the same time — you can host a genuinely grand celebration without asking guests to travel for two days to get there. It's about an hour's flight from Delhi and roughly the same from Mumbai, which matters a lot when half your guest list is flying in. Add to that the sheer number of heritage properties, from City Palace to smaller boutique havelis, and Jaipur ends up working for both a 100-guest wedding and a 600-guest one.",
-        stats: [
-          { label: "Heritage Hotels", value: "50+" },
-          { label: "Avg Budget", value: "₹30L – ₹80L" },
-          { label: "Best Season", value: "Nov – Feb" },
-          { label: "Flight Time", value: "1hr from Delhi" },
-        ],
+        h2: "Why Choose Jaipur for Your Royal Destination Wedding?",
+        body: "Jaipur, the beautiful Pink City, offers the perfect blend of royal heritage, magnificent architecture, and warm hospitality, making it an ideal destination for a truly memorable wedding. With its grand palaces, heritage hotels, elegant havelis, and stunning wedding venues, the city creates a magical setting for celebrations of every scale.\n\nAt Jashan-e-Riyasat, we help you make the most of Jaipur's royal charm by bringing together beautiful venues, thoughtfully curated décor, personalised wedding themes, and seamless event coordination. Whether you envision an intimate gathering or a lavish multi-day celebration, we focus on every detail to create a wedding experience filled with grandeur, comfort, and unforgettable memories. From venue selection to guest hospitality, we make your dream royal wedding a beautiful reality.",
       },
       {
         h2: "Top Wedding Venues in Jaipur",
-        body: "Every major palace in Jaipur has a slightly different personality, and picking the right one is really the first big decision of the wedding. City Palace gives you a genuine sense of royal history along with museum access for guests who arrive early. Samode Palace is smaller and more intimate, with Indo-Saracenic architecture that photographs beautifully without needing much added décor. Rambagh Palace, run by Taj, brings five-star service and manicured royal gardens for guests who want that level of hospitality throughout the stay. Jai Mahal Palace offers wide lawns with the city as a backdrop, which works well for a bigger reception.",
         venues: [
-          { area: "City Palace", type: "Royal heritage venue with museum access" },
-          { area: "Samode Palace", type: "Intimate palace with Indo-Saracenic architecture" },
-          { area: "Rambagh Palace", type: "Taj luxury hotel with royal gardens" },
-          { area: "Jai Mahal Palace", type: "Scenic lawns with Jaipur backdrop" },
+          { area: "City Palace, Jaipur", type: "A magnificent royal heritage setting known for its historic architecture, beautiful courtyards, and regal atmosphere." },
+          { area: "Samode Palace", type: "An enchanting heritage property featuring intricate Indo-Saracenic architecture, elegant interiors, and an intimate royal ambience." },
+          { area: "Rambagh Palace", type: "A luxurious Taj heritage hotel celebrated for its royal gardens, grand architecture, exceptional hospitality, and sophisticated wedding settings." },
+          { area: "Jai Mahal Palace", type: "A beautiful heritage property featuring expansive landscaped gardens, elegant architecture, and picturesque surroundings for grand wedding celebrations." },
         ],
+        body: "Choosing the perfect wedding venue is one of the most important parts of planning a destination wedding. Jaipur offers an extraordinary collection of royal palaces, heritage hotels, and magnificent properties, each with its own charm, architectural beauty, and atmosphere. From historic courtyards to grand gardens, these venues provide a beautiful backdrop for celebrations filled with elegance and grandeur.\n\nAt Jashan-e-Riyasat, we help you explore wedding venue options that complement your vision, guest requirements, and celebration style.\n\nHere are some of Jaipur's most iconic wedding venues:\n\nAt Jashan-e-Riyasat, we believe the perfect venue sets the foundation for an extraordinary wedding. Our aim is to help you find a setting that brings your dream celebration to life.",
       },
       {
-        h2: "Jaipur Wedding Themes & Traditions",
-        body: "A Jaipur wedding almost always leans into the royal element in some way — even couples who want a modern, minimal aesthetic elsewhere usually still want an elephant or horse baraat entry, because it's genuinely one of the most memorable parts of a Rajasthani wedding. Beyond the baraat, we plan a lot of poolside mehendis with marigold-heavy décor and folk dhol performances, sufi nights with live qawwali under open skies, and grand palace receptions with chandeliers and formal seating that suit the older generation of guests just as well as the younger crowd.",
+        h2: "Royal Wedding Themes & Traditional Celebrations in Jaipur",
         themes: [
-          { name: "Royal Procession", desc: "Elephant or horse arrival with traditional band" },
-          { name: "Mehendi by the Pool", desc: "Colorful decor with marigold and Rajasthani folk" },
-          { name: "Sufi Night", desc: "Qawwali performances under the stars" },
-          { name: "Palace Reception", desc: "Grand ballroom setup with crystal chandeliers" },
+          { name: "Traditional Rajasthani Mehendi Celebration", desc: "Begin your wedding festivities with a colourful mehendi celebration featuring vibrant marigold decorations, floral installations, traditional seating, folk music, dhol performances, and beautifully styled outdoor or poolside settings." },
+          { name: "Haldi Ceremony with a Traditional Touch", desc: "Celebrate the joy of your upcoming wedding with yellow floral décor, marigold installations, colourful umbrellas, traditional props, and lively music." },
+          { name: "Royal Rajasthani Folk Night", desc: "Introduce your guests to the cultural richness of Rajasthan through traditional folk dancers, Kalbeliya performances, Ghoomar, live folk music, and authentic regional entertainment." },
+          { name: "Sufi Night Under the Stars", desc: "Create an enchanting evening with live Sufi music, soulful Qawwali performances, warm lighting, candlelit arrangements, and elegant seating." },
+          { name: "Luxury Sangeet & Musical Evening", desc: "Bring both families together for an unforgettable musical celebration featuring customised stage décor, professional sound and lighting, choreographed family performances, live artists, and energetic entertainment." },
+          { name: "Royal Baraat & Grand Wedding Procession", desc: "Make the wedding day unforgettable with a traditional royal baraat featuring decorated horses, vintage carriages, traditional musicians, dhol performances, and elegant Rajasthani-inspired arrangements." },
+          { name: "Grand Royal Wedding Ceremony", desc: "Exchange your wedding vows in a beautifully designed royal setting featuring an elegant mandap, exquisite floral arrangements, traditional elements, magnificent backdrops, and thoughtfully curated seating." },
+          { name: "Grand Royal Palace Reception", desc: "Conclude your wedding celebrations with a magnificent reception featuring crystal chandeliers, luxurious floral arrangements, elegant stage designs, grand entrances, and beautifully curated dining spaces." },
+          { name: "Elegant Garden & Floral Wedding", desc: "For couples who prefer a romantic and contemporary celebration, beautifully styled garden weddings offer a magical setting with pastel floral arrangements, dreamy lighting, elegant mandap designs, and sophisticated outdoor seating." },
         ],
+        body: "A wedding in Jaipur is a beautiful blend of royal heritage, vibrant Rajasthani traditions, and grand celebrations. From colourful pre-wedding functions and soulful musical evenings to traditional wedding ceremonies and magnificent palace receptions, every occasion offers an opportunity to create unforgettable memories.\n\nAt Jashan-e-Riyasat, we bring together the charm of Rajasthan and the creativity of modern wedding design to create celebrations that reflect your personality, traditions, and vision. From the first pre-wedding function to the final celebration, we thoughtfully plan every detail to make your wedding truly special.\n\nAt Jashan-e-Riyasat, every wedding function is an opportunity to create something extraordinary. From traditional Rajasthani customs to contemporary luxury celebrations, we bring every element together with thoughtful planning, creative styling, and attention to detail.\n\nBecause a royal wedding is not just about how grand it looks, but how beautifully every moment is experienced.",
       },
       {
-        h2: "Budget Planning for a Jaipur Wedding",
-        body: "One thing couples underestimate about Jaipur is how much the venue choice alone shifts the total budget. A wedding at a Taj property or City Palace will naturally sit at the higher end, while a boutique heritage haveli can deliver almost the same visual impact for significantly less. We usually start budget conversations by locking the venue category first, because everything else — catering, décor scale, guest transport — gets planned around that number. Being upfront about this early saves a lot of back-and-forth later in the planning process.",
+        h2: "Start Planning Your Royal Destination Wedding in Jaipur",
+        body: "Your dream royal wedding deserves thoughtful planning, the perfect setting, and a team that understands every detail that makes a celebration special. If Jaipur is your preferred wedding destination, let Jashan-e-Riyasat help you turn your vision into a beautifully planned celebration.\n\nFrom exploring magnificent palace venues and coordinating trusted vendors to designing stunning décor, managing guest hospitality, and overseeing every wedding function, we take care of the essential arrangements with dedication and creativity. Our team focuses on seamless coordination and careful execution to ensure that every celebration unfolds beautifully.\n\nWhether you envision an intimate heritage wedding or a grand royal affair, we work closely with you to understand your preferences, traditions, and budget, creating an experience that feels truly yours.",
+      },
+      {
+        h2: "Jaipur Destination Wedding Venue Selection & Planning",
+        body: "Choosing the right venue is one of the most important steps in creating a memorable destination wedding. Jaipur offers a beautiful collection of royal palaces, heritage properties, luxury hotels, and stunning outdoor spaces, each offering a unique atmosphere for wedding celebrations.\n\nAt Jashan-e-Riyasat, we help you explore and shortlist venues that complement your wedding vision, guest requirements, preferences, and budget. We consider important details such as venue accessibility, accommodation arrangements, function spaces, guest movement, parking facilities, and weather backup plans to ensure every celebration is thoughtfully organised.\n\nOur venue selection and planning assistance includes:",
         list: [
-          "Palace venues (Rambagh, City Palace): premium tier",
-          "Mid-range heritage hotels: strong value with royal aesthetic",
-          "Boutique havelis: best for intimate 100-150 guest weddings",
-          "Catering and décor typically scale with venue category",
+          "Wedding Venue Shortlisting: Exploring suitable palace, heritage, hotel, and outdoor wedding venues in Jaipur.",
+          "Guest Accommodation Planning: Coordinating room requirements and accommodation arrangements for wedding guests.",
+          "Guest Arrival & Departure Management: Planning smooth transportation, arrival schedules, and departure arrangements.",
+          "Function Space Planning: Selecting suitable spaces for mehendi, haldi, sangeet, wedding ceremonies, and receptions.",
+          "Weather & Backup Arrangements: Considering indoor alternatives and contingency arrangements for outdoor celebrations.",
+          "Venue Coordination: Assisting with venue-related requirements, event schedules, and coordination with the property management team.",
         ],
       },
       {
-        h2: "Start Planning Your Jaipur Wedding",
-        body: "If Jaipur is even on your shortlist, it's worth having a proper conversation with a planner before you lock a venue — the difference between a good palace booking and a great one usually comes down to timing, season and how the space suits your actual guest count. Jashan-e-Riyasat handles the venue negotiation, vendor sourcing and full event execution for Jaipur weddings, and our team is present on the ground for every function so nothing is left to chance on the day itself.",
+        h2: "Guest Hospitality & Wedding Logistics Management in Jaipur",
+        body: "A beautiful destination wedding is not just about stunning venues and grand celebrations; it is also about making every guest feel welcomed, comfortable, and well taken care of. From the moment your guests arrive in Jaipur until the final farewell, every travel arrangement and hospitality detail plays an important role in creating a memorable experience.\n\nAt Jashan-e-Riyasat, we focus on making guest hospitality and wedding logistics seamless through thoughtful planning and organised coordination. From airport and railway station transfers to hotel check-ins and transportation between wedding venues, we ensure that guests can enjoy every celebration without worrying about travel or arrangements.\n\nOur guest hospitality and logistics services include:",
+        list: [
+          "Planned Transfers: Coordinating airport, railway station, hotel, and venue transfers.",
+          "Managed Check-ins: Assisting with guest arrivals, hotel check-ins, room allocation, and accommodation coordination.",
+          "Structured Event Flow: Organising guest movement and transportation between different wedding functions.",
+          "On-Ground Support: Providing coordination assistance throughout the celebrations to address guest requirements.",
+          "Guest Welcome Arrangements: Planning welcome desks, hospitality kits, and personalised welcome experiences.",
+          "Travel & Itinerary Coordination: Sharing event schedules, travel details, and essential information with guests.",
+        ],
+      },
+      {
+        h2: "Royal Wedding Decor & Design Styling in Jaipur",
+        body: "Wedding decor plays an important role in setting the mood and creating the overall experience of a celebration. In a city like Jaipur, known for its magnificent palaces, royal architecture, and rich cultural heritage, the right décor should complement the beauty of the venue while adding its own distinctive charm.\n\nAt Jashan-e-Riyasat, we bring creativity, elegance, and thoughtful design together to create wedding settings that reflect your personal style and vision. From selecting colour palettes and floral arrangements to designing statement entrances, stage setups, lighting, and guest seating, we pay attention to every detail. Whether you prefer classic royal elegance, soft romantic aesthetics, or contemporary luxury, we create beautifully coordinated spaces for every wedding function.",
+        list: [
+          "Classic Royal Luxury: Experience timeless elegance through sophisticated décor, grand floral arrangements, luxurious fabrics, elegant structures, and carefully curated details inspired by royal heritage.",
+          "Soft Romantic Styling: Create a dreamy atmosphere with delicate floral installations, pastel colour palettes, warm lighting, candlelit arrangements, and romantic décor elements.",
+          "Grand Statement Entrances: Make a lasting first impression with beautifully designed wedding entrances, floral arches, decorative pathways, customised installations, and grand welcome arrangements.",
+          "Elegant Stage & Mandap Design: Create stunning focal points with customised mandap structures, beautiful floral backdrops, sophisticated stage designs, and elegant seating arrangements.",
+          "Wedding Lighting & Ambience: Enhance the beauty of your celebration with thoughtfully designed lighting, chandeliers, fairy lights, ambient illumination, and decorative installations.",
+          "Guest Comfort & Seating Arrangements: Combine beauty with functionality through spacious seating layouts, comfortable lounge areas, well-planned dining spaces, and thoughtfully arranged guest movement.",
+        ],
+      },
+      {
+        h2: "Full-Service Destination Wedding Planners in Jaipur – From Planning to Royal Execution",
+        body: "Planning a destination wedding in Jaipur requires creativity, careful coordination, and attention to every little detail. At Jashan-e-Riyasat, we bring all aspects of wedding planning together to create a seamless and memorable celebration. From selecting magnificent royal venues and designing breathtaking décor to managing guest hospitality, catering arrangements, vendor coordination, and on-ground event execution, we take care of every essential detail.\n\nWhether you are looking for a luxury wedding planner in Jaipur or a complete destination wedding planning team, we work closely with you to understand your vision, preferences, traditions, and budget. Our focus is on personalised planning, transparent communication, thoughtful arrangements, and smooth coordination across every wedding function.\n\nWith Jashan-e-Riyasat, you can enjoy your special celebrations while we bring your dream wedding to life with elegance, creativity, and dedication.",
+      },
+      {
+        h2: "Our Jaipur Destination Wedding Planning Services",
+        body: "",
+        list: [
+          "Jaipur Destination Wedding Planning: Complete planning assistance for royal and luxury destination weddings.",
+          "Luxury Wedding Planning: Personalised concepts and sophisticated arrangements for grand celebrations.",
+          "Full-Service Wedding Coordination: Managing wedding functions, schedules, vendors, and event arrangements.",
+          "Guest Hospitality & Logistics: Coordinating accommodation, transportation, arrivals, and guest assistance.",
+          "Wedding Decor & Styling: Creating customised themes, floral installations, mandap designs, and beautiful event spaces.",
+          "Vendor & Catering Management: Coordinating essential wedding vendors, catering arrangements, and event requirements.",
+          "On-Ground Event Management: Overseeing arrangements and coordinating every function for a smooth celebration.",
+        ],
+      },
+      {
+        h2: "Let's Plan Your Royal Destination Wedding in Jaipur",
+        body: "Your dream wedding deserves more than ordinary arrangements. It deserves thoughtful planning, beautiful experiences, and flawless attention to detail.\n\nConnect with Jashan-e-Riyasat today to discuss your wedding plans and begin creating a celebration worthy of your love story.\n\nBook Your Wedding Consultation Today!",
       },
     ],
-    faqs: [
-      {
-        q: "How much does a destination wedding in Jaipur cost?",
-        a: "Most Jaipur destination weddings run between Rs. 30 lakhs and 80 lakhs, depending heavily on the venue and guest count. Palace properties like Rambagh and City Palace sit at the higher end, while heritage havelis offer a similar aesthetic for less.",
-      },
-      {
-        q: "What is the best time for a Jaipur wedding?",
-        a: "November through February is ideal — the weather is comfortable enough for outdoor palace ceremonies. April to June gets too hot, with temperatures regularly crossing 40°C, so it's best avoided for outdoor functions.",
-      },
-      {
-        q: "Do you arrange guest transportation for Jaipur weddings?",
-        a: "Yes, we handle the full guest logistics — airport pickups, accommodation at partner hotels, and local transport for every function throughout the wedding.",
-      },
-      {
-        q: "Can we have an elephant procession for the groom's entry?",
-        a: "Yes, this is one of the most requested elements for a Jaipur wedding. We work only with licensed providers to make sure the baraat entry is safe as well as memorable.",
-      },
-      {
-        q: "How many days should we plan for a Jaipur destination wedding?",
-        a: "3-4 days is the usual format — a welcome dinner, mehendi, sangeet, the wedding ceremony itself, and a farewell brunch the next morning.",
-      },
-      {
-        q: "Is Jaipur suitable for a small intimate wedding?",
-        a: "Definitely. Jaipur has plenty of boutique havelis and smaller palace properties built for weddings in the 50-100 guest range — Samode Palace and Dera Amer are two we recommend often for this.",
-      },
-      {
-        q: "What makes Jashan-e-Riyasat a good choice for a Jaipur wedding?",
-        a: "We've worked directly with most of Jaipur's major heritage venues and know their pricing, restrictions and best photo spots well. That familiarity means fewer surprises and better negotiated rates for our couples.",
-      },
-    ],
+    faqs: [],
   },
 
   "udaipur": {
@@ -1160,96 +1177,7 @@ export const destinations = {
 
 };
 
-function buildSeoContentBlock(location) {
-  return {
-    h2: `${location} destination wedding planning with full-service execution`,
-    body:
-      `If you're searching for a destination wedding planner in ${location}, Jashan-e-Riyasat handles venue selection, guest hospitality, vendor coordination, décor styling, catering flow and on-ground management so the celebration feels premium and well organised from start to finish. We work as one of the leading names for wedding planning in ${location}, and our approach stays the same everywhere we go — clear communication, honest budgets, and a team physically present at every function.`,
-    list: [
-      `${location} destination wedding planning`,
-      `Best wedding planner in ${location}`,
-      `Luxury wedding planner in ${location}`,
-      `Full-service wedding coordination`,
-      `Guest hospitality and logistics`,
-      `Decor, vendor, and timeline management`,
-    ],
-  };
-}
-
-function buildPaddingBlocks(location, count) {
-  const templates = [
-    {
-      h2: `Venue selection for ${location} destination weddings`,
-      body:
-        `The right venue in ${location} sets the tone for the entire celebration. Before recommending a property, we study access, room inventory, function flow, parking, and weather backup options, so the event feels realistic and genuinely well planned rather than overly ambitious on paper. Our experience running weddings across ${location} means we already know which venues tend to run into trouble and which ones deliver consistently.`,
-      list: [
-        `${location} wedding venue shortlisting`,
-        'Room block planning',
-        'Guest arrival and departure flow',
-        'Weather and backup coordination',
-      ],
-    },
-    {
-      h2: `Guest hospitality and logistics in ${location}`,
-      body:
-        `A destination wedding only feels smooth when the guest experience is handled properly from the moment people land. For ${location}, we organise travel timing, airport or station transfers, check-in support, and movement between events, so guests aren't left figuring out logistics on their own in an unfamiliar city.`,
-      stats: [
-        { label: 'Transfers', value: 'Planned' },
-        { label: 'Check-in', value: 'Managed' },
-        { label: 'Event flow', value: 'Structured' },
-        { label: 'Support', value: 'On-ground' },
-      ],
-    },
-    {
-      h2: `Design direction for ${location} celebrations`,
-      body:
-        `Décor for a ${location} wedding should work with the venue, not compete with it. We focus on colour palettes, floral density, lighting and ceremony styling that feels premium, current, and easy to photograph across every function, whether that's an intimate ceremony or a large reception.`,
-      themes: [
-        { name: 'Classic Luxury', desc: 'Refined decor with a clean visual structure' },
-        { name: 'Soft Romantic', desc: 'Warm lighting and floral-forward styling' },
-        { name: 'Statement Entry', desc: 'Strong first-impression design for key events' },
-        { name: 'Guest Comfort', desc: 'Layouts that feel open, practical, and elegant' },
-      ],
-    },
-    {
-      h2: `Planning timeline for ${location} weddings`,
-      body:
-        `We build the planning calendar around booking windows, vendor lead times, and guest communication milestones so the wedding stays organised from the first venue visit right through to the final send-off. Getting this timeline right early on is what keeps last-minute pressure — and the mistakes that come with it — out of the picture entirely.`,
-      list: [
-        'Early venue and budget mapping',
-        'Vendor finalization and scheduling',
-        'Guest communication and travel windows',
-        'Final run-through before the wedding week',
-      ],
-    },
-  ];
-
-  return templates.slice(0, Math.max(0, count));
-}
-
-const maxContentBlocks = Math.max(
-  ...Object.values(destinations).map((destination) => destination.contentBlocks.length)
-);
-const targetContentBlocks = maxContentBlocks + 1;
-
-const destinationPages = Object.fromEntries(
-  Object.entries(destinations).map(([slug, destination]) => {
-    const location = destination.hero?.location || slug;
-    const paddingCount = targetContentBlocks - destination.contentBlocks.length - 1;
-
-    return [
-      slug,
-      {
-        ...destination,
-        contentBlocks: [
-          ...destination.contentBlocks,
-          ...buildPaddingBlocks(location, paddingCount),
-          buildSeoContentBlock(location),
-        ],
-      },
-    ];
-  })
-);
+const destinationPages = destinations;
 
 export const destinationList = Object.entries(destinationPages).map(([slug, destination]) => ({
   ...destination,
