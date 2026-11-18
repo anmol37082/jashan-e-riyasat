@@ -43,11 +43,19 @@
 /* ========== TABS ========== */
 .tabsContainer {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   gap: 10px;
-  flex-wrap: wrap;
   margin-bottom: 46px;
   padding: 0 20px;
+}
+
+.tabsFirstRow,
+.tabsLastRow {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .tab {
@@ -63,6 +71,13 @@
   transition: all 0.3s ease;
   letter-spacing: 1.5px;
   text-transform: camelcase;
+}
+
+@media (min-width: 1024px) {
+  .tabsFirstRow,
+  .tabsLastRow {
+    flex-wrap: nowrap;
+  }
 }
 
 .tab:hover {

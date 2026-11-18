@@ -7,9 +7,11 @@ export const cities = [
   { id: 'sufi-night', label: 'Sufi Night' },
   { id: 'wedding', label: 'Wedding' },
   { id: 'reception', label: 'Reception' },
+  { id: 'international', label: 'International' },
 ];
 
 const img = (fileName) => `/gallery/${encodeURIComponent(fileName)}`;
+const globalImg = (fileName) => `/global/${encodeURIComponent(fileName)}`;
 
 const buildGalleryItems = (items) =>
   items.map((item, index) => ({
@@ -79,5 +81,15 @@ export const galleryData = {
     { img: img('Rec6.webp'), label: 'Reception' },
     { img: img('rec7.webp'), label: 'Reception' },
     { img: img('Rec8.webp'), label: 'Reception' },
+  ]),
+  international: buildGalleryItems([
+    { img: globalImg('img1.webp'), label: 'International' },
+    { img: globalImg('img2.webp'), label: 'International' },
+    { img: globalImg('img3.webp'), label: 'International' },
+    { img: globalImg('img4.webp'), label: 'International' },
+    { img: globalImg('img5.webp'), label: 'International' },
+    { img: globalImg('img6.webp'), label: 'International' },
+    { img: globalImg('img7.webp'), label: 'International' },
+    { img: globalImg('img8.webp'), label: 'International' },
   ]),
 };

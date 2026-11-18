@@ -19,15 +19,28 @@ export default function WeddingGallery() {
       </div>
 
       <div className={styles.tabsContainer}>
-        {cities.map((city) => (
-          <button
-            key={city.id}
-            onClick={() => setActiveCity(city.id)}
-            className={`${styles.tab} ${activeCity === city.id ? styles.tabActive : ''}`}
-          >
-            {city.label}
-          </button>
-        ))}
+        <div className={styles.tabsFirstRow}>
+          {cities.slice(0, -2).map((city) => (
+            <button
+              key={city.id}
+              onClick={() => setActiveCity(city.id)}
+              className={`${styles.tab} ${activeCity === city.id ? styles.tabActive : ''}`}
+            >
+              {city.label}
+            </button>
+          ))}
+        </div>
+        <div className={styles.tabsLastRow}>
+          {cities.slice(-2).map((city) => (
+            <button
+              key={city.id}
+              onClick={() => setActiveCity(city.id)}
+              className={`${styles.tab} ${activeCity === city.id ? styles.tabActive : ''}`}
+            >
+              {city.label}
+            </button>
+          ))}
+        </div>
       </div>
 
       <div className={styles.collageGrid} key={activeCity}>

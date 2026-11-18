@@ -5,16 +5,14 @@ import Image from 'next/image';
 import styles from './Portfolio.module.css';
 
 const portfolioImages = [
-  { src: '/global/img1.webp', alt: 'Wedding celebration' },
-  { src: '/global/img2.webp', alt: 'Wedding celebration' },
-  { src: '/global/img3.webp', alt: 'Wedding celebration' },
-  { src: '/global/img4.webp', alt: 'Wedding celebration' },
-  { src: '/global/img5.webp', alt: 'Wedding celebration' },
-  { src: '/global/img6.webp', alt: 'Wedding celebration' },
-  { src: '/global/img7.webp', alt: 'Wedding celebration' },
-  { src: '/global/img8.webp', alt: 'Wedding celebration' },
-  { src: '/global/img9.webp', alt: 'Wedding celebration' },
-  { src: '/global/img10.webp', alt: 'Wedding celebration' },
+  { src: '/portfolio/portfolio(1).webp', alt: 'Wedding celebration' },
+  { src: '/portfolio/portfolio(2).webp', alt: 'Wedding celebration' },
+  { src: '/portfolio/portfolio(3).webp', alt: 'Wedding celebration' },
+  { src: '/portfolio/portfolio(4).webp', alt: 'Wedding celebration' },
+  { src: '/portfolio/portfolio(5).webp', alt: 'Wedding celebration' },
+  { src: '/portfolio/portfolio(6).webp', alt: 'Wedding celebration' },
+  { src: '/portfolio/portfolio(7).webp', alt: 'Wedding celebration' },
+  { src: '/portfolio/portfolio(8).webp', alt: 'Wedding celebration' },
 ];
 
 export default function Portfolio() {
