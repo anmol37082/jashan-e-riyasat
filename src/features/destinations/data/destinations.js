@@ -221,91 +221,114 @@ export const destinations = {
 
   "udaipur": {
     meta: {
-      title: "Best Wedding Planner in Udaipur | Jashan-e-Riyasat",
+      title: "Udaipur – The City of Lakes for Your Dream Wedding | Jashan-e-Riyasat",
       description:
-        "Jashan-e-Riyasat creates lakeside palace weddings in Udaipur with boat entries, sunset ceremonies and royal Rajasthani hospitality planned end to end.",
+        "Udaipur is one of India's most beautiful wedding destinations, known for its stunning lakes, royal palaces and breathtaking surroundings.",
     },
     hero: {
       location: "Udaipur",
-      h1: "Best Wedding Planner in Udaipur",
+      h1: "Udaipur – The City of Lakes for Your Dream Wedding",
       subheadline:
-        "Lakeside palace weddings where romance floats on water — Udaipur, the Venice of the East.",
+        "Udaipur is one of India's most beautiful wedding destinations, known for its stunning lakes, royal palaces and breathtaking surroundings.",
       image: "/destination/udaipur.webp",
     },
     contentBlocks: [
       {
-        h2: "Udaipur — The City of Lakes for Your Dream Wedding",
-        body: "Udaipur is, without much argument, the most photogenic wedding destination in India. Every venue has water somewhere in the frame — Lake Pichola, Fateh Sagar, or one of the smaller lakes tucked into the hills — and that alone changes how a wedding feels compared to a landlocked palace city. Jashan-e-Riyasat has planned weddings across Udaipur's lake palaces and hillside resorts, and our biggest job here is usually logistics: getting guests, décor and catering across water without anything running late.",
+        h2: "Udaipur – The City of Lakes for Your Dream Wedding",
+        body: "Udaipur is one of India's most beautiful wedding destinations, known for its stunning lakes, royal palaces and breathtaking surroundings. From the iconic Lake Pichola and Fateh Sagar to luxurious hillside resorts, every setting adds a magical touch to your celebration.\n\nAt Jashan-e-Riyasat, we go beyond traditional wedding planning. We combine creative vision, meticulous logistics and personalised execution to transform Udaipur's royal venues into extraordinary wedding experiences. From managing boat transfers and guest hospitality to coordinating décor, catering and multiple vendors, our team ensures every element works in perfect harmony. Our strength lies in handling the complexities behind grand celebrations while allowing you and your guests to enjoy every moment without worry.",
       },
       {
         h2: "Why Udaipur is Perfect for Your Wedding",
-        body: "Couples pick Udaipur because it gives them something no other Indian city quite does — the combination of royal architecture and genuine natural scenery in the same frame. The Aravalli hills sit behind the palaces, the lakes sit in front, and even a fairly simple décor setup ends up looking spectacular in photos because the backdrop is doing so much of the work. It works for weddings as small as 50 guests and as large as several hundred, which is part of why it's stayed popular for over a decade.",
-        stats: [
-          { label: "Lake Palaces", value: "15+" },
-          { label: "Avg Budget", value: "₹40L – ₹1.5Cr" },
-          { label: "Peak Season", value: "Oct – Mar" },
-          { label: "Guest Capacity", value: "50 – 1000+" },
-        ],
+        body: "Udaipur offers a wedding setting that is difficult to recreate anywhere else in India. Its magnificent royal architecture, scenic Aravalli hills and beautiful lakes come together to create a breathtaking backdrop for every celebration. Whether it's an intimate gathering of 50 guests or a grand celebration with several hundred attendees, Udaipur offers venues and experiences to suit different wedding styles and scales.\n\nAt Jashan-e-Riyasat, we turn these beautiful settings into thoughtfully planned wedding experiences. Our team combines creative décor concepts, personalised celebrations and seamless coordination to make the most of every venue. From selecting the right location to managing the smallest execution details, we ensure your wedding reflects your vision while capturing the true royal charm of Udaipur.",
       },
       {
         h2: "Iconic Udaipur Wedding Venues",
-        body: "Taj Lake Palace, sitting in the middle of Lake Pichola, is probably the single most recognisable wedding venue in India — but it comes with limited room inventory, so it needs to be booked far in advance. The Oberoi Udaivilas offers a slightly different experience, with poolside ceremony options and resort-level service throughout the stay. City Palace has multiple event spaces within one historic complex, which is useful for a multi-day wedding that needs different settings for each function. Chunda Palace is a smaller heritage option that keeps a similar aesthetic at a friendlier price point.",
+        body: "Udaipur is home to some of India's most breathtaking wedding venues, where royal architecture, lakeside views and heritage charm create an unforgettable setting for every celebration. From floating palaces to grand luxury resorts, each venue offers a distinct experience.\n\nAt Jashan-e-Riyasat, we help couples find a venue that perfectly matches their wedding vision, guest list and celebration style. Our team takes care of venue coordination, function planning, décor concepts and hospitality arrangements to ensure every location is transformed into a seamless and memorable wedding experience.\n\n",
         venues: [
-          { area: "Taj Lake Palace", type: "Floating marble palace in Lake Pichola" },
-          { area: "The Oberoi Udaivilas", type: "Luxury resort with poolside ceremonies" },
-          { area: "City Palace", type: "Historic complex with multiple event spaces" },
-          { area: "Chunda Palace", type: "Heritage hotel with traditional decor" },
+          { area: "Taj Lake Palace", type: "A magnificent floating marble palace in the heart of Lake Pichola, ideal for an intimate and truly royal celebration." },
+          { area: "The Oberoi Udaivilas", type: "An iconic luxury resort offering grand architecture, beautiful courtyards and stunning poolside ceremony settings." },
+          { area: "City Palace", type: "A historic royal complex featuring multiple event spaces, perfect for hosting different wedding functions in distinctive settings." },
+          { area: "Chunda Palace", type: "A charming heritage property featuring traditional Rajasthani architecture and regal interiors for an intimate royal wedding experience." },
         ],
+        bodyAfter: "At Jashan-e-Riyasat, we believe the perfect venue sets the foundation for an extraordinary wedding. Our aim is to help you find a setting that brings your dream celebration to life.",
       },
       {
         h2: "Unique Udaipur Wedding Experiences",
-        body: "The boat entry is Udaipur's signature moment — the bride or groom arriving by traditional royal boat across Lake Pichola, and it's one of those things that genuinely can't be recreated anywhere else in India. Sunset ceremonies timed against the Aravalli backdrop are another favourite, and we plan the vows around the exact sunset time for that day rather than a fixed clock slot. Lakeside sangeets with the palace lit up in the background, and candlelit royal dinners on palace terraces round out the kind of multi-day format most Udaipur weddings follow.",
+        body: "Udaipur offers wedding experiences that go far beyond traditional celebrations. From royal boat arrivals and sunset ceremonies to grand lakeside sangeets, every function can become a memorable experience against the city's breathtaking royal backdrop.\n\nAt Jashan-e-Riyasat, we believe every wedding should tell a unique story. We curate personalised experiences by combining the city's heritage, natural beauty and cultural traditions with thoughtful event design and seamless execution. Every celebration is planned around your vision, guest experience and the distinctive character of the venue.",
         themes: [
-          { name: "Boat Entry", desc: "Arrive at your venue by traditional royal boat" },
-          { name: "Sunset Ceremony", desc: "Exchange vows with Aravalli sunset views" },
-          { name: "Lakeside Sangeet", desc: "Dance under the stars by Lake Pichola" },
-          { name: "Royal Dinner", desc: "Candlelit feast on palace terraces" },
+          { name: "Boat Entry", desc: "Make a grand entrance with a traditional royal boat arrival across Lake Pichola, creating an unforgettable beginning to your wedding celebrations." },
+          { name: "Sunset Ceremony", desc: "Exchange vows against the beautiful Aravalli hills as the sun sets, with carefully planned ceremony timings and breathtaking natural views." },
+          { name: "Lakeside Sangeet", desc: "Celebrate music, dance and entertainment under the stars with Lake Pichola and illuminated palaces creating a spectacular backdrop." },
+          { name: "Royal Dinner", desc: "Host an elegant candlelit dinner on palace terraces, featuring beautifully styled tables, curated menus and an enchanting royal atmosphere." },
+          { name: "Royal Rajasthani Welcome", desc: "Give your guests a memorable traditional welcome with folk musicians, cultural performances, authentic hospitality and vibrant Rajasthani traditions." },
+          { name: "Heritage-Themed Haldi & Mehendi", desc: "Bring colour and culture to your pre-wedding functions with traditional décor, floral installations, regional elements and thoughtfully designed celebration spaces." },
+          { name: "Fireworks & Grand Celebrations", desc: "Add a spectacular finishing touch to selected wedding functions with professionally coordinated visual experiences, subject to venue permissions and local regulations." },
+        ],
+        bodyAfter: "Make Every Wedding Function an Experience to Remember\n\nWith Jashan-e-Riyasat, every experience is thoughtfully planned, creatively designed and professionally executed. From intimate cultural moments to grand royal celebrations, we bring together the right people, details and coordination to make your Udaipur destination wedding truly unforgettable.",
+      },
+      {
+        h2: "Venue Selection for Udaipur Destination Weddings",
+        body: "Choosing the right venue is one of the most important decisions when planning a destination wedding in Udaipur. The venue sets the atmosphere for every celebration, from intimate pre-wedding functions to grand wedding ceremonies and receptions.\n\nAt Jashan-e-Riyasat, we go beyond selecting beautiful properties. We carefully evaluate each venue based on guest capacity, room availability, accessibility, function layouts, parking arrangements and weather backup options. Our approach focuses on matching your wedding vision with practical planning, ensuring every celebration is beautiful, comfortable and seamlessly executed.\n\nOur venue selection and coordination services include:",
+        list: [
+          "Udaipur Wedding Venue Shortlisting: Identifying suitable palace hotels, luxury resorts and heritage properties based on your vision, guest count and budget.",
+          "Room Block Planning: Coordinating guest accommodation and room allocations for a comfortable stay.",
+          "Guest Arrival & Departure Management: Planning transportation, transfers and arrival schedules for a smooth guest experience.",
+          "Weather & Backup Coordination: Arranging alternative spaces and contingency plans for outdoor functions.",
+          "Function Space Planning: Selecting suitable locations within the property for each wedding ceremony and celebration.",
+          "Venue & Vendor Coordination: Managing communication with venue teams and local vendors to ensure smooth execution.",
+        ],
+        bodyAfter: "With Jashan-e-Riyasat, venue selection becomes a well-planned process rather than just a search for a beautiful property. We help you choose a setting that brings your wedding vision to life while keeping logistics, comfort and execution in focus.",
+      },
+      {
+        h2: "Guest Hospitality and Logistics for Udaipur Destination Weddings",
+        body: "A memorable destination wedding begins with making every guest feel welcomed, comfortable and well taken care of. From the moment guests arrive in Udaipur until their departure, every travel arrangement and hospitality detail plays an important role in creating a smooth wedding experience.\n\nAt Jashan-e-Riyasat, we believe exceptional hospitality is just as important as beautiful wedding celebrations. Our team carefully plans guest arrivals, airport and railway station transfers, hotel check-ins and transportation between wedding venues. We coordinate every movement to ensure guests know where they need to be and when, without having to worry about navigating an unfamiliar city.\n\nOur guest hospitality and logistics services include:",
+        list: [
+          "Airport & Railway Station Transfers: Coordinating guest pickups, drop-offs and transportation schedules.",
+          "Hotel Check-in Assistance: Managing room allocations, welcome arrangements and guest accommodation coordination.",
+          "Event Transportation: Planning smooth transfers between hotels and different wedding venues.",
+          "Guest Welcome & Hospitality: Arranging welcome desks, assistance teams and personalised guest experiences.",
+          "Travel & Itinerary Coordination: Sharing event schedules, transportation timings and important information with guests.",
+          "On-Ground Guest Support: Providing assistance throughout the celebrations to handle queries and unexpected requirements.",
+        ],
+        bodyAfter: "At Jashan-e-Riyasat, we take care of the arrangements behind the scenes so your family and guests can focus on celebrating. From the first arrival to the final farewell, we make guest hospitality and wedding logistics an organised, comfortable and memorable experience.\n\nOur focus is simple. Your guests should feel like they are attending a celebration, not managing a travel itinerary.",
+      },
+      {
+        h2: "Design Direction for Udaipur Wedding Celebrations",
+        body: "Wedding decor in Udaipur should complement the beauty and character of its royal palaces, heritage properties and scenic lakeside venues. The right design brings together colours, flowers, lighting and creative installations to enhance the surroundings without overpowering them.\n\nAt Jashan-e-Riyasat, we create personalised decor concepts that reflect each couple's vision and the overall theme of the celebration. From intimate pre-wedding functions to grand wedding ceremonies and receptions, we focus on thoughtful styling, premium detailing and practical layouts that look beautiful in person and photograph exceptionally well.",
+        themes: [
+          { name: "Classic Luxury", desc: "Sophisticated décor featuring refined colour palettes, elegant floral arrangements, luxurious fabrics and balanced visual elements." },
+          { name: "Soft Romantic", desc: "Dreamy celebrations with warm lighting, delicate floral installations, pastel tones and romantic ceremony settings." },
+          { name: "Statement Entry", desc: "Eye-catching entrance designs, grand floral installations and creative welcome concepts that make a lasting first impression." },
+          { name: "Guest Comfort", desc: "Beautifully planned event layouts with comfortable seating, open spaces, smooth movement and elegant arrangements for guests." },
+          { name: "Royal Heritage", desc: "Inspired by Udaipur's royal architecture, this style combines traditional Rajasthani elements, rich textures, heritage-inspired details and regal colour combinations." },
+          { name: "Contemporary Elegance", desc: "Modern decor concepts featuring minimal installations, distinctive structures, creative lighting and sophisticated styling." },
+        ],
+        bodyAfter: "Our Approach to Wedding Decor\n\nAt Jashan-e-Riyasat, we don't believe in repeating the same décor at every wedding. We design each celebration around the venue, the couple's personality and function requirements. From the first mood board to the final on-ground setup, our team coordinates creative direction, production, floral styling, lighting and execution to bring every detail together.\n\nYour venue sets the scene. Our creativity brings the celebration to life.",
+      },
+      {
+        h2: "Udaipur Destination Wedding Planning with Full-Service Execution",
+        body: "Planning a destination wedding in Udaipur involves bringing together the right venues, creative concepts, trusted vendors and seamless coordination. If you're looking for a destination wedding planner in Udaipur, Jashan-e-Riyasat offers comprehensive wedding planning and management services, ensuring every celebration is thoughtfully designed and professionally executed.\n\nFrom selecting royal palace venues and managing guest hospitality to décor styling, catering coordination, entertainment, transportation and complete on-ground execution, we take care of every aspect of your wedding. Our team focuses on clear communication, transparent budget planning and detailed coordination, with dedicated on-ground management throughout the wedding celebrations.\n\nWhether you're planning an intimate destination wedding or a grand multi-day royal celebration, we bring creativity, organisation and personalised attention to every function.\n\nOur Full-Service Wedding Planning Includes:",
+        list: [
+          "Udaipur Destination Wedding Planning: Complete planning and coordination for multi-day wedding celebrations.",
+          "Venue Selection & Management: Shortlisting suitable luxury resorts, heritage hotels and royal palace venues.",
+          "Guest Hospitality & Logistics: Managing accommodation, airport transfers, welcome arrangements and guest assistance.",
+          "Wedding Décor & Styling: Creating personalised décor concepts, floral arrangements, lighting and themed setups.",
+          "Vendor Coordination: Managing communication and coordination with photographers, caterers, entertainers and other wedding professionals.",
+          "Catering & Entertainment Management: Coordinating food arrangements, live performances, music and entertainment schedules.",
+          "Timeline & Function Management: Planning event schedules and ensuring every ceremony runs smoothly.",
+          "On-Ground Wedding Execution: Dedicated coordination and supervision across wedding functions to manage details as they happen.",
         ],
       },
       {
-        h2: "Managing Boat and Venue Logistics",
-        body: "Udaipur weddings look effortless in photos, but the actual planning behind a boat entry or a multi-venue event across the lake takes real coordination — tide timing, boat capacity, backup arrangements if weather changes at the last minute. This is the part most families don't think about until it's almost too late, and it's exactly where a planner earns their fee. We handle every boat transfer, guest movement between palace sections, and weather contingency plan so the day runs the way it looked on paper.",
+        h2: "Why Choose Jashan-e-Riyasat for Your Udaipur Wedding?",
+        body: "We understand that a luxury wedding is not defined by the scale of the celebration alone, but by how beautifully every detail comes together. At Jashan-e-Riyasat, we combine creative planning, personalised concepts and structured execution to deliver celebrations that reflect your expectations.\n\nOur focus is on making wedding planning organised for families and memorable for guests, while ensuring every function receives the attention it deserves.",
       },
       {
-        h2: "Plan Your Udaipur Wedding with Jashan-e-Riyasat",
-        body: "We've spent years building direct relationships with Udaipur's major palace properties, boat operators and local vendors, which means better rates and fewer surprises for the families we work with. If Udaipur is where you're picturing your wedding, let's start with a conversation about your guest count and the season you're targeting — from there we can map out which properties actually make sense for your budget.",
+        h2: "Planning a Luxury Destination Wedding in Udaipur?",
+        body: "Let Jashan-e-Riyasat take care of the planning while you enjoy the celebration. Connect with our team to discuss your wedding dates, guest count and vision, and let us help you plan an unforgettable royal wedding in Udaipur.",
       },
     ],
-    faqs: [
-      {
-        q: "How much does a wedding at Taj Lake Palace Udaipur cost?",
-        a: "Weddings at Taj Lake Palace typically start around Rs. 1 crore and can go up to Rs. 3-4 crores depending on scale. For a similar lakeside feel at a lower budget, Chunda Palace and Jagmandir Island start closer to Rs. 40-50 lakhs.",
-      },
-      {
-        q: "What is the best season for a Udaipur wedding?",
-        a: "October to March, when temperatures sit comfortably between 15-25°C. Winter also gives you the clearest skies, which matters a lot for sunset photography and outdoor lakeside ceremonies.",
-      },
-      {
-        q: "Can guests stay at the wedding venue in Udaipur?",
-        a: "Premium venues like Oberoi Udaivilas and Taj Lake Palace do offer rooms, but inventory is limited. We usually recommend booking 8-12 months ahead and arranging overflow accommodation with shuttle service at nearby partner hotels.",
-      },
-      {
-        q: "Do you handle boat transportation for Udaipur weddings?",
-        a: "Yes, this is one of our specialities in Udaipur. We coordinate traditional royal boats for guest transfers, entries, and photo shoots on Lake Pichola, with all the required safety arrangements in place.",
-      },
-      {
-        q: "Is Udaipur good for a budget destination wedding?",
-        a: "It's known as a luxury destination, but there are real budget options too — properties near Fateh Sagar Lake and smaller heritage havelis can deliver a beautiful wedding starting around Rs. 15-20 lakhs for smaller guest counts.",
-      },
-      {
-        q: "How do we manage guest travel to Udaipur?",
-        a: "Udaipur has direct flights from Delhi, Mumbai and Jaipur, and we coordinate group bookings, pickups and local transfers for your guests. Driving from Delhi takes roughly 10-11 hours if any guests prefer the road.",
-      },
-      {
-        q: "Why book Jashan-e-Riyasat for an Udaipur wedding?",
-        a: "We know exactly which boats, venues and vendors work well together in Udaipur, which cuts down on the logistical guesswork that trips up a lot of destination weddings here.",
-      },
-    ],
+    faqs: [],
   },
 
   "goa": {

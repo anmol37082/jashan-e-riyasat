@@ -286,6 +286,10 @@ export default function ContentSection({ blocks, destinations = [], currentSlug 
                   ))}
                 </div>
               )}
+
+              {block.bodyAfter && (
+                <p className={styles.body}>{block.bodyAfter}</p>
+              )}
             </div>
           ))}
         </div>
