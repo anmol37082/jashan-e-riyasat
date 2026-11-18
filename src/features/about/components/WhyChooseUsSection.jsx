@@ -49,11 +49,16 @@ export default function WhyChooseUsSection() {
         <div className={styles.header}>
           <p className={styles.kicker}>Why Choose Us</p>
           <h2 className={styles.heading}>
-           More than planners, we&rsquo;re the team behind your peace of mind. 
+            More than wedding planners, we are the people who turn your dreams into unforgettable celebrations.
           </h2>
           <p className={styles.lead}>
-           From the first plan to the final farewell, we take care of every detail
-            so you can simply enjoy the celebration with the people who matter most. 
+            At Jashan-e-Riyasat, we understand that planning a wedding is about more than choosing a venue, decor, or arrangements. It is about bringing together emotions, traditions, families, and dreams to create moments that last a lifetime. We combine creativity, experience, thoughtful planning, and attention to detail to make every celebration truly special.
+          </p>
+          <p className={styles.lead}>
+            From the initial discussions and creative concepts to the final moments of your celebration, our team takes care of everything with dedication and precision. We focus on understanding your expectations, managing every arrangement, and ensuring that every element comes together beautifully. With personalised planning, stunning decor, seamless coordination, and a commitment to excellence, we make your wedding journey as joyful and stress-free as the celebration itself.
+          </p>
+          <p className={styles.lead}>
+            With Jashan-e-Riyasat by your side, you can leave the planning to us and focus on what truly matters, celebrating love, creating memories, and cherishing every moment with your loved ones.
           </p>
         </div>
 

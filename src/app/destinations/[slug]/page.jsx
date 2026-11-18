@@ -54,7 +54,7 @@ export default async function DestinationPage({ params }) {
         destinations={destinationList}
         currentSlug={resolvedParams.slug}
       />
-      <FAQSection faqs={data.faqs} />
+      {data.faqs?.length > 0 && <FAQSection faqs={data.faqs} />}
     </main>
   );
 }

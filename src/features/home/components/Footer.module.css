@@ -66,6 +66,70 @@
   text-decoration: underline;
 }
 
+.footerSocials a:has(.footerInstagramIcon):hover {
+  text-decoration: none;
+}
+
+.footerInstagramIcon {
+  width: 24px;
+  height: 24px;
+  display: block;
+  border-radius: 5px;
+  transition: transform 0.2s ease;
+}
+
+.footerInstagramIcon:hover {
+  transform: scale(1.08);
+}
+
+.footerSocials a:has(.footerPinterestIcon):hover {
+  text-decoration: none;
+}
+
+.footerPinterestIcon {
+  width: 24px;
+  height: 24px;
+  display: block;
+  border-radius: 50%;
+  transition: transform 0.2s ease;
+}
+
+.footerPinterestIcon:hover {
+  transform: scale(1.08);
+}
+
+.footerSocials a:has(.footerYouTubeIcon):hover {
+  text-decoration: none;
+}
+
+.footerYouTubeIcon {
+  width: 24px;
+  height: 24px;
+  display: block;
+  border-radius: 5px;
+  transition: transform 0.2s ease;
+}
+
+.footerYouTubeIcon:hover {
+  transform: scale(1.08);
+}
+
+.footerSocials a:has(.footerFacebookIcon):hover {
+  text-decoration: none;
+}
+
+.footerFacebookIcon {
+  width: 24px;
+  height: 24px;
+  display: block;
+  border-radius: 50%;
+  transition: transform 0.2s ease;
+}
+
+.footerFacebookIcon:hover {
+  transform: scale(1.08);
+}
+
 .footerCenter {
   position: absolute;
   left: 50%;

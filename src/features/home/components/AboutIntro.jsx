@@ -11,11 +11,19 @@ export default function AboutIntro() {
           </h2>
           
           <p className={styles.aboutText}>
-           Your wedding is more than an event it&apos;s the beginning of
-           a beautiful journey. At Jashan-e-Riyasat, we bring your vision
-           to life through thoughtful planning, stunning décor, and
-           seamless coordination, creating celebrations filled with 
-           love, joy, and unforgettable memories.
+           Your wedding is not just a celebration, it is the beginning of
+           a beautiful forever, a journey filled with love, promises, dreams,
+           and countless moments to cherish.
+           <br />
+           <br />
+           At Jashan-e-Riyasat, we believe every love story deserves a celebration
+           as extraordinary as the bond it represents. From thoughtfully curated
+           themes and breathtaking decor to meticulous planning and seamless
+           coordination, we take care of every little detail to bring your dream
+           wedding to life. We blend creativity, elegance, and perfection to create
+           celebrations that reflect your unique story, leaving you and your loved
+           ones with memories that will be treasured for a lifetime. Because your
+           special day deserves nothing less than magical.
           </p>
           
         </div>

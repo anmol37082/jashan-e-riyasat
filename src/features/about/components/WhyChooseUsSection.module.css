@@ -37,8 +37,12 @@ font-family: 'Cormorant Garamond', serif;
   font-size: clamp(16px, 1vw + 13px, 20px);
   line-height: 1.4;
   color: var(--text-muted);
-  max-width: 680px;
+  max-width: 860px;
   margin: 0;
+}
+
+.lead + .lead {
+  margin-top: 16px;
 }
 
 .grid {

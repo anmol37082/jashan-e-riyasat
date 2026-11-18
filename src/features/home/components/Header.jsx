@@ -91,7 +91,7 @@ export default function Header({ onMenuToggle }) {
         {/* Center Logo */}
         <Link href="/" className={styles.logo} aria-label="Go to home page">
           <Image
-            src="/logo.webp"
+            src="/logo2.webp"
             alt="Jashan-e-Riyasat Luxury Wedding Planners"
             width={896}
             height={280}
