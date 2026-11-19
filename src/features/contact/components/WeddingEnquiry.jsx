@@ -3,6 +3,9 @@
 import { useState } from 'react';
 import styles from './WeddingEnquiry.module.css';
 
+const GOOGLE_APPS_SCRIPT_URL =
+  'https://script.google.com/macros/s/AKfycbybLZov-imCcrxrFV1kM5kNXN1Pm7OZsUpi1vaNzfENtTXmLzG_xz2ZLiSaAmp-0m3Y7A/exec';
+
 export default function WeddingEnquiry() {
   const [formData, setFormData] = useState({
     name: '',
@@ -16,16 +19,43 @@ export default function WeddingEnquiry() {
   });
 
   const [submitted, setSubmitted] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitError, setSubmitError] = useState(false);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    setSubmitted(true);
-    setTimeout(() => setSubmitted(false), 4000);
+    setIsSubmitting(true);
+    setSubmitError(false);
+
+    try {
+      await fetch(GOOGLE_APPS_SCRIPT_URL, {
+        method: 'POST',
+        mode: 'no-cors',
+        headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+        body: JSON.stringify(formData),
+      });
+      setSubmitted(true);
+      setFormData({
+        name: '',
+        phone: '',
+        email: '',
+        eventDate: '',
+        eventType: '',
+        guestCount: '',
+        budget: '',
+        message: '',
+      });
+      setTimeout(() => setSubmitted(false), 5000);
+    } catch {
+      setSubmitError(true);
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -39,7 +69,7 @@ export default function WeddingEnquiry() {
           </p>
         </div>
 
-        <form className={styles.form} onSubmit={handleSubmit} noValidate>
+        <form className={styles.form} onSubmit={handleSubmit}>
           <div className={styles.formGrid}>
             <div className={styles.fieldGroup}>
               <label htmlFor="name" className={styles.label}>
@@ -183,9 +213,16 @@ export default function WeddingEnquiry() {
             />
           </div>
 
-          <button type="submit" className={styles.submitBtn}>
-            {submitted ? 'Thank You - We Will Be in Touch' : 'Send Enquiry'}
+          <button type="submit" className={styles.submitBtn} disabled={isSubmitting}>
+            {isSubmitting
+              ? 'Sending...'
+              : submitted
+                ? 'Thank You - We Will Be in Touch'
+                : 'Send Enquiry'}
           </button>
+          {submitError && (
+            <p role="alert">Enquiry could not be sent. Please try again.</p>
+          )}
         </form>
       </div>
     </section>
