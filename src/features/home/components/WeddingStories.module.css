@@ -12,11 +12,21 @@
 }
 
 .title {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
   color: var(--title-color);
   font-family: Cormorant Garamond, serif;
   font-size: clamp(48px, 7vw, 64px);
   font-weight: 300;
   line-height: 1.2;
+}
+
+.title svg {
+  width: 54px;
+  height: 54px;
 }
 
 .subtitle {

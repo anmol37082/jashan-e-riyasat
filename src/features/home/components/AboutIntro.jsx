@@ -10,21 +10,26 @@ export default function AboutIntro() {
             Creating Weddings <em>That Feel Truly Yours </em>
           </h2>
           
-          <p className={styles.aboutText}>
-           Your wedding is not just a celebration, it is the beginning of
-           a beautiful forever, a journey filled with love, promises, dreams,
-           and countless moments to cherish.
-           <br />
-           <br />
-           At Jashan-e-Riyasat, we believe every love story deserves a celebration
-           as extraordinary as the bond it represents. From thoughtfully curated
-           themes and breathtaking decor to meticulous planning and seamless
-           coordination, we take care of every little detail to bring your dream
-           wedding to life. We blend creativity, elegance, and perfection to create
-           celebrations that reflect your unique story, leaving you and your loved
-           ones with memories that will be treasured for a lifetime. Because your
-           special day deserves nothing less than magical.
-          </p>
+          <div className={styles.aboutText}>
+            <p>
+              Your wedding is not just a celebration, it is the beginning of a
+              beautiful forever, a journey filled with love, promises, dreams,
+              and countless moments to cherish.
+            </p>
+            <p>
+              At Jashan-e-Riyasat, we believe every love story deserves a
+              celebration as extraordinary as the bond it represents. From
+              thoughtfully curated themes and breathtaking decor to meticulous
+              planning and seamless coordination, we take care of every little
+              detail to bring your dream wedding to life.
+            </p>
+            <p>
+              We blend creativity, elegance, and perfection to create
+              celebrations that reflect your unique story, leaving you and your
+              loved ones with memories that will be treasured for a lifetime.
+              Because your special day deserves nothing less than magical.
+            </p>
+          </div>
           
         </div>
         

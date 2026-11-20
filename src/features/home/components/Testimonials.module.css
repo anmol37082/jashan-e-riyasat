@@ -29,6 +29,11 @@
 }
 
 .sectionTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
   grid-column: 1 / -1;
   text-align: center;
   color: #650000;
@@ -38,6 +43,13 @@
   line-height: 1;
   margin: 0 0 32px;
 }
+
+.sectionTitle svg {
+  width: 54px;
+  height: 54px;
+  transform: translateY(4px);
+}
+
 
 /* ============================================
    IMAGE BOX - Slide Animation
@@ -143,8 +155,7 @@
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 8px;
-  color: #c88700;
-  text-shadow: 0 0 3px rgba(184, 115, 0, 0.75), 0 0 9px rgba(184, 115, 0, 0.45);
+  color: #d4a017;
   display: inline-block;
   margin-bottom: 8px;
   animation-duration: 500ms;

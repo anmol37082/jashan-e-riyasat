@@ -1,4 +1,4 @@
-/* app/sections/WeddingFAQ.module.css */
+﻿/* app/sections/WeddingFAQ.module.css */
 
 .section {
   width: 100%;
@@ -98,7 +98,7 @@
 }
 
 .answerOpen {
-  max-height: 500px;
+  max-height: 5000px;
   padding: 0 0 20px 34px;
 }
 
@@ -138,3 +138,4 @@
     min-width: 18px;
   }
 }
+

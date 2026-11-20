@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import { useState, useEffect, useCallback } from 'react';
 import Image from 'next/image';
@@ -72,7 +72,15 @@ export default function Testimonials() {
   return (
     <section id="testimonials" className={styles.section}>
       <div className={styles.container}>
-        <h2 className={styles.sectionTitle}>Testimonials</h2>
+        <h2 className={styles.sectionTitle}>
+          Testimonials
+          <svg width="60" height="60" viewBox="0 0 64 64" fill="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+            <rect x="16" y="6" width="46" height="34" rx="6" stroke="#b8860b" strokeWidth="2.5" />
+            <path d="M16 12 H50 A6 6 0 0 1 56 18 V40 A6 6 0 0 1 50 46 H30 L20 56 V46 H16 A6 6 0 0 1 10 40 V18 A6 6 0 0 1 16 12 Z" fill="#fffaf0" stroke="#6b0000" strokeWidth="2.5" strokeLinejoin="round" />
+            <path d="M33 20 L35.23 25.93 L41.56 26.22 L36.61 30.17 L38.29 36.28 L33 32.8 L27.71 36.28 L29.39 30.17 L24.44 26.22 L30.77 25.93 Z" fill="#6b0000" />
+            <path d="M7 4 L7.9 6.1 L10 7 L7.9 7.9 L7 10 L6.1 7.9 L4 7 L6.1 6.1 Z" fill="#b8860b" />
+          </svg>
+        </h2>
         <div className={styles.imageBox}>
           <div
             key={`img-${current}`}
@@ -112,7 +120,7 @@ export default function Testimonials() {
             className={`${styles.rating} ${styles.fadeInUpDelay2}`}
           >
             <span className={styles.visuallyHidden}>{t.rating}</span>
-            <span aria-hidden="true">★★★★★</span>
+            <span aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
           </span>
           <div className={styles.navWrapper}>
           <button
