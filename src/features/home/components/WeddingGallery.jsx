@@ -13,16 +13,7 @@ export default function WeddingGallery() {
   return (
     <section className={styles.container}>
       <div className={styles.header}>
-        <p className={styles.eyebrow}>
-          Gallery
-          <svg width="60" height="60" viewBox="0 0 64 64" fill="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
-            <rect x="6" y="8" width="46" height="40" rx="3" stroke="#b8860b" strokeWidth="2.5" transform="rotate(-6 29 28)" />
-            <rect x="12" y="14" width="46" height="40" rx="3" fill="#fffaf0" stroke="#6b0000" strokeWidth="2.5" />
-            <circle cx="25" cy="26" r="4.5" fill="#b8860b" />
-            <path d="M14.5 52 L28 36 L36 45 L43 37 L55.5 52 Z" fill="#6b0000" />
-            <path d="M56 2 L57.4 5.6 L61 7 L57.4 8.4 L56 12 L54.6 8.4 L51 7 L54.6 5.6 Z" fill="#b8860b" />
-          </svg>
-        </p>
+        <p className={styles.eyebrow}>Gallery</p>
         <h2 className={styles.title}>Inspiration For Wedding Frames</h2>
         <p className={styles.subtitle}>Give your special day a new look</p>
       </div>

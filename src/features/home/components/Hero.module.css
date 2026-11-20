@@ -4,7 +4,7 @@
   width: 100%;
   min-height: 100vh;
   min-height: 100svh;
-  min-height: clamp(620px, 92svh, 880px);
+  min-height: clamp(620px, 100svh, 960px);
   height: auto;
   display: flex;
   flex-direction: column;

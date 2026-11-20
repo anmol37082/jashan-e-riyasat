@@ -14,9 +14,7 @@
 
 .eyebrow {
   display: inline-flex;
-  flex-direction: row;
   align-items: center;
-  gap: 10px;
   gap: 10px;
   font-family: 'Cormorant Garamond', serif;
   font-size: clamp(48px, 7vw, 64px);
@@ -25,11 +23,6 @@
   color: #650000;
   margin: 0 0 10px;
   width: fit-content;
-}
-
-.eyebrow svg {
-  width: 54px;
-  height: 54px;
 }
 
 .title {
